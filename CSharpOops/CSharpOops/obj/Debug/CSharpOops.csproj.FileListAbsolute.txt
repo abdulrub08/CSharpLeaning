@@ -1,0 +1,6 @@
+C:\LearningFamily\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe.config
+C:\LearningFamily\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csprojResolveAssemblyReference.cache
+C:\LearningFamily\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe
+C:\LearningFamily\CSharpOops\CSharpOops\bin\Debug\CSharpOops.pdb
+C:\LearningFamily\CSharpOops\CSharpOops\obj\Debug\CSharpOops.exe
+C:\LearningFamily\CSharpOops\CSharpOops\obj\Debug\CSharpOops.pdb
