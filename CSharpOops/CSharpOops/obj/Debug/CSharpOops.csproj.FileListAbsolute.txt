@@ -4,3 +4,11 @@ C:\LearningFamily\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe
 C:\LearningFamily\CSharpOops\CSharpOops\bin\Debug\CSharpOops.pdb
 C:\LearningFamily\CSharpOops\CSharpOops\obj\Debug\CSharpOops.exe
 C:\LearningFamily\CSharpOops\CSharpOops\obj\Debug\CSharpOops.pdb
+C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe.config
+C:\RavishBatch\CSharpOops\CSharpOops\obj\Debug\CSharpOops.exe
+C:\RavishBatch\CSharpOops\CSharpOops\obj\Debug\CSharpOops.pdb
+C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe
+C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\CSharpOops.pdb
+C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\BAL.dll
+C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\BAL.pdb
+C:\RavishBatch\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csprojResolveAssemblyReference.cache

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpOops", "CSharpOops\CSharpOops.csproj", "{55A7D6B2-2FC6-4B54-8111-01BC5AC246F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{482118D7-4C09-48F0-BB82-6FF873353F18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{55A7D6B2-2FC6-4B54-8111-01BC5AC246F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55A7D6B2-2FC6-4B54-8111-01BC5AC246F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55A7D6B2-2FC6-4B54-8111-01BC5AC246F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482118D7-4C09-48F0-BB82-6FF873353F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482118D7-4C09-48F0-BB82-6FF873353F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482118D7-4C09-48F0-BB82-6FF873353F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482118D7-4C09-48F0-BB82-6FF873353F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

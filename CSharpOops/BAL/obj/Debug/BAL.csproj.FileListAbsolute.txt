@@ -1,0 +1,4 @@
+C:\RavishBatch\CSharpOops\BAL\bin\Debug\BAL.dll
+C:\RavishBatch\CSharpOops\BAL\bin\Debug\BAL.pdb
+C:\RavishBatch\CSharpOops\BAL\obj\Debug\BAL.dll
+C:\RavishBatch\CSharpOops\BAL\obj\Debug\BAL.pdb
