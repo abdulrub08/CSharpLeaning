@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using CSharpOopsDetails;
 using CSharpOops.Memory;
 using BAL;
+using CSharpOops.Constructor;
 
 namespace CSharpOops
 {
@@ -20,15 +21,31 @@ namespace CSharpOops
 
         static void Main(string[] args)
         {
+            #region Static Class Member
+            ConstrutorDeatils obj = new ConstrutorDeatils(5);
+            ConstrutorDeatils._PI = 4.555f;
+            float _Area1 = obj.CalculateArea();
+            Console.WriteLine(_Area1);
+
+            ConstrutorDeatils obj2 = new ConstrutorDeatils(6);
+            float _Area2 = obj2.CalculateArea();
+            Console.WriteLine(_Area2);
+
+
+            Console.ReadKey();
+
+
+            #endregion
+
             #region
-            // MemoryDetails obj;
-            // obj=new MemoryDetails();
+            //MemoryDetails obj;
+            //obj = new MemoryDetails();
             //// obj.age = 20;
-            // MemoryDetails m1 = new MemoryDetails(25,"Tom");
-            // //m1.age = 40;
-            // //m1.name = "Zainul";
-            // Console.WriteLine("User Name {0} age is {1}", obj.name, obj.age);
-            // Console.WriteLine("User Name {0} age is {1}", m1.name, m1.age);
+            //MemoryDetails m1 = new MemoryDetails(25, "Tom");
+            ////m1.age = 40;
+            ////m1.name = "Zainul";
+            //Console.WriteLine("User Name {0} age is {1}", obj.name, obj.age);
+            //Console.WriteLine("User Name {0} age is {1}", m1.name, m1.age);
             #endregion
 
             #region
@@ -36,9 +53,9 @@ namespace CSharpOops
            //objs= new Employee();
            //objs.DisplayEmp();
 
-            Employee obj;
-            obj=new PartTimeEmployee();
-            obj.DisplayEmp();
+            //Employee obj;
+            //obj=new PartTimeEmployee();
+            //obj.DisplayEmp();
             //Employee objs = new Employee();
             //objs.DisplayEmp();
 

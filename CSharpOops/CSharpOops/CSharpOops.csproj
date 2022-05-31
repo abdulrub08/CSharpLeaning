@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constructor\ConstrutorDeatils.cs" />
     <Compile Include="Memory\Employee.cs" />
     <Compile Include="Memory\MemoryDetails.cs" />
     <Compile Include="Memory\MethodDetails.cs" />
