@@ -9,27 +9,33 @@ using CSharpOopsDetails;
 using CSharpOops.Memory;
 using BAL;
 using CSharpOops.Constructor;
+using CSharpOopsMethodDetails;
 
 namespace CSharpOops
 {
     public class Program
     {
-
+        int z = 10;
         //Local Variable Stored i Stack Memory
 
         //Instance variable Stored in Heap Memory
 
+        
         static void Main(string[] args)
         {
-            #region Static Class Member
-            ConstrutorDeatils obj = new ConstrutorDeatils(5);
-            ConstrutorDeatils._PI = 4.555f;
-            float _Area1 = obj.CalculateArea();
-            Console.WriteLine(_Area1);
+            A obj = new B();
+            obj.TestDate();
+            Console.ReadLine();
 
-            ConstrutorDeatils obj2 = new ConstrutorDeatils(6);
-            float _Area2 = obj2.CalculateArea();
-            Console.WriteLine(_Area2);
+            #region Static Class Member
+            //ConstrutorDeatils obj = new ConstrutorDeatils(5);
+            //ConstrutorDeatils._PI = 4.555f;
+            //float _Area1 = obj.CalculateArea();
+            //Console.WriteLine(_Area1);
+
+            //ConstrutorDeatils obj2 = new ConstrutorDeatils(6);
+            //float _Area2 = obj2.CalculateArea();
+            //Console.WriteLine(_Area2);
 
 
             Console.ReadKey();
