@@ -10,6 +10,7 @@ using CSharpOops.Memory;
 using BAL;
 using CSharpOops.Constructor;
 using CSharpOopsMethodDetails;
+using CSharpOops.Property;
 
 namespace CSharpOops
 {
@@ -20,11 +21,16 @@ namespace CSharpOops
 
         //Instance variable Stored in Heap Memory
 
-        
+
         static void Main(string[] args)
         {
-            A obj = new B();
-            obj.TestDate();
+            //A obj = new B();
+            //obj.TestDate();
+            LearnProp objProp = new LearnProp();
+            objProp.SetID(Int32.Parse(Console.ReadLine()));
+            objProp.SetName(Console.ReadLine());
+
+            Console.WriteLine("ID:- {0} Name:- {1} PassingMark:- {2} ",objProp.GetID(),objProp.GetName(),objProp.GetPassingMark());
             Console.ReadLine();
 
             #region Static Class Member
@@ -55,9 +61,9 @@ namespace CSharpOops
             #endregion
 
             #region
-           // Employee objs;
-           //objs= new Employee();
-           //objs.DisplayEmp();
+            // Employee objs;
+            //objs= new Employee();
+            //objs.DisplayEmp();
 
             //Employee obj;
             //obj=new PartTimeEmployee();
