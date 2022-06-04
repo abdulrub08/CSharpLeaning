@@ -27,10 +27,18 @@ namespace CSharpOops
             //A obj = new B();
             //obj.TestDate();
             LearnProp objProp = new LearnProp();
-            objProp.SetID(Int32.Parse(Console.ReadLine()));
-            objProp.SetName(Console.ReadLine());
+            //objProp._PassingMark = 2323.434f;
 
-            Console.WriteLine("ID:- {0} Name:- {1} PassingMark:- {2} ",objProp.GetID(),objProp.GetName(),objProp.GetPassingMark());
+            objProp.ID = 10; Console.WriteLine(objProp.ID);
+            objProp.Name = "Abdul";
+            //objProp.PassingMark = 19.44f; Cannot Insert cause this is Read Only Property
+
+            //objProp.SetID(Int32.Parse(Console.ReadLine()));
+            //objProp.SetName(Console.ReadLine());
+
+
+            Console.WriteLine("ID:- {0} \nName:- {1} \nPassingMark:- {2} \n___passingMark:-{3}",
+                objProp.ID,objProp.Name,objProp.PassingMark,objProp._PassingMark);
             Console.ReadLine();
 
             #region Static Class Member

@@ -11,34 +11,97 @@ namespace CSharpOops.Property
        private int Id;
        private string name;
        private float passinmark=33.3f;
+       public float ___passingMark;
+       
 
-       public void SetID(int id)
+       public string Name
        {
-           if(id<=0){
-               Console.WriteLine("ID is wrong Please Input grater then Zero(0) value");
-               id = 0;
+           set
+           {
+               if(string.IsNullOrWhiteSpace(value)){
+                   Console.WriteLine("Name Canno Be Null");
+                   this.name = "No Name";
+               }
+               else
+               {
+                   this.name = value;
+               }
            }
-           this.Id = id;
-       }
-       public int GetID()
-       {
-           return this.Id;
-       }
-       public void SetName(string name)
-       {
-           if(string.IsNullOrWhiteSpace(name)){
-               name = "No Name";
+           get
+           {
+               return this.name;
            }
-           this.name = name;
        }
-       public string GetName()
+
+       public int ID
        {
-          return this.name;
+           set
+           {
+               if (value<=0)
+               {
+                   Console.WriteLine("ID Cannot be Less Then or Equal to Zero(0)!");
+                   this.Id = 0;
+               }
+               else
+               {
+                   this.Id = value;
+               }
+           }
+           get
+           {
+               return this.Id;
+           }
        }
-       public float GetPassingMark()
+
+       public float _PassingMark 
        {
-           return this.passinmark;
+           set{
+               this.___passingMark = 32.444f;
+           }
+           get
+           {
+               return this.___passingMark;
+               
+           }
        }
+       public float PassingMark
+       {
+           get
+           {
+             return  this.passinmark;
+           }
+       }
+      
+
+       #region
+       //public void SetID(int id)
+       //{
+       //    if(id<=0){
+       //        Console.WriteLine("ID is wrong Please Input grater then Zero(0) value");
+       //        id = 0;
+       //    }
+       //    this.Id = id;
+       //}
+       //public int GetID()
+       //{
+       //    return this.Id;
+       //}
+       //public void SetName(string name)
+       //{
+       //    if(string.IsNullOrWhiteSpace(name)){
+       //        name = "No Name";
+       //    }
+       //    this.name = name;
+       //}
+       //public string GetName()
+       //{
+       //   return this.name;
+       //}
+       //public float GetPassingMark()
+       //{
+       //    return this.passinmark;
+       //}
+       #endregion
 
     }
 }
