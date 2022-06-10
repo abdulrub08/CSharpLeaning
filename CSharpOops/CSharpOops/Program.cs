@@ -24,6 +24,10 @@ namespace CSharpOops
 
         static void Main(string[] args)
         {
+            ArrayExample objemp = new ArrayExample();
+            objemp.addEmployee();
+            objemp.Employeedisplay();
+            Console.ReadKey();
             //A obj = new B();
             //obj.TestDate();
             LearnProp objProp = new LearnProp();
@@ -85,7 +89,8 @@ namespace CSharpOops
             //obj.DisplayEmp();
             //obj.DisplayEmpNew();
             #endregion
-            Console.ReadKey();
+
+            
         }
     }
 }
