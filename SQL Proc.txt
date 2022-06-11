@@ -1,0 +1,47 @@
+Today Topic is (Procedure,SQL_Identity,Temp Table)
+
+Store Procedure(Proc)
+Execute(Exec) Command
+Param Proc
+Param Proc are two Types
+Default Param
+Input and Output param
+How To Secure Proc
+
+____Identity Column______
+What is Identity Column--(Starting Point,Increment)
+How To Create Identity Column
+ID Int Identity(1,1)--After Declaration We Can Pass the Explicitly value of Identity Column
+How to Insert Explicitly identity value
+How Reset Identity value using (DBCC)																						
+Set Identity_Insert On,Set Identity_Insert Off
+How To Get The Last Identity Value using Following function
+@@Identity
+Scope_identity
+Idnt_current
+
+How To Call Proc
+How To Call Proc with Param
+--We have to pass same data Type parameter,and also take care of order of the parameter
+what happen we pass Wrong Parameter
+we can pass param with the name as well here dont care order of the param but no of param we have to pass
+parameter pass with Defoult Value
+If Defoult param pass so how we call Proc and what will happen
+---Now How Call and pass OutPut Param---
+Create proc spOutputProc --do not use like this sp_and procname we use it like this (spprocname)
+@Num1 as int,
+@Num2 as int,
+@Result int OUTPUT
+As 
+Begin
+set @Result=@Num1+@Num2
+End
+
+Declare @ExcParamval INT
+exec spOutputProc 1,4,@ExcParamval OUTPUT
+Select @ExcParamval
+____________Store Procedure Security With Encryption------------
+
+We can See Our Proc What is the Code using helper proc(sp_helptext procname)
+So How To Secure (With Encryption)
+Before As Keyword we will use (With Encryption) the Our Proc will be Encrypted
