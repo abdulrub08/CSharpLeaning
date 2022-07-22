@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model List<Example1.Models.Employee>
+
+<table id="tblgrid"  class="table">
+    <thead>
+        <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Designation</th>
+        <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Employee item in Model)
+        {
+            <tr>
+                <td>@item.ID</td>
+                <td>@item.Name</td>
+                <td>@item.Designation</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.ID  }) |
+                    @Html.ActionLink("Details", "Details", new {  id=item.ID  }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.ID  })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section scripts {
+   <script>  
+    $(document).ready(function () {  
+        $('#tblgrid').DataTable();  
+    });  
+</script>
+}
+

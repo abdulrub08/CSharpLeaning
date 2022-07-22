@@ -1,0 +1,15 @@
+﻿@using WebApplication4.Models
+@model MultiDataModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+Html.RenderAction("Students");
+}
+
+@{
+    Html.RenderAction("Teachers");
+}

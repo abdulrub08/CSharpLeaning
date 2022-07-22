@@ -1,0 +1,32 @@
+CREATE TABLE [dbo].[student]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [name] VARCHAR(50) NOT NULL, 
+    [gender] VARCHAR(50) NOT NULL, 
+    [class] INT NOT NULL, 
+    [fees] INT NOT NULL
+)
+
+INSERT INTO student VALUES
+('Ali','Male',11,2500),
+('Amna','Female',10,2200),
+('Zain','Male',12,2800),
+('Farah','Female',11,2600),
+('Noman','Male',10,2200);
+
+
+CREATE TABLE [dbo].[teacher]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity,
+	name varchar(50) not null, 
+    [gender] VARCHAR(50) NOT NULL, 
+    [qualification] VARCHAR(50) NOT NULL, 
+    [salary] INT NOT NULL,
+
+)
+
+insert into teacher values
+('Asad','Male','BSIT',25000),
+('Amjad','Male','MPHIL',27000),
+('Khalid','Male','NBA',26000),
+('Adil','Male','MCS',27000);
