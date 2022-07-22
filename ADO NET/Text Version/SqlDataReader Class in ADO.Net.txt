@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+
+namespace SqlDataReaderDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            string query = "select * from employee_tbl; select * from students;";
+            SqlCommand cmd = new SqlCommand(query, con);
+            con.Open();
+
+            using (SqlDataReader dr = cmd.ExecuteReader())
+            {
+                //Console.WriteLine(dr.GetName(1));
+                //Console.WriteLine(dr.IsClosed);
+                //Console.WriteLine(dr.FieldCount);
+                //Console.WriteLine(dr.HasRows);
+
+                while (dr.Read())
+                {
+                    //console.writeline("id: " + dr[0] + " name: " + dr[1] + " gender: " + dr[2] + " age: " + dr[3] + " salary: " + dr[4] + " city: " + dr[5]); // concatenation syntax
+                    //Console.WriteLine("id: {0}, name: {1}, gender: {2}, age: {3}, salary: {4}, city: {5}", dr["id"], dr["name"], dr["gender"], dr["age"], dr["salary"], dr["city"]); // placeholder syntax
+                    Console.WriteLine("{0} {1} {2}", dr[0], dr[1], dr[2]);
+                }
+                Console.WriteLine("----------------------");
+                if(dr.NextResult())
+                {
+                    while (dr.Read())
+                    {
+                        //console.writeline("id: " + dr[0] + " name: " + dr[1] + " gender: " + dr[2] + " age: " + dr[3] + " salary: " + dr[4] + " city: " + dr[5]); // concatenation syntax
+                        Console.WriteLine("{0} {1} {2}", dr[0], dr[1], dr[2]);
+                    }
+                }
+            }
+
+            con.Close();
+            Console.ReadLine();
+
+
+        }
+    }
+}

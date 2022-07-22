@@ -1,0 +1,50 @@
+We can call stored procedure with input parameters
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
+
+
+namespace SqlDataAdapterDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Id Of Any Employee: ");
+            int id = Convert.ToInt32(Console.ReadLine());
+
+            string cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+            SqlConnection con = new SqlConnection(cs);
+            SqlDataAdapter sda = new SqlDataAdapter();
+            sda.SelectCommand = new SqlCommand("spGetEmployees", con);
+            sda.SelectCommand.CommandType = CommandType.StoredProcedure;
+            sda.SelectCommand.Parameters.AddWithValue("@id", id);
+            DataSet ds = new DataSet();
+            sda.Fill(ds);
+
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                Console.WriteLine("{0} {1} {2} {3} {4} {5}", row[0], row[1], row[2], row[3], row[4], row[5]);
+            }
+
+            //Console.WriteLine("-------------------------------");
+
+            //DataTable dt = new DataTable();
+            //sda.Fill(dt);
+
+            //foreach (DataRow row in dt.Rows)
+            //{
+            //    Console.WriteLine("{0} {1} {2} {3} {4} {5}", row[0], row[1], row[2], row[3], row[4], row[5]);
+            //}
+
+            Console.ReadLine();
+
+        }
+    }
+}

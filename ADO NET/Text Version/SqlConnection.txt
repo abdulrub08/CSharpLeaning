@@ -1,0 +1,42 @@
+static void Connection()
+    {
+
+        //string cs = "Data Source=DESKTOP-VDTRVCC;Initial Catalog=ado_d;Integrated Security=true;";
+        string cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+        SqlConnection con = null;
+        try
+        {
+            using (con = new SqlConnection(cs))
+            {
+                con.Open();
+                if (con.State == ConnectionState.Open)
+                {
+                    Console.WriteLine("Connection has been Created Successfully.");
+                }
+            }
+        }
+        catch (SqlException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        finally
+        {
+            con.Close();
+        }
+
+    }
+
+}
+
+class Program
+{
+static void Main(string[] args)
+{
+Program.Connection();
+Console.ReadLine();
+}
+
+
+<connectionStrings>
+    <add name="dbcs" connectionString="Data Source=DESKTOP-VDTRVCC;Initial Catalog=ado_db;Integrated Security=true;" providerName="System.Data.SqlClient"/>
+  </connectionStrings>

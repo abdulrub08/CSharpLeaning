@@ -1,0 +1,1 @@
+_gfp_s_({"_cookies_":[{"_value_":"UID=000006e76494ff80:T=1656004816:RT=1656093753:S=ALNI_MZ9_fMskSfDJgAZZAkGm1Z4XveC7Q","_expires_":1689700816,"_path_":"/","_domain_":"learningneverendstech.com","_version_":2}]});
