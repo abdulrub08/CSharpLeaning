@@ -1,0 +1,46 @@
+
+@model List<Employee>
+<div class="text-center">
+    <h1 class="display-4">Employee <Details></Details></h1>
+    <div>
+        <table id="tblgrid" class="table table-responsive">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Salary</th>
+                    <th>Department</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    @foreach (Employee item in Model)
+                    {
+                        <tr>
+                        <td>@item.ID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Designation</td>
+                        <td>@item.Salary</td>
+                        <td>@item.Department</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new {  id=item.ID  }) |
+                            @Html.ActionLink("Details", "Details", new {  id=item.ID  }) |
+                            @Html.ActionLink("Delete", "Delete", new {  id=item.ID  })
+                        </td>
+                         </tr>
+                    }
+               
+            </tbody>
+            
+        </table>
+    </div>
+</div>
+@section scripts {
+   <script>  
+    $(document).ready(function () {  
+        $('#tblgrid').DataTable();  
+    });  
+</script>
+}
