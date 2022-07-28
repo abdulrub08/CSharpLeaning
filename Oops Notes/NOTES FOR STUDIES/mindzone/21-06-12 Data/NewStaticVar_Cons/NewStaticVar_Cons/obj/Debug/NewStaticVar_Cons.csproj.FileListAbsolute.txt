@@ -1,0 +1,8 @@
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\bin\Debug\NewStaticVar_Cons.exe
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\bin\Debug\NewStaticVar_Cons.pdb
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\NewStaticVar_Cons.Form1.resources
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\NewStaticVar_Cons.Properties.Resources.resources
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\NewStaticVar_Cons.csproj.GenerateResource.Cache
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\NewStaticVar_Cons.exe
+D:\Example1\NewStaticVar_Cons\NewStaticVar_Cons\obj\Debug\NewStaticVar_Cons.pdb

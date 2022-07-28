@@ -1,0 +1,471 @@
+.Net Remoting :
+
+* Various methods of developing the appl. :
+* Single tier Appl. :
+Whenever the appl. is defined with the presentation logic,
+the business logic and the data then it is said to be
+single tier appl.
+
+
+
+limitation :
+* Data Redundancy
+* Data Inconsistancy
+
+
+solution :> Two tier appl. :
+Whenever the data is seperated from the appl. then such appl.
+are called as Two tier appl.
+
+
+
+Limitation :
+If the business logic is same for more than one appl. then
+the code should be duplicated.
+
+
+Solution :> 3-tier appl. :
+Whenever the presentation logic, business logic and the data
+is seperated into different layers or tiers then it is said
+to be 3-tier appl.
+
+
+
+Note :
+If the appl. contains the partial B.L. then it is called as 
+Thick client, if the appl. contains only presentation logic
+then Thin client.
+
+
+
+Limitation :
+If the appl. present in one to more system the same Business
+logic then the middle tier should be copied to all the systems.
+
+
+
+Solution :> Distributed Technology :> N-Tier Appl. :
+Solution from Microsoft using .Net :> .Net Remoting :
+
+Communication between a .net assembly present in one system
+with a .net assembly present with another system connected
+with in the Network is called as .Net Remoting.
+
+
+Points to remember :
+> .Net remoting arch.
+> channels for communication
+> how should a client send a request
+> how should the server provide the response.
+
+
+
+
+
+Client [Local System]			Server [Remote]
+
+
+
+
+
+
+Remoting System				Remoting System
+
+
+
+
+
+
+Proxy					Remote object
+
+
+
+
+
+
+.Net Assembly 				.Net Assembly
+
+
+
+
+
+
+
+
+
+
+* Whenever .net remoting is used then the remoting system
+will be defined in all the systems.
+
+
+
+
+.Net Remoting Arch. :
+* Whenever a .net assembly uses the def. of .net assembly
+present in other system then a request will be given
+to the remoting system of the client accepts the request 
+and creates a proxy where the proxy acts like an interface 
+between the remoting system and the assembly.
+
+* Proxy sends a request to the assembly requesting its 
+requirement and the collected data will be submitted to the
+remoting system.
+
+* Once the remoting system of the client collects the
+clients request if uses a channel to submit the request
+for the remoting system of server for further processing.
+
+* Remoting system of the server identify the request
+and interacts with the relevant .Net assembly and
+creates a remoteobject at the server and returns the result
+as a value or reference based on the assembly def. to the
+remoting system of the client using the channels.
+
+* Remoting system of the client collects the result and
+provides to the assembly using the proxy.
+
+Channels :
+These are the physical communication media used by the 
+.net remoting infrastructure for communicating between
+the systems.
+
+.Net remoting supports the following channels.
+> TCP channel
+> Http channel
+> IPC channel
+
+
+
+
+
+
+
+
+
+
+
+
+Web Services :
+
+ It is a specification for achieving cross lang., cross 
+platform and cross device integration or A Web Service can 
+be considered as a class definition maintained on the 
+Web Server as a Service such that the def. can be used by
+any application developed using any logic for any 
+platform for any device any where any time.
+
+
+
+Web Services has been implemented by many major and small
+vendors.
+
+for ex:
+
+
+IBM Corporation -	Web Services
+Oracle Corp.	-	PL/SQL Web Services (O 10g)
+Sun Microsystem	- 	Java Web Services (Web Method)
+Microsoft W. S.	-	ASP.Net Web Serices (XML Web Services)
+
+
+
+
+
+D
+
+
+
+
+
+UDDI :
+ It is the guidlines for publishing the Web Services.
+
+
+
+Directory :
+ It acts like an repository for maintaining the info. about
+the Web Service.
+
+
+
+Discovery :
+ It is used to provide the presence of the Web Service with
+in the Web Server.
+
+
+
+
+.Net supports two types of Discovery docs. :>
+1> .disco file
+2> .vsdisco file
+
+
+
+1> .disco file :
+ It is used to search the presence of the Web Service based on
+the absolute path of the Web Service.
+
+Note:
+> .disco file doesn't follow the industry standards and hence it 
+is not supported by other Tech.
+
+
+
+2> .vsdisco file :
+ It is used to search the presence of the Web Service based on 
+the relative path of the Web Service.
+
+Note:
+> .vsdisco file follows the industry standards and hence it is
+supported by all the tech.
+
+
+
+
+
+
+Descriptions :
+ It is used to provide the complete info. of the 
+Web Service definitions.
+
+
+Note :
+The descriptions of the web service will be written 
+using WSDL(Web Service Description Lang.)
+
+
+
+
+
+WSDL :
+ It is an XML based file which maintains the details
+about the web service.
+
+Note:
+WSDL is also a tool for generating the descriptions
+for the web service.
+
+
+
+
+Wire Formats :
+ These are the standard protocols which are used for 
+sending the request and receiving the response from
+the Server.
+
+The Standard protocols which are supported by the Web 
+Services are :
+
+	> HTTP (Hyper Text Transfer Protocol)
+	> SOAP (Simple Object Access Protocol)
+
+
+
+HTTP :
+ It is used to send a request and receive the response
+from the Web Server.
+HTTP supports 2 types of protocols for submitting 
+the data.
+
+
+
+
+   Http-Get (less data)		 Http-Post (Huge data) 
+
+> Appends the data with in 	> Submits the data as a 
+the URL of the requested	stream of info.
+page.
+
+> The sizes of the data is 	> No limit for the sizes
+limited.			of Data.
+
+> Only directed data can be 	> Data can be in any
+submitted.			format.
+
+> No security for the data.	> Data is secure.
+
+> Performance faster.		> Performance slow.
+
+
+
+
+
+
+
+
+SOAP :
+ It is a formatting protocol which is we used to
+format the incoming message and used to format
+the out going message.
+
+SOAP protocol consists of 4 parts.
+
+1> Soap header or Soap address :
+It is used to specify the address to the used
+for sending a request and receiving the response.
+
+
+2> Soap body :
+It is the actual message which should be submitted.
+Soap uses XML formatters for formatting the request
+and response message.
+
+
+3> the third part of soap protocol describes about 
+the data encryptions standard to be used for encrpting
+the request message. and another response message.
+
+
+
+4> The fourth part of the Soap protocol used to
+specified the bindings between Http protocol and 
+other Soap protocol.
+
+
+
+
+
+Protocol :
+
+
+Phase 1: Serialize ->	SOAP Request ->	phase2: Deserialize
+
+
+SOAP Message				SOAP Message
+
+
+
+Application		Network		Web Service on
+					Web Server
+
+
+SOAP Message				SOAP Message
+
+Phase4: Deserialize ->  SOAP Response->	Phase3:Serialize
+
+
+
+
+Note :
+Serialization is a process for maintaining the state
+of the Object.
+Deserialization is a process for defining an object
+based on the serialized info.
+
+
+
+http:\localhost:2212\WebSite64\Service.asmx
+
+
+
+Limitation of Web Services :>
+
+Web Service can be access only through Http protocol if 
+the client appl. uses any protocol other than Http the appl.
+cannot access the Web Service.
+
+
+
+
+
+Requirement :>
+An effective service oriented archietecture framework we 
+should have a capability to support any type of 
+protocol which belongs to any tech.
+The solution for this WCF.
+
+
+
+
+WCF :>
+It is a new framework introduced in .Net3.0 for achieving
+unified programming modal for service oriented arch.
+based solutions.
+
+
+
+WCF Archietecture :>
+
+
+
+D
+
+
+
+End Points :>
+These are the comm. media used by the WCF Service for its 
+comm. end points is basic unique for WCF Services.
+
+
+
+Address :>
+It is used to specify the address when WCF Service is 
+located and used to specify the address of the client
+which consumes the WCF Service.
+WCF Service can be defined with any no. of end points.
+
+
+
+Binding :>
+It is used to specify the data bindings to be used 
+the service behaviour, messaging format, security
+definations, messaging type, transportation 
+methods of the WCF Service.
+
+
+
+Contract :>
+It is used to specify the Services the WCF will
+provide to the Consumers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

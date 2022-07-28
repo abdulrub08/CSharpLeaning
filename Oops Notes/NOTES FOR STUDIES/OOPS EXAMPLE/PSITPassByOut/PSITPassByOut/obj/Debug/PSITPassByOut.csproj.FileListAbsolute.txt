@@ -1,0 +1,8 @@
+D:\Example1\PSITPassByOut\PSITPassByOut\bin\Debug\PSITPassByOut.exe
+D:\Example1\PSITPassByOut\PSITPassByOut\bin\Debug\PSITPassByOut.pdb
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\PSITPassByOut.Form1.resources
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\PSITPassByOut.Properties.Resources.resources
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\PSITPassByOut.csproj.GenerateResource.Cache
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\PSITPassByOut.exe
+D:\Example1\PSITPassByOut\PSITPassByOut\obj\Debug\PSITPassByOut.pdb

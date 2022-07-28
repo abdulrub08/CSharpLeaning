@@ -1,0 +1,12 @@
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+Z:\doorodac16\DNET\VB.NET\practice\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb

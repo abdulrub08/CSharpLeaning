@@ -1,0 +1,14 @@
+D:\Example\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.exe
+D:\Example\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.pdb
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\Window1.baml
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\Window1.g.cs
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\App.g.cs
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.cache
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.g.resources
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.Properties.Resources.resources
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.csproj.GenerateResource.Cache
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.exe
+D:\Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.pdb
+D:\Example\WPF Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.exe
+D:\Example\WPF Example\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.pdb

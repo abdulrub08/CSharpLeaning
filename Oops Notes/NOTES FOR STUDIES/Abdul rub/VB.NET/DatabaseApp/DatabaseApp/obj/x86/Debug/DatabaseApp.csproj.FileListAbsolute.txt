@@ -1,0 +1,10 @@
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\bin\Debug\DatabaseApp.exe.config
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\bin\Debug\DatabaseApp.exe
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\bin\Debug\DatabaseApp.pdb
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\ResolveAssemblyReference.cache
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\DatabaseApp.Form1.resources
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\DatabaseApp.Properties.Resources.resources
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\GenerateResource.read.1.tlog
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\GenerateResource.write.1.tlog
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\DatabaseApp.exe
+Z:\doorodac16\DNET\VB.NET\DatabaseApp\DatabaseApp\obj\x86\Debug\DatabaseApp.pdb

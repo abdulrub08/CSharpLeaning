@@ -1,0 +1,12 @@
+D:\Example1\Multi01\Multi01\bin\Debug\Multi01.exe
+D:\Example1\Multi01\Multi01\bin\Debug\Multi01.pdb
+D:\Example1\Multi01\Multi01\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\Multi01\Multi01\obj\Debug\Multi01.exe
+D:\Example1\Multi01\Multi01\obj\Debug\Multi01.pdb
+J:\16-06-12 Data\Multi01\Multi01\obj\Debug\Multi01.exe
+J:\16-06-12 Data\Multi01\Multi01\obj\Debug\Multi01.pdb
+J:\16-06-12 Data\Multi01\Multi01\bin\Debug\Multi01.exe
+J:\16-06-12 Data\Multi01\Multi01\bin\Debug\Multi01.pdb
+J:\16-06-12 Data\Multi01\Multi01\obj\Debug\ResolveAssemblyReference.cache
+I:\mindzone\16-06-12 Data\Multi01\Multi01\obj\Debug\Multi01.exe
+I:\mindzone\16-06-12 Data\Multi01\Multi01\obj\Debug\Multi01.pdb

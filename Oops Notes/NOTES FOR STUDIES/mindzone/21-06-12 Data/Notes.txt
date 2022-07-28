@@ -1,0 +1,179 @@
+
+
+Working with Polymorphism (Overloading) :>
+
+ C#.Net supports Function Overloading and Operator Overloading.
+
+Function Overloading :>
+
+Function overloading is a concept of writing more than one function
+ with same name and with different types of arguments.
+
+
+Obs :
+1) public void Add(){}
+2) private void Add(){}
+3) public int Add(){}
+4) public void Add(int x){}
+5) public void Add(int y){}
+6) public void Add(ref int x){}
+7) public void Add(out int x){}
+8) public void add(){}
+
+
+
+
+
+
+
+
+
+1&2 = 
+1&3 = 
+1&4 = 
+2&4 = 
+1&8 =
+3&4 =
+4&5 =
+5&6 = 
+6&7 =
+7&5 =
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1&2 = Not Overlodable
+1&3 = Not Overlodable
+1&4 = Y
+2&4 = y
+3&4 = y
+4&5 = N
+5&6 = y
+5&7 = y
+6&7 = N
+1&8 = N
+
+ex on Function Overloading .
+
+
+
+
+
+
+Working with 
+
+Constructors					Destructors
+
+					
+C1)Cons is a special type of method, 	D1)Des is a special type of method, 					which
+which will be executed automatically	will be executed automatically while 					an
+while an object is about to create. 	object is about to delete.
+					
+C2)Cons name must be same as class	D2)Des name must be same as class 					name with 
+name without Return Type.		a Tild(~) prefix and without return 					type
+ syntax :				and access specifier.
+ public cl_name()			 syntax :
+ {					 ~cl_name()
+					 {
+ }			
+					 }
+
+C3)Cons are overlodable.		D3)Des are not overlodable.
+
+C4)Cons will be used to initialize	D4)Des will be used to close the files and 
+   the variables or to open connections	   connections or deallocating the memory.
+   and files etc.
+
+
+Note :
+ By default every class contains a default constructor.
+
+
+
+ex on Cons and Des
+
+
+
+Obs from ex :>
+> In above ex., cons will be executed 3 times and des also executed
+ 3 times.
+> When the project is closed, then des will be executed automatically
+ after that with in two seconds Grabage Collector will be loaded.
+> Garbage Collector Reclaims the entire memory allocated for the
+ current project.
+> Garbage collection will be done with the help of System.GC class.
+
+
+
+
+
+Working with Static :>
+
+1) Static is a keyword, which can be used along with fields, constructors,
+ methods and classes.
+
+Class Circle
+{
+ private int x,y,r;
+ private static double pi=3.14;
+ ...
+ ...
+ ...
+}
+
+2) Static var will be created only once after that static var are sharable
+ by all the objects (Common Memory).
+
+3) Instance variables will be created when object is loading into the memory.
+
+4) Static variable will be created when class is loading into the memory,
+ hence static var is also called as class var.
+
+5) If static var is public, that it can be accessed directly with classname.
+
+class Abc
+{
+ public int i; //instance var
+ public static int s; //static var
+}
+
+Abc.s 	//valid
+Abc.i	//Not valid
+
+If x is an object then
+x.i  //valid
+x.s  //Not valid
+
+6) Static cons will executed only once and which is used to access only
+ static var.
+
+ex 
+
+
+
+
+Static methods and Static classes :>
+
+1) Static method can access only static data.
+2) Static method need to be call with the help of class name.
+ 	ex :> 	classname.Staticmethod()
+3) When a class contains all static methods, then it is recommanded to
+ declare the class as static.
+4) Static classes are NOT allowed to creation of object.
+
+
+
+ex >

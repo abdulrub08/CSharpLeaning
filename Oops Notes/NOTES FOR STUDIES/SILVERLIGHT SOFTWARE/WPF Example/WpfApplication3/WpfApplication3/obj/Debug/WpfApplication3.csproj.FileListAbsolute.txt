@@ -1,0 +1,24 @@
+D:\Example\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe
+D:\Example\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.pdb
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\Window1.baml
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\Window1.g.cs
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\App.g.cs
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.Properties.Resources.resources
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.csproj.GenerateResource.Cache
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
+D:\Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.exe
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.pdb
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.exe
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\bin\Debug\WpfApplication3.pdb
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\Window1.baml
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\Window1.g.cs
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\App.g.cs
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3_MarkupCompile.cache
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.g.resources
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.Properties.Resources.resources
+D:\Example\WPF Example\WpfApplication3\WpfApplication3\obj\Debug\WpfApplication3.csproj.GenerateResource.Cache

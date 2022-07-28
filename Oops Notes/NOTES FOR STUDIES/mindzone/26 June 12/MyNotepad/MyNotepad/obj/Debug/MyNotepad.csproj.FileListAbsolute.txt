@@ -1,0 +1,21 @@
+D:\Example1\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+D:\Example1\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmMyNotepad.resources
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.csproj.GenerateResource.Cache
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmRun.resources
+D:\Example1\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmHelp.resources
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.exe
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.pdb
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\bin\Debug\MyNotepad.exe
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\bin\Debug\MyNotepad.pdb
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\ResolveAssemblyReference.cache
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmMyNotepad.resources
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmHelp.resources
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.frmRun.resources
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\MyNotepad.Properties.Resources.resources
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\mindzone\26 June 12\MyNotepad\MyNotepad\obj\Debug\GenerateResource-ResGen.write.1.tlog

@@ -1,0 +1,5 @@
+D:\Example1\SCD\SCD\bin\Debug\SCD.exe
+D:\Example1\SCD\SCD\bin\Debug\SCD.pdb
+D:\Example1\SCD\SCD\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\SCD\SCD\obj\Debug\SCD.exe
+D:\Example1\SCD\SCD\obj\Debug\SCD.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSITStaticMethod_Class", "PSITStaticMethod_Class\PSITStaticMethod_Class.csproj", "{8ED8A9DD-3481-44A4-8044-DF55C15F85DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8ED8A9DD-3481-44A4-8044-DF55C15F85DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED8A9DD-3481-44A4-8044-DF55C15F85DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED8A9DD-3481-44A4-8044-DF55C15F85DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED8A9DD-3481-44A4-8044-DF55C15F85DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

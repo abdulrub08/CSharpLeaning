@@ -1,0 +1,9 @@
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\bin\Debug\RemoteClassLibrary.dll
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\bin\Debug\RemoteClassLibrary.pdb
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\bin\Debug\RemoteClassLibrary.xml
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\RemoteClassLibrary.Resources.resources
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\RemoteClassLibrary.vbproj.GenerateResource.Cache
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\RemoteClassLibrary.dll
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\RemoteClassLibrary.xml
+D:\Example1\RemotingExample\RemoteClassLibrary\RemoteClassLibrary\obj\Debug\RemoteClassLibrary.pdb

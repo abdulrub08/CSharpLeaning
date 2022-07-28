@@ -1,0 +1,8 @@
+D:\Example1\PSITOverriding\PSITOverriding\bin\Debug\PSITOverriding.exe
+D:\Example1\PSITOverriding\PSITOverriding\bin\Debug\PSITOverriding.pdb
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\PSITOverriding.Form1.resources
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\PSITOverriding.Properties.Resources.resources
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\PSITOverriding.csproj.GenerateResource.Cache
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\PSITOverriding.exe
+D:\Example1\PSITOverriding\PSITOverriding\obj\Debug\PSITOverriding.pdb

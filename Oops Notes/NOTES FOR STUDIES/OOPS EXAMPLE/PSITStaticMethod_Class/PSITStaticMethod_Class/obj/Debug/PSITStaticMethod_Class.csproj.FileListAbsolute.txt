@@ -1,0 +1,8 @@
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\bin\Debug\PSITStaticMethod_Class.exe
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\bin\Debug\PSITStaticMethod_Class.pdb
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\PSITStaticMethod_Class.Form1.resources
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\PSITStaticMethod_Class.Properties.Resources.resources
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\PSITStaticMethod_Class.csproj.GenerateResource.Cache
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\PSITStaticMethod_Class.exe
+D:\Example1\PSITStaticMethod_Class\PSITStaticMethod_Class\obj\Debug\PSITStaticMethod_Class.pdb

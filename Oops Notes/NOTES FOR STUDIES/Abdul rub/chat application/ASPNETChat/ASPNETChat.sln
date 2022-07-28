@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNETChat", "http://localhost/ASPNETChat/ASPNETChat.csproj", "{43B67AB5-6928-418B-8AC5-0AE830D2DC16}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{43B67AB5-6928-418B-8AC5-0AE830D2DC16}.Debug.ActiveCfg = Debug|.NET
+		{43B67AB5-6928-418B-8AC5-0AE830D2DC16}.Debug.Build.0 = Debug|.NET
+		{43B67AB5-6928-418B-8AC5-0AE830D2DC16}.Release.ActiveCfg = Release|.NET
+		{43B67AB5-6928-418B-8AC5-0AE830D2DC16}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

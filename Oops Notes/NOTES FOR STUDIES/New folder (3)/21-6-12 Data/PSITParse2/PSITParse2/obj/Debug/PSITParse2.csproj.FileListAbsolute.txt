@@ -1,0 +1,5 @@
+D:\Example1\PSITParse2\PSITParse2\bin\Debug\PSITParse2.exe
+D:\Example1\PSITParse2\PSITParse2\bin\Debug\PSITParse2.pdb
+D:\Example1\PSITParse2\PSITParse2\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITParse2\PSITParse2\obj\Debug\PSITParse2.exe
+D:\Example1\PSITParse2\PSITParse2\obj\Debug\PSITParse2.pdb

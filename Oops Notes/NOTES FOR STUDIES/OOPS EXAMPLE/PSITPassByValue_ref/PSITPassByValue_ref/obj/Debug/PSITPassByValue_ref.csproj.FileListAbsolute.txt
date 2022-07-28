@@ -1,0 +1,8 @@
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\bin\Debug\PSITPassByValue_ref.exe
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\bin\Debug\PSITPassByValue_ref.pdb
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\PSITPassByValue_ref.Form1.resources
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\PSITPassByValue_ref.Properties.Resources.resources
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\PSITPassByValue_ref.csproj.GenerateResource.Cache
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\PSITPassByValue_ref.exe
+D:\Example1\PSITPassByValue_ref\PSITPassByValue_ref\obj\Debug\PSITPassByValue_ref.pdb

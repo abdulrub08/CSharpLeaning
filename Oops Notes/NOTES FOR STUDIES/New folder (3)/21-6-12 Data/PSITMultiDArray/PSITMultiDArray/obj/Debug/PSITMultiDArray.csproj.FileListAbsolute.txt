@@ -1,0 +1,5 @@
+D:\Example1\PSITMultiDArray\PSITMultiDArray\bin\Debug\PSITMultiDArray.exe
+D:\Example1\PSITMultiDArray\PSITMultiDArray\bin\Debug\PSITMultiDArray.pdb
+D:\Example1\PSITMultiDArray\PSITMultiDArray\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITMultiDArray\PSITMultiDArray\obj\Debug\PSITMultiDArray.exe
+D:\Example1\PSITMultiDArray\PSITMultiDArray\obj\Debug\PSITMultiDArray.pdb

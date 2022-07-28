@@ -1,0 +1,17 @@
+D:\Example1\PassByOut\PassByOut\bin\Debug\PassByOut.exe
+D:\Example1\PassByOut\PassByOut\bin\Debug\PassByOut.pdb
+D:\Example1\PassByOut\PassByOut\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.Form1.resources
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.Properties.Resources.resources
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.csproj.GenerateResource.Cache
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.exe
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.pdb
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\PassByOut.exe
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\PassByOut.pdb
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\bin\Debug\PassByOut.exe
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\bin\Debug\PassByOut.pdb
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\PassByOut.Form1.resources
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\PassByOut.Properties.Resources.resources
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\shaif\Desktop\New folder (2)\19 June 12 Data\PassByOut\PassByOut\obj\Debug\GenerateResource-ResGen.write.1.tlog

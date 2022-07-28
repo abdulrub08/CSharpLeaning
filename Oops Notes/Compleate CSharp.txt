@@ -1,0 +1,3321 @@
+
+Version of .Net
+
+> .Net framework version = 3.5
+> .Net IDE Version = 2008
+> C#.Net Lang version = 3.0 or 2008
+> CLR version = 2.0.50727.1433
+
+
+
+
+Visual C#.Net Language basic rules.
+
+1) C#.Net is a High level programming language.
+2) C#.Net is Compiler based language.
+3) C#.Net Language is architected by Andrew Hezliseberg.
+4) C#.Net is Highly Case Sensitive.
+5) C#.Net is a Pure OOP Language, hence everything must be written with in class only.
+6) C#.Net program must contain a Main()
+7) Always execution starts from Main()
+8) C# program must be in a stored a file with extension .cs
+9) To compile c# programs, .Net provided C# compiler called as CSC.
+
+
+
+
+
+
+Microsoft Visual C# 2008/3.0 or C#.Net 2008 
+
+Visual = Graphics
+C# = Language
+Net = Network Enabled/Extended Technology
+
+
+.Net framework is a common archietecture for all .Net programming languages (11).
+
+
+
+
+
+
+
+
+The Main objectives of .Net framework :
+
+
+
+
+1) Platform Independent
+2) Language Independent
+3) Language Interoperability ( Integration )
+4) A Supports for Pure OOPs Concepts 
+5) Supports to develop GUI based applications.
+6) Supports to develop Background Processes with the help of Windows Services.
+7) Supports to develop 3-Tier architecture with the help of Distributed programming.
+8) Supports Parallel Execution with the help of Threading. ex : Games
+9) A support for LINQ programming.
+10) Supports Animation programming with the help of WPF( Windows Presentation Foundation).
+
+
+
+
+
+
+> Platform Independent :
+
+obs 1 : as .class file is executable in any OS with the help of 
+JVM( Java Virtual Machine ), hence Java is called as platform
+independent.
+
+JVM Software is platform dependent.
+a seperate version of JVM software is introduced for every OS.
+
+
+
+obs 2 : as .exe (executable) or .DLL (Dynamic Link Library) are 
+executable in any OS with the help of a CLR (Common Language Runtime).
+
+hence .Net is platform independent.
+for every OS a seperate version of CLR is available, hence CLR is
+Platform dependent.
+
+********* is .Net is Pure Platform Independent or not ?
+
+.Net is partially Platform Independent Languages.
+as of now CLR softwares are not yet developed for DOS and Win 95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> Language Independent :
+
+as .Net application logic can be developed in any .net framework
+ compatiable languages,hence .Net is called as Language Independent.
+
+as of now .net framework is supporting.
+
+
+11 languages + 1 specification ( ASP.Net )
+
+1) Visual C#.Net
+2) Visual Basic.Net
+3) Visual J#.Net
+4) Visual C++.Net
+5) COBOL.Net
+6) PERL.Net
+7) VBScript.Net
+8) JScript.Net
+9) PHP.Net
+10) Small Talk.Net
+11) Python.Net
+
+
+
+VB.Net is not case sensitive
+C#.Net is case sensitive
+ASP.Net is depend on Language
+
+
+ASP.Net is a specification, which provides a set of rules and
+ these rules need to be followed by Integrated Language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is DLL?
+as per VB6.0 or VC++6.0
+
+DLL = Reusable = COM = OS dependent = Platform dependent
+
+
+1) as per VB6.0 or VC++6.0, DLLs are called as COM Components.
+2) COM is used to developed Reusable Components.
+3) COM Components must be registered for a class id.
+4) Class ID is part of Registry.
+5) as Registry is u/c of Windows OS, hence COM is Platform dependent.
+
+
+What is DLL as per .Net?
+
+1) as per .Net, A DLL contains platform independent code in the format
+ of Byte Code.
+2) A DLL is also called as Assembly.
+3) A DLL is also called as Managed Code.
+4) A DLL is also called as MSIL(Microsoft intermediate Language).
+
+
+
+What is managed code?
+
+> The Code, which targets CLR is called as Managed Code.
+> The Code, which takes OS help while execution is called as 
+UNManaged Code.
+> Managed Code is faster in Execution.
+
+
+.Net framework is intoduced as a development platform.
+
+as Memory Management is u/c of .Net framework with the help of Garbage Collector ( GC ).hence .Net framework is called as development.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Net framework is devided into Two Parts
+  
+1) FCL ( Framework Class Library )
+
+#include<stdio.h> = Header file = Collection of Methods
+main()
+{
+	printf("hello");
+}
+
+
+> FCL is a collection of predefined classes, which are distributed
+ as Assembilies.
+> A collection of classes is called as a Namespace.
+> A Collection of Namespaces is called as an Assembly.
+> A collection of Assembilies is called as FCL.
+
+FCL Contains :
+> ~6000 predefined classes.
+> ~65000 predefined methods.
+> ~1,00,000 predefined properties.
+
+
+
+
+
+
+
+
+
+
+
+
+2) What is CLR ?
+
+CLR is a standard runtime execution engine for Managed Code.
+
+when .net is installed, then CLR related files will be stored in
+C:\Windows\System32  folder
+
+> The most important file in CLR software is MSCoreE.DLL (Microsoft
+ Core Execution Library)
+
+
+
+Version of .Net
+
+> .Net framework version = 3.5
+> .Net IDE Version = 2008
+> C#.Net Lang version = 2008 or 3.0
+> VB.Net Lang version = 2008 or 3.5
+> CLR version = 2.0.50727.1433
+
+
+
+
+
+
+
+
+
+
+
+
+
+3) Language Integration :
+
+Language Integration is a concept of developing an application
+ with the help of more than one .Net compatiable languages.
+
+Assembly is a collection of classes developed in different languages
+ and packed as a DLL to achieve  a task.
+
+After a project is executed, then CLS (Common Language Specification)
+ format will be created.
+
+CLS contains the Common Syntaxes for all the Languages of.Net.
+
+CLS contains the Common datatypes for all the Languages, which are
+ called as CTS (Common Type System)
+
+
+
+obs: 
+
+C#.Net			VB.Net															     							VC++.Net
+
+short =2                short =2											int =2
+int =4			int =4												long=4
+long=8			long=8
+
+
+
+			CTS Datatypes
+
+			system.int16		//Short
+			system.int32										//Integer
+			system.int64		//Long
+
+
+
+
+
+
+
+
+
+Visual C#.Net 2008
+
+Software Requirements
+1) Windows XP, 2000 Prof., 2000/2003 Server, Vista, 7
+2) IIS Server
+3) Visual Studio .Net 2008 Professional Edition
+4) MS-Office
+5) Sql Server or Oracle
+
+
+
+OS		Service Pack
+
+Win2000			4	
+WinXP			2	
+Win2003			2
+WinVista		-
+
+[Home editions also support C#.Net desktop applications]
+
+	
+
+
+
+
+
+
+
+Executable File :
+
+In C lang.			In .Net lang.
+
+first.c				first.cs
+
+Compile				Compile
+
+tcc first.c			csc first.cs
+
+first.exe 			first.exe
+
+
+
+
+**
+These files have a capability for executing itself i.e, an OS doesn't have to depend upon any external tools or runtime for execution.
+
+
+
+		Metadata
+
+
+		Machine dependent code
+
+
+		X86 Instruction set
+
+
+Code : 
+
+The code present within the executable file will be in the format of
+ Machine Dependent.
+
+
+
+X86 Instruction set :
+
+It maintains the platform details which are needed for the execution.
+
+
+
+
+Obs:
+> Executable file maintains the complete information which is needed to
+ execute any particular application.
+> In C programming may or may not work in other enviornment.
+
+
+
+
+
+
+
+Assembly :
+
+The compiled source code of any .Net application is called as an Assembly.
+
+
+Note :
+
+> Assembly with as entry point, main method then they are called as
+ Applications (.exe)
+> Assembly without as entry point is called as Class Library (.dll)
+
+
+
+
+.exe or .dll
+	
+		Metadata
+	
+
+		MSIL
+	
+
+		Resource
+
+
+		Manifest
+
+
+> It is called as "PE WRAPPER".
+> (Portable Executable WRAPPER)
+> It is an .exe file, then "PE WRAPPER" is present to call CLR.
+
+
+
+Metadata :
+
+It maintains the info. about the header files that are used with in
+ the application. We can identify where the header files are located.
+
+
+MSIL code :
+
+
+The code present within the Assembly will be in the format of MSIL
+ instructions (byte Code), where the MSIL format is a machine 
+independent and platform independent.
+
+Resource :
+
+It maintains the information about the external resources used 
+within the application such as audio-video clips, icons, cursors,
+ images etc.
+
+Manifest :
+
+It maintains the details about the attributes of an Assembly such
+ as the product name, description, version etc.
+
+
+
+
+******
+> Assembly just specifies about itself but it will not provide any 
+info. needed for execution. so, we depend on CLR.
+> Hence OS cannot execute the assembly on its own.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Net 3.5 framework :
+
+
+	.Net 2.0
+
+	    +
+	CS, WPF, WF, WCF, Language Enhancements		=.Net 3.0
+	    +
+	WF-Integration-WCF, WPF-3D, LINQ, AJAX		=.Net 3.5
+	    +
+	ASP.Net MVC, Dynamic Data programming, ADO.Net services	=.Net 3.5 SP1
+
+
+
+WCF (Windows Communication Foundation) :
+
+It is an unified programming model for achieving SOA applications or services.
+
+
+**
+>WCF Service can interact with .Net appl., MSMQ(MS Messaging Queue), MOSS and
+ any application.
+
+
+
+WWF (Windows Workflow Foundation) :
+
+It is a set of activities or tools which are used for building a business
+ process which maintains a proper hierarchy.
+
+> Can also be used from Sharepoint applications or with in Biztalk Server
+ or any MS related product.
+
+
+
+
+
+	WF Business Process
+
+
+Leave request =	TeamLead Approval
+
+
+		
+		Approve/Reject	- if rejected then Cancel WF
+
+		      A
+
+
+		HR Approval
+
+ 
+
+		Approve/Reject	- if rejected then Cancel WF	
+		
+
+
+**
+> For preparing business process, we take the support of WF.
+
+
+
+
+
+
+
+WPF (Windows Presentation Foundation) :
+
+It is a framework which is used for building rich interactive application [RIA],
+ which uses media services, Transformations, Animations etc.
+
+
+CS (Card Space) :
+It is used to provide a high security for the applications using the Card system.
+
+
+
+
+
+**
+.Net 3.5 has been introduced with new language features support such as :
+
+> Implicit Type Definition
+> Automated Properties
+> Object initializers
+> Collection initializers
+> Parallel Methods
+> Extension Methods
+
+
+
+
+
+LINQ (Language Integrated Query) :
+
+> It is introduced in .Net 3.5
+> It is a new framework for retrieving the info. from the .Net objects, database,
+ Sql Classes or XML documents.
+
+
+**
+> LINQ can also be used for preparing manipulations on the data.
+
+
+
+
+
+AJAX (Asynchronous JavaScript and XML) :
+
+> It is a framework which is used for developing next generation Web Applications using asynchronous programming model.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Types of Applications :
+
+1> Console Application :
+Whenever the user accepts the i/p from the console and projects the o/p on the console, then such type of applications are called as 
+console Appl.
+	
+	Where console is a device which has a capability to accept 
+the information and also to display the information.
+
+> All C lang. appl. are console application. There are no "GUI".
+
+
+
+
+
+
+
+ex1 > A program to print a Message.
+
+Open Notepad and type the logic as follows and save it with name "Test.cs"
+
+
+using System;  				
+class Test
+{
+static void Main()
+{
+Console.Write("Hello");
+}
+}
+
+
+Save it as "Test.cs"
+
+
+
+Steps for compiling the program :
+
+1) Open Visual Studio.net Command prompt 
+(start > programs > MS Visual Studio 2008 > Visual studio tools > Visual studio 2008 Command Prompt)
+
+D:\New>csc Test.cs
+
+obs : Test.exe file created
+
+D:\New>Test.exe
+
+obs : 
+using System;
+using is a keyword, which imports the classes of system Namespace ( Collection Of classes )
+
+
+
+
+Class Test
+> Class is a keyword
+
+Static void Main()
+> static = keyword
+> void = return type 
+> Main = function Name
+
+
+
+
+Always execution starts from Main()
+
+
+
+
+Console.Write("Hello");
+> Console = predefined class
+> . = Member Access Operator
+> Write = Method (function)
+> Hello = String
+
+
+
+
+ex 2 : Writing a program with .Net (Integrated development environment)
+
+open .Net IDE
+Start > Programs > MS Visual Studio 2008
+
+		or
+
+Start > Run > Devenv
+
+
+File Menu > New > Project
+
+
+
+D
+
+
+
+obs : For every project a new folder will be created where the folder name will be same as
+ project name.
+
+
+Default folder Structure
+
+D:\New\First\Bin\Debug\output files
+
+
+In ASP.Net project file is not be created.
+
+
+Open Program.cs file from project solution explorer
+
+
+write the following code in side of Main()
+{
+Console.Write("Hello");
+Console.Write(DateTime.Now);
+Console.ReadKey();
+}
+
+
+
+Execute the Project (Press F5 or debug > Start debugging)
+
+
+
+
+Working with DataTypes
+
+Data Types specifies type of the Data and size of the
+ Data.
+
+C#.Net Datatypes are divided into two types.
+
+
+
+	Value Types ( Stack Memo.)	Reference 											Types(Heap Memory)
+
+1)Value types hold the data directly.	1)Reference 																							types holds the 											address but 												NOT data					
+2)Value types doesn't contains default	2)Reference 																							types holds the 											default value.
+value
+3)Value types will stored in STACK 	3)Reference 																							types will 		
+memory at compile time			be stored in 																							HEAP memory and 											at Run time.	
+4)Garbage Collector cannot access 	4)Garbage 																							Collector can 												access HEAP 												memory.						
+stack memory.
+5)Ex. of Value types			5)Ex. of 																							Reference Types
+Predefined data types, Structures 	Classes, 																							Objects, 												Arrays, Delegates, 																							Interfaces.
+Enums
+
+
+
+
+
+
+
+
+
+
+Working with Pre-defined DataTypes
+
+These datatypes are divided into 4 groups.
+
+G1)Integral Data Types
+byte	-	1 byte	-	0-255
+sbyte	-	1 byte	-	-128 to +127
+short	-	2 bytes	-	-32768 to +32767
+ushort	-	2 bytes	-	0 to 65535
+
+
+int	-	4 bytes	-	~ +- 214 Crores
+uint	-	4 byte-s	0	~ +  429 Crores
+long	-	8 bytes	-	+- 2(63)
+ulong 	-	8 bytes	-	o to 2(64) -1
+
+
+
+G2)Floating Related Data Types
+
+float	-	4 bytes	-	+- 4.3*10(-31)
+
+double	-	8 bytes -	+- 4.3*10(-63)
+
+decimal -	16 bytes-	+- 4.3*10(-127)
+
+
+
+G3)Character Related Data types
+
+Char	-	2 bytes
+			
+String 	-	16 bytes..........4GB
+
+
+Char > It holds unicode charactors, which are required in Globalization Applications.
+
+G4)Ohter Data types
+
+bool	-	1 byte	-	true/false
+
+Date/Time-	12 bytes
+1/1/0001 - 31/12/9999
+
+
+Syntax to declare a variable.
+
+<data type> variablename=value;
+
+
+Obs:
+int K=10;
+int K5=90;
+int 5K=90;	\\ error
+int _a=20;
+int *P=90;
+int @a=90;
+int if=90;	\\ error	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex> Open Console Application Project
+Code in Main()
+{
+	int i=90;	// value type
+	Console.WriteLine(i);
+	float x=5.6f;		// Convert into float
+	Console.WriteLine(x);
+	byte b1=10, b2=20;
+	byte C=b1+b2;
+	Console.WriteLine(C);
+	Console.ReadKey();
+}
+
+Execute the Project (F5)
+
+
+Obs:
+1)Value types must be initialized before using.
+
+2)Float x=5.6 gives an error.
+CLR treats 5.6 (any decimal number) as double, hence while initializing floats f must be postfixed.
+a value postfixed with f or F is called as float.
+a value postfixed with d or D is called as double.
+a value postfixed with m or M is called as decimal.
+
+3)in C#, +Operator returns the result in the format of int,
+ hence byte C=b1+b2 gives an error.
+
+
+
+
+
+
+
+Working with Type Casting
+
+Type Casting is a concept of converting one datatype into another datatype.
+
+C#.Net supports two types of Type Casting.
+
+	Implicit TC															Explicit TC
+1-4					4-1
+byte b=10;				int i=10;
+int i=b;				byte b=i;
+u/c of CLR				u/c of 												programmer
+
+Conv. Lower > Higher			Higher > Lower
+
+
+
+C#.Net supports 4 types of explicit Type casting
+
+1) C++ style of Type casting
+2) Converting
+3) Parsing
+4) Boxing and UnBoxing
+
+
+
+Working with C++ Style of Type Casting
+ex>
+	int i=90;
+	byte b=i; // wrong
+	byte b=(byte)i; //right
+
+Syntax:
+	DataType1 V1=value;
+	DataType2 V2=(DataType2)V1;
+
+
+ex>
+Open Console App. project
+Code in Main()
+{
+	int i=150;
+	//byte Sal=i; // wrong 	
+	byte sal=(byte)i;
+	Console.WriteLine("Salary is" +sal);
+	Console.ReadKey();
+}
+
+
+
+Obs:
+in C++ style of Type Casting, there is a possibility for losing the Data.
+
+
+
+
+
+Working with Converting
+
+1)Working with a Predefined class called as CONVERT is called as Converting.
+2)A class contains a collection of methods (Functions).
+
+
+
+methods of convert class >
+
+ byte b= Convert.ToByte(x)  // x is variable
+ char c= Convert.ToChar(x)
+ string c= Convert.ToString(x)
+ float c= Convert.ToFloat(x)
+ double c= Convert.ToDouble(x)
+ decimal c= Convert.ToDecimal(x)
+ short c= Convert.Toint16(x)	//for short
+ int c= Convert.Toint32(x)	//for integer
+ long c= Convert.Toint64(x)	//for long
+
+
+
+
+
+
+
+
+ex :>
+Code in Main()
+
+{
+ for (int i=0;i<=255;i++)
+ {
+  char c=Convert.Tochar(i);
+  Console.Write(c);
+  Console.Readkey();
+ }
+}
+
+press F5
+
+
+
+
+
+Working with Parsing :>
+ 
+1) C#.Net, all the datatypes are predefined structures.
+2) Structure contains a collection of methods.
+3) In c#, all the datatypes contains of methods.
+ Parse()
+ Tostring()
+ Minvalue
+ Maxvalue
+4) Working with Parse() is called as Parsing.
+5) Parse() is used to convert from Strings into any another datatype.
+
+[ String -> int ]
+[ Anyone -> int ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex :>
+a prog. to print the limits of a datatype.
+
+Code for Main()
+
+{
+ Console.WriteLine(int.Maxvalue);
+ Console.WriteLine(int.Minvalue);
+ Console.ReadKey();
+}
+
+Press F5
+
+
+
+ex: >
+
+Code for Main()
+
+{
+ Console.Write("Enter your salary");
+ String sal=Console.ReadLine();
+ Console.Write("Enter Increment");
+ String inc=Console.ReadLine();
+ Console.WriteLine("Total :" + sal + inc);
+
+ int s=int.Parse(sal);
+ int i=int.Parse(inc);
+ int t=s+i;
+ Console.WriteLine("Total :" + t);
+ Console.Readkey();
+}
+
+Press F5
+
+
+Note : 
+* ReadLine return as string always.
+
+
+
+obs :
+1) '+' operator will be used to add the numbers and also to concanate the strings.
+ 10+10=20
+ "10"+"10"=1010
+ "10"+10=1010
+
+2) console applications are not user friendly.
+3) console applications contains only logic but not GUI.
+4) console applications are especially required for character based OS like DOS,
+ hence Windows forms applications are recommanded for GUI programming.
+
+
+
+
+
+
+Boxing and UnBoxing :>
+1) Converting value Types into reference types is called Boxing.
+2) Converting Reference types into value types is called unboxing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Arrays :
+
+1) Array is a group of same(homogenous) datatypes.
+2) Array are of Type reference.
+3) Array will be stored in HEAP memory and also contains some default
+ value.
+4) Array will be stored in continuous memory.
+5) Array shares same Name with a different Index number, which always
+ starts from Zero.
+6) Array are the instances (object) of a predefined class called as
+ System.Array
+7) If Array name is x then x.Length gives the size of an array.
+8) x.Sort()  arranges the values in ascending order.
+9) x.Reverse()
+10) x.Indexof()  gives the index number of a value.
+11) C#.Net supports 3 types arrays.
+
+ a) One-Dimensional Array
+ b) Multi-Dimensional Array
+ c) Jaggad Array
+
+
+
+syntax to create One-D array :>
+ datatype[] var=new datatype[size];
+
+Note :
+
+ int[] x=new int[5];
+above stmt creates 5 elements from x[0] to x[4];
+
+syntax to intialize an Array
+ int[] x=new int[]{5,6,7,8,9};
+
+while initializing an array the size is not recommended.
+ char[] x=new char[]{'a','b','c'};
+
+
+Note :>
+integral Array default value is Zero.
+floating Array default value is Zero.
+char Array default value is Nothing.
+Datetime Array default value is 1/1/0001 12:00:00 AM
+bool Array default value is False.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex :>
+A prog. to display array default values.
+
+code for button1_click()
+{
+ int[] x=new int[3];
+  for(int i=0;i<x.length;i++)
+  {
+   MessageBox.Show(x[i].Tostring());
+  }
+}
+
+
+
+
+
+Working with Multi-D Arrays :>
+
+1) Arranging a set of values in Rows and cols is called as Multi-D Array.
+2) Size of the Multi-D array will be indicated as no. of rows x no.
+ of cols.
+
+obs:
+ x.Length  gives total no. of elements
+ x.GetLength(0)  gives no. of rows
+ x.GetLength(1)  gives no. of cols
+
+
+
+syntax to declare Multi-D array
+
+1D: int[] x=new int[size];
+2D: int[,] x=new int[5,5];
+3D: int[,,] x=new int[2,2,2];
+
+
+Note:
+VB.Net supports upto 32 D where as there is no limit in 
+C#.Net(depends on memory(RAM))
+
+syntax to initialize 2D array :>
+int[,] x=new int[,]
+{
+{5,6,7,8},
+{1,4,2,3},
+{3,8,7,2}
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Jagged Arrays :>
+1) JA is a collection of Rows, where every row may contains discrete
+ no. of Col..
+2) JA saves memory.
+3) JA are faster in accessing.
+4) JA is also called as Dynamic Array.
+5) JA is also called as Array of Arrays.
+
+
+
+syntax to declare JA
+ int[][] x=new int[2][];
+// no. of cols are not allowed.
+
+ x[0]=new int[]{1,2,3,4,5};
+ x[1]=new int[]{5,6};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	for (int i = 0; i < x.GetLength(0); i++)
+            {
+                for (int j = 0; j < x[i].Length; j++)
+                {
+                    Console.Write(x[i][j].ToString());
+
+
+                }
+                Console.WriteLine("");
+            }
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
+
+Working with Enumerators ( enum ) :>
+
+Phy=76
+Math=67
+Eng=88
+
+
+1) enum is a keyword.
+2) enum is a collection of integral constraints, which will be identified with string constants.
+3) Syntax to declare enum.
+	enum <enum_name>
+	{
+	 stringConstant = value,
+	 .........,
+	 .........
+	}
+4) Enums must be declared in general decleration (GD) area only.
+
+Note :
+ if enum member is not initialized, then it will be initialized automatically with
+ incremented value of previous member.
+ if previous member is not existing the initialization starts from 0 onwards.
+
+
+
+
+
+ex on Enum 
+	
+
+
+
+
+
+
+
+
+OOPs Concepts (Object Oriented Programming Synopsis):>
+
+OOPs based on the style of programming, the languages
+ are divided into 3 types.
+
+Procedural	Structured	OOPL
+1960's ALGOL	1970's		1980's
+No loops	BASIC		OOPs
+No Arrays	COBOL		C++
+No DMA		C
+
+
+
+Problems with C lang. :>
+1) 
+ main()
+ {
+ int sal=40000;
+ printf("%d",sal);
+ }
+
+output is ~ -7700
+> There are no limits for the datatypes at runtime.
+
+
+
+2) 
+ main()
+ {
+ int i;
+ i=500*500/500;
+ printf("%d",i);
+ }
+
+output is -27
+> There is no proper internal procedure for calculations.
+
+
+
+3) 
+ long sal=5000;
+ main(){logic;}
+ void Print(){logic;}
+ void read(){logic;}
+ void mktg()
+ {
+ long sal=500000;
+ sal=sal+sal;
+ }
+
+No security for the data due to global variables.
+
+
+> To overcome all these problems, ANSI defined a set of rules called
+ as OOPs.> When a lang. supports, the following OOPs concepts, 
+then it is called as OOPL.
+
+ex> C++, C#.Net, SmalkTalk, Java, VC++
+
+
+
+
+
+OOPs concepts
+			C++	VB6.0										Java/C#.Net
+1) Encapsulation	Y	Y	Y
+2) Abstraction		Y	Y	Y
+3) Polymorphism		Y	N	Y
+4) Inheritance		Y	N	Y
+			
+		Partially     Object	  Pure OOPL
+		OOPL	      based PL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Encapsulation :
+ It is a concept of hiding the data with the help of private variables.
+
+
+2) Abstraction :
+ Providing full information about an entity.
+
+
+3) Polymorphism :
+ It is a concept of writing more than one function with same name
+ and with different types of arguments.
+
+
+4) Inheritance :
+ It is concept of deriving the features from one class into another class.
+
+
+
+obs :
+To work with OOPs, classes and objects are required.
+
+
+Class :
+ A class is a logical representation.
+ 
+
+Object :
+ Object is a physical representation.
+	or 
+ instance of a class.
+
+
+			
+> as per .Net class is a collection of Fields, Properties, Methods and Events.
+
+
+
+Fields :
+ Private data of a class is called as Fields.
+
+Properties :
+ Defines the look and feel of an object.
+
+Methods :
+ What an object can Do.
+
+Events :
+ What user can do with an object.
+
+
+
+syntax to write a class >
+
+ class <cl_name>
+ {
+  private int i,j;  // Fields 
+  private string s;	//Instance var
+
+  public void print()  // Method/Function
+  {
+	stmt();
+
+  }
+ }
+
+
+syntax to create an object >
+
+ classname <obj_name>=new classname();
+				|
+			 default Constructor
+
+Note :
+ Object can access only public data but not private data.
+
+
+ex on classes and objects.
+
+
+
+
+
+
+
+Note :
+> The variables created with in a class are also called as instance variables.
+> In C#.Net, by default every class will be inherited from System.Object class.
+
+
+	System.Object 
+		-> GethashCode()
+		-> GetType()
+		-> Equals()
+		-> ToString()
+	
+	Test
+	 -> Read()
+	 -> Print()
+
+> In C#.Net every class contains minimum 4 methods.
+
+
+
+
+
+
+Working with methods and arguments >
+syntax to Method:
+
+ AccessSpecifier returnType methodName(args);
+
+ex:>
+ Public void Print(int x,int y)
+ {
+
+ }
+ Public int Print(int x,int y)
+ {
+  return int_value;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C#.Net allows to pass the parameters in 3 ways.
+
+1) pass by value
+2) pass by ref    // (ref int x) [Formal arguments]
+3) pass by out
+
+
+Note :
+
+1) When formal args are modified and if modifications are REFLECTED on
+ actual args then this concepts is called as Pass by ref.
+
+2) When formal args are modified and if modifications are not REFLECTED
+ on actual args then the concepts is called as Pass by value.
+
+3) By default all the variables will be passed as pass by value.
+
+4) ref is a keyword, which is required while passing a variable by ref.
+
+5) ref keyword must be used along with actual and formal args.
+
+6) ref variables must be initialized before passing.
+
+
+
+
+ex on Pass by value and ref 
+
+
+
+
+
+
+
+
+
+
+
+
+Pass by out >
+
+1) Out is a keyword.
+
+2) Pass by out is 99% same as pass by ref.
+
+3) In pass by out a variable can be passed without initialization also.
+
+4) out=ref-initialization
+
+
+
+
+ex on out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with this keyword :>
+
+1) This is a keyword.
+2) This works like an object for current class.
+3) When instance and Local variables names are same then CLR gives importance for local.
+4) In above case, in order to access instance variables this keyword
+ is required.
+
+
+
+ex on this keyword.
+
+
+class Test
+        {
+            private int x = 10;
+            public void Print(int x)
+            {
+                this.x = x + x;
+                MessageBox.Show(this.x+"");//
+            }
+            public void Display()
+            {
+                MessageBox.Show(x+"");//
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Test t = new Test();
+	    t.Display();
+            t.Print(100);
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Polymorphism (Overloading) :>
+
+C#.Net supports Function Overloading and Operator Overloading.
+
+Function Overloading :>
+
+Function overloading is a concept of writing more than one function with same name and with different types of arguments or with different no. of arguments .
+
+
+Obs :
+1) public void Add(){}
+2) private void Add(){}
+3) public int Add(){}
+4) public void Add(int x){}
+5) public void Add(int y){}
+6) public void Add(ref int x){}
+7) public void Add(out int x){}
+8) public void add(){}
+9) public void Add(string x){}
+10) public void Add(string x,int y){}
+11) public void Add(int x,string y){}
+
+
+
+
+
+
+1&2 = 
+1&3 = 
+1&4 = 
+2&4 = 
+1&8 = 
+3&4 = 
+4&5 = 
+5&6 = 
+6&7 = 
+7&5 = 
+4&9 = 
+10&11 = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1&2 = N
+1&3 = Y	N
+1&4 = Y
+2&4 = Y
+1&8 = N
+3&4 = Y
+4&5 = N
+5&6 = Y
+6&7 = Y N
+7&5 = Y
+4&9 = Y
+10&11 = Y
+
+
+
+
+
+1&2 = Not Overlodable
+1&3 = Not Overlodable
+1&4 = Y
+2&4 = y
+3&4 = y
+4&5 = N
+5&6 = y
+5&7 = y
+6&7 = N
+1&8 = N
+
+ex on Function Overloading .
+
+
+
+
+
+
+Working with 
+
+Constructors																											Destructors
+
+					
+C1)Cons is a special type of method, 	D1)Des is a 											special 										type of method, which
+which will be executed automatically	will be 											executed 					automatically while 															an
+while an object is about to create. 	object is about 																					to delete.	
+C2)Cons name must be same as class	D2)Des name 											must be 										same as class name 												               		with 
+name without Return Type.		a Tild(~) 													prefix and without return type
+ syntax :				and access 													specifier.
+ public cl_name()			 syntax :
+ {					 ~cl_name()
+					 {
+ }						
+					 }
+
+C3)Cons are overlodable.		D3)Des are not overlodable.
+
+C4)Cons will be used to initialize	D4)Des will be 													used to close the files and 
+the variables or to open connections	connections or 																								deallocating the 									memory.
+and files etc.
+
+
+Note :
+ By default every class contains a default constructor.
+	Test t=new Test();
+
+
+ex on Cons and Des
+
+
+
+
+
+
+
+
+
+
+
+Obs from ex :>
+> In above ex., cons will be executed 3 times and des also executed
+ 3 times.
+> When the project is closed, then des will be executed automatically
+ after that with in two seconds Grabage Collector will be loaded.
+> Garbage Collector Reclaims the entire memory allocated for the
+ current project.
+> Garbage collection will be done with the help of System.GC class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Static :>
+
+1) Static is a keyword, which can be used along with fields,
+ constructors, methods and classes.
+
+Class Circle
+{
+ private int x,y,r;
+ private static double pi=3.14;
+ ...
+ ...
+ ...
+}
+
+2) Static var will be created only once after that static var 
+are sharable by all the objects (Common Memory).
+
+3) Instance variables will be created when object is loading 
+into the memory.
+
+4) Static variable will be created when class is loading into
+ the memory, hence static var is also called as class var.
+
+5) If static var is public, that it can be accessed directly
+ with classname.
+
+class Abc
+{
+ public int i; //instance var
+ public static int s; //static var
+}
+
+Abc.s 	//valid
+Abc.i	//Not valid
+
+If x is an object then
+x.i  //valid
+x.s  //Not valid
+
+6) Static cons will executed only once and which is used to access only
+ static var.
+
+ex 
+
+
+
+
+
+
+
+
+Static methods and Static classes :>
+
+1) Static method can access only static data.
+2) Static method need to be call with the help of class name.
+ 	ex :> 	classname.Staticmethod()
+3) When a class contains all static methods, then it is recommanded
+ to declare the class as static.
+4) Static classes are NOT allowed to creation of object.
+
+
+
+ex >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Operator Overloading:>
+
+Obs:>
+int i=10,j=20,k;	string S1="Abc",S2="xyz",S3;
+k=i+j;    //30		S3=S1+S2;   //AbcXyz
+
+If Test is a class and t1,t2 and t3 are objects then t3=t1+t2  //error 
+
+1) +Operator is developed to use with no. and strings only hence t3=t1+t2
+ gives an error.
+2) OOL is a concept of providing extended functionality for an existing 
+operator.
+3) All the operators are overlodable except those contains a .(dot) i.e 
+the following are not overlodable.
+4) While overloading Relational Operators these must be overloaded in PAIR.
+to overload >,< must be overloaded.
+to overload >=,<= must be overloaded.
+to overload ==,!= must be overloaded.
+5) Overloaded operator must be declared as Static.
+6) Operator is keyword.
+7) Syntax to overload an operator.
+ public static returntype operator +(args)
+ {
+  logic;
+ }
+
+
+ex:>
+A prog. to add the salaries of all the employees by overloading +.
+
+//ex:
+
+
+
+class Emp
+        {
+            private int sal;
+            public Emp()//Cons
+            {
+            }
+            public Emp(int x)//One arg. cons
+            {
+                sal = x;
+            }
+            public void Print()
+            {
+                MessageBox.Show(sal + "");
+            }
+            public static Emp operator +(Emp x, Emp y)
+            {
+                Emp e = new Emp();
+                e.sal = x.sal + y.sal;
+                return e;
+            }
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Emp e1 = new Emp(5000);
+            Emp e2 = new Emp(3000);
+            Emp e3 = new Emp(12000);
+            Emp total = new Emp();
+            total = e1 + e2 + e3;
+            total.Print();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Inheritance :>
+1) Inheritance is a concept of deriving the features from one 
+class into another class.
+2) Inheritance leads to code re-usability (write once use many times).
+3) INH also saves memory.
+4) Types in Inheritance.
+	
+	Single INH			Multilevel INH
+	
+	Base/Parent 			Base
+	    |				  |
+
+
+
+	Derived/Child 			Derived Base
+					  |
+
+
+
+					Derived
+
+	
+
+
+	Hirarchiral INH			Multiple INH  (Wrong)
+
+		A			A		B
+
+
+
+	B		C			C
+
+
+Note:
+* C#.Net does not supports multiple Inh directly, but a similar 
+structure is possible with the help of interfaces.
+
+
+
+
+
+
+
+
+
+
+Logical diagram on INH Concepts.
+
+
+Modifier :
+ These are the access specifiers for accessing the info.
+
+
+
+Modifier   within the Class   Derived Class   Other Class   Derived Class  Other
+							    of other	   Program
+							    program
+
+
+public		yes		yes		yes		yes	     yes
+
+private		yes		No		No		No           No
+
+protected	yes		yes		No		No           No
+
+Internal	yes		yes		yes		No           No
+
+Protected
+ Internal	yes		yes		yes		yes          No
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex on protected data.
+a company gives N Rs as Bonus when they are reaching the targets then calc
+ total salary.
+
+
+
+
+
+
+
+
+
+
+Working with Overriding (Run time polymorphism) :>
+1) Overriding is a concept of having two methods with same name and same
+ args in base and derived classes.
+2) In Overriding, by default the priority will be given local class methods.
+3) In above case, In order to call parent class methods "base" keyword is 
+required.
+4) "base" points to parent class and "this" keyword points to current class.
+
+
+ex on base keyword with fields :>
+ex on Overrriding :>
+
+
+
+//ex:
+
+
+
+ class A
+        {
+            public int x = 10;
+
+        }//A
+        class B : A
+        {
+            private int x = 100;
+            public void Print(int x)
+            {
+                MessageBox.Show(this.x + " ");//
+                MessageBox.Show(base.x + " ");//
+                MessageBox.Show(x + " ");//
+            }//Print
+        }//B
+        private void button1_Click(object sender, EventArgs e)
+        {
+            B obj = new B();
+           publicint(1000);
+            MessageBox.Show(obj.x + " ");//
+        }
+
+
+
+//ex:
+
+
+  public class Square
+        {
+            public double x;
+
+            // Constructor:
+            public Square(double x)
+            {
+                this.x = x;
+            }
+
+            public virtual double Area()
+            {
+                return x * x;
+            }
+        }
+
+        class Cube : Square
+        {
+            // Constructor:
+            public Cube(double x)
+                : base(x)
+            {
+
+            }
+            // Calling the Area base method:
+            public override double Area()
+            {
+                return (6 * (base.Area()));
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x = 5.2;
+            Square s = new Square(x);
+            Square c = new Cube(x);
+      MessageBox.Show("Area of Square =  " + s.Area());
+       MessageBox.Show("Area of Cube =  " + c.Area());
+      MessageBox.Show("Area of Square =  " + s.Area());
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with sealed classes :>
+1) Sealed is a keyword.
+2) Sealed classes are not inheritable.
+3) When a class is providing full functionality, then recommanded
+ to declare the class as sealed.
+
+
+
+ex on Sealed Class :>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Abstract classes:>
+
+1) Abstract is a keyword.
+2) Abstract keyword can be used with methods and 
+Classes.
+3) A method without body is called as Abstract Method.
+4) Abstract methods are also called as Rules.
+5) When a class contains atleast one abstract method,
+then that class must be declared as abstract class.
+6) syntax to write abstract method.
+  public abstract void FindArea();
+7) All Abstract methods must be overrided in Derived 
+class.
+ Syntax :
+ public override void FindArea(){}
+8) Abstract class provides a set of rules (Abstract 
+methods), which must be followed (overrided) in derived
+class.
+9) Abstract classes are not Instantiatable, but a 
+reference can be created.
+If shape is an abstract base class and circle is a
+derived class.
+10) References works with the help of child class
+memory.
+	Shape x=new Shape(); //error
+	Shape x=new Cricle();
+
+
+
+ex on Abstract CLass:>
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Interfaces :>
+1) Interface are similar to abstract classes but 
+interface contains only abstract methods.
+2) syntax to write an interface
+ interface inter_name
+ {
+  void Read();
+  void Print();
+ }
+
+Note:
+> All the interface methods are by default public
+abstract.
+
+
+syntax to use interface with classes :>
+
+I		C1 		I1			I1	I2
+
+
+
+C		C2		I2			    I3
+
+class C:I      Class C2:C1      Interface I2:I1	    Interface I3:I1,I2
+{}	       {}		{}			{}
+
+
+
+
+C1	C2		C1	I1			C1
+
+	
+	
+    C3			    C2				I1
+Not Supported		Class C2:C1,I1 {}		Not Supported
+			Class C2:I1,C1 {} //Error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Partial Class:>
+1) partial is a keyword.
+ 
+	P1				P2
+partial class Test		partial class Test
+{				{
+ 5000 lines			 5000 lines
+}				}
+
+
+2) When a class need to be implmented at multiple 
+locations with same class name then those classes 
+need to be declared as partial.
+
+
+ex on interface and partial classes :>
+
+
+
+
+
+
+Working with Assemblies :>
+
+1> A dll files is called as an Assembly.
+2> Assembly contains Reusable code in the format of byte code(MSIL Code).
+3> Assembly contains only application logic but not GUI.
+4> Assemblies supports Language introperability.
+5> Assembly is collection of Namespaces.
+6> A namespace is a collection of classes.
+7> To Add an assembly into the project go to 
+ Project Menu 
+  -> Add Reference
+       -> Browse
+	   -> Select the Dll file.
+8> To import the classes of a namespace using keyword is required.
+9> Assemblies are divided into two types.
+	a) Private Assembly
+	b) Shared Assembly
+10> In private assemblies all the Refferred Dlls will be copied
+into local projects debug folder... but in Shared assemblies Dlls
+will not be copied.
+11> Private assemblies are faster but memory wise not efficient.
+12> When many projects need to be developed for the same client
+then Share assemblies are Recommand.
+13> Class Library template is required to develop an Assembly
+which is not Executable directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	x
+
+
+
+
+
+Working with Shared Assemblies :>
+
+1> When a Dll file is registered with GAC (Global Assembly Cache),
+then that dll is called as Shared Assembly.
+2> GAC folder (C:\Windows\Assembly) is a secured folder, where
+copy and paste is not allowed.
+3> To make a Dll as Shared assembly, it must contain a strong name.
+4> Strong name provides Unique identifier, which is also called
+as Public Key Token.
+5> Syntax to create Strong Name.
+	sn -k D:\mind.snk
+
+6> A dll with a strong name need to be registered with GAC with 
+the following syntax.
+	gacutil -i "D:\dllfilename.dll"
+here i=install
+     u=uninstall
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exception Handling :
+
+1) Compile Time problems are called as Errors.
+Error
+ex: syntax
+
+2) Runtime problems are called as Exceptions.
+
+3) Exception is a runtime condition, which stops normal Execution of
+ a program abnormally. when exception is raised then execution will
+ be stopped.
+
+4) Generally exceptions will be raised.
+a- while working with typecasting.
+b- while working with files.
+c- while working with databases.
+d- while working with memory management etc.
+
+5) To handle these kind of exceptions .Net introduced 4 keywords.
+try, catch, finally and throw.
+
+6) When a exception is expected from a piececode, the code must be
+ written with in try block.
+
+syntax of try, catch and finally
+
+try
+{
+
+}
+catch
+{
+
+}
+finally
+{
+
+}
+
+
+
+7) Try block must be forward either with one catch or many catches or
+ finally or ALL.
+
+8) Catch will be executed only with exception is raised.
+
+9) Finally will be executed always, Irrespective of an exception.
+
+10) All the exceptions are predefined classes, which must be inherited
+ from System.Exception class.
+
+11) To handle exceptions, .Net introduced ~400 predefined classes, 
+these classes are organized as follows.
+
+	System.Object
+
+
+	Exception
+
+
+System Exception	Application Exception
+
+
+
+
+IOException	SQL Exception	OLEDbEx.	Remote Ex.
+
+
+
+IO Ex
+File not found Ex.
+Read only Ex.
+Invalid format Ex.
+-
+-
+-
+-
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex on Screen Saver :>
+
+
+
+ex : 
+A prog. to disp an Icon in Systems Tray alnong with 
+context menu trip.
+
+
+
+ex on Accept and Cancel Buttons:>
+
+
+
+
+
+
+Working with Events :>
+1) Action on a control is called as an event.
+2) In .Net, always event contains two arguments.
+Always 1st arg will be of type object but
+2nd arg type may very from event to event.
+3) Events are divided into 4 Groups.
+ a) Mouse related events
+ b) Focus related events
+ c) Drag related events
+ d) Key related events
+
+
+
+
+Working with Mouse Related Events :>
+
+1) Click
+2) DbClick
+3) MouseDown
+4) MouseUp
+5) MouseEnter
+6) MouseLeave
+7) MouseMove
+8) MouseHover (will be executed when mouse pointer 
+placed on a control for sometime).
+
+
+
+ex:>
+A prg. to use company logo as Mouse Pointer.
+
+
+
+ex :>
+A prg. on Mouse Down
+
+
+
+
+
+
+
+Working with Focus Related Events :>
+
+Enter : will be executed while cursor is coming out
+from a control.
+
+Leave : will be executed while cursor is entering into
+a control.
+
+
+
+ex on Leave Event :>
+
+
+
+Obs :>
+In errorprovider1.SetError method is execute when 
+second arg. contains atleast one character also then 
+CLR treats that as an error message. Hence blinking 
+Icon will be displayed.
+
+
+
+
+
+
+Drag Related Events :>
+
+Note: To work with Drag Related Events, Allow Drop
+property must be set to True.
+
+
+
+
+ex :>
+A prg. to copy the dragged data into .Net TextBox
+
+
+
+
+
+
+A Collection of Inter-Related Data is called as Database.
+
+Databases are divided into 3 types.
+
+DBMS		RDBMS		ORDBMS
+
+DBASE		ORACLE		ORACLE 8i....
+FOXBASE		SQLSERVER	SQLSERVER2005....
+FOXPRO		MS-ACCESS	
+EXCEL		DB/2
+
+
+
+ADO.NET
+
+1) ADO.NET is an object library for communicating with Databases.
+
+2) ADO.NET introduced an assembly called as System.Data.Dll
+
+3) ADO.Net supports two types of connections.
+
+
+D
+
+
+a- Managed Connection
+b- Unmanaged Connection
+
+
+4) UnManaged connection works with the help of OLEDB (Object linking
+ and Embedding Data Bases) Providers.
+
+5) OLEDB Providers are predeveloped Dll files, these Dlls are platform
+ Dependents.
+
+6) Hence Conn. over OLEDB are called as UnManaged connections.
+
+7) Managed Conn. works over TDS(Tabllar Data Stream) protocol.
+
+8) Managed Conn. are faster.
+
+9) ADO.Net used to develop client-Server Archietectures.
+
+10) ADO.net Namespaces are divided into 5 groups.
+
+g1) Common Namespaces
+1- system.data
+2- system.data.common
+3- system.data.SqlTypes
+
+g2) UnManaged Namespaces
+4- system.data.OleDb (All Databases)
+
+g3) Managed Namespaces
+5- system.data.SqlClient (SqlServer only)
+6- system.data.OracleClient (Oracle)
+
+g4) ODBC Namespaces
+7- system.data.ODBC (All Databases)
+
+g5) LINQ related Namespaces
+8- system.data.LINQ
+
+
+
+
+Note :
+* If Sql Connection class is used to connect SqlServer or Oracle 
+Connection class is used to connect Oracle DB then provider = 
+provider name should not be mention with in the connection string.
+
+
+
+
+
+
+
+
+
+
+
+
+Data Adapter :
+ Data Adapter is used to carry the Data between object and DataBase.
+
+syntax:
+xxxDataAdapter da=new xxxDataAdapter(Query,ConnectionString|Conn.
+ Object);
+
+
+Note:
+
+If the dataAdapter is define based on above syntax then it generates 
+select command only and other command objects of Data Adapter will not be generated.
+
+
+
+
+
+
+
+Data Set:
+
+1) Data set is a class which is the part of System.Data NameSpace.
+2) Data set supports connection-less Architecture. Active connection 
+is not required.
+3) Data set cannot communicates directly with DB or viceversa.
+4) Data adapter is a class, which is used to provide the communication in between Dataset and Database.
+5) DataAdapter is used to carry the data only but not to hold the data.
+6) Data set holds a collection of tables, where CLR gives an index
+ number automatically optionally.
+7) Data set supports to create relations.
+8) Data set works with the help of XML Technology.
+
+
+
+D
+
+
+syntax:
+DataSet ds=new DataSet();
+
+
+
+
+DataSet Class hirarchy :
+ A collection of classes which are related to DataSet is called as
+ DataSet class hirarchy.
+
+
+	
+		DataSet
+
+
+
+	Relations		Tables
+
+
+
+	Data Relation		Data Table
+				- Rows -Data Row
+				- Columns -Data Col.
+				- Primary Key -DataCol.
+				- Data View
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steps to work with Connection Oriented Model :
+
+- Define a connection Object
+	- Connection
+
+- Define a command Object
+	- Command Conn. =
+	- Command Type = <Text|Table Direct|Stored Procedure>
+	- Command Text = "______"
+	- [Parameter Def.]
+
+- Open the Connection
+
+
+Statement :
+
+	Select			Any Valid stmt. other then Select
+	
+	ExecuteScalar()		ExecuteNonQuery()
+	ExecuteReader()
+
+
+- Close the Connection
+
+
+
+
+1) ExecuteNonQuery() :
+ Required while executing DDL,DML and SP. It returns "Integer value ".
+
+
+
+2) ExecuteReader() :
+
+ Required to execute Select stmt. need to be called when multiple
+ records are expected from a Select stmt. It returns "DataReader ".
+
+
+3) ExecuteScalar() :
+ Required to execute Select stmt. ExecuteScalar() looks for first
+ match only, If match is found then only first column value of that
+ Row will be returned as an Object DataType.
+
+
+
+
+
+
+
+
+Steps to work with Disconnected Model:
+
+- Steps to Retrieve Data :
+	* Define a connection object
+	* Define a DataAdapter object
+	* Define a DataSet object
+	* Fill the DataSet
+	* Assign the DataSet and bind the Data or return the 
+DataSet object
+
+
+
+- Steps to insert the record :
+	* Define a DataRow variable
+	syntax:
+		
+	* Assign the NewRow of the Data Member of DataSet to the DataRow Variable.
+	syntax:
+	
+	* Assign the values for the DataCols. of the Data member of DataSet
+	syntax:
+	
+	* Add the DataRow variable to the DataRows collection of the data member of 
+	data set.
+	
+		
+	* Update the DataAdapter with the Data present at the Data member of 			DataSet
+	syntax:
+	
+
+
+
+
+
+- Steps to update the Data:
+	* Define a Data Row variable
+	* Assign the dataRow which has to be modified to the dataRow variable
+	
+		
+	* Start the Edit Mode
+
+		
+	* Assign the values to the Data Cols. of the DataRow variable
+
+	* End the Edit Mode
+	
+		
+	* Update the DataAdapter with the data present at the data member of DataSet
+
+
+
+
+- Steps to delete the Data:
+	* Delete the DataRow from the DataRows Collection of the data members of DataSet
+
+	* Update the DataAdapter with the Data present in data member of dataSet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Multi Threading :
+1> Multi...........Many
+2> Thread..........Process
+3> Process indicates either part of the program or a full program also.
+4> If only  one thread is executing then it is called as Single
+Threaded Application.
+5> Multi Threaded is a concept of executing more than one
+process simulteneously.
+
+ex: Games, Database Servers, IIS Server, ATM Servers.
+
+6> Whenever a new process is starting, then based on the priority CPU
+allocates a set of cycles(Instrucions).
+
+7> Sharing CPU cycles effciently is called as MultiThreading.
+8> Based on above Stmt(7), OS are divided into Two Types.
+	a> Single Threaded OS
+	b> Multi Threaded OS
+9> To work with MultiThreading, .Net introduced System.Threading 
+namespace.
+10> System.Threading namespace contains 3 important classes.
+	a> Thread: Used to maintain lifecycle of the Threads.
+	b> ThreadStart: This delegate is used to create the 
+		threads.
+	c> Mutex: Used in Thread synchronization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thread Synchronization :
+
+1> When more than one threads are accessing the same process
+then there is a possibility for unexpected Results. To overcome
+this thread syn. is required.
+2> T.S. is a concept of allowing only one thread at a time into 
+a one process.
+3> If the process is busy then threads need to wait in the queue.
+4> Waiting threads will be executed based on the priority.
+5> Mutex is a predefined class which controls waiting threads
+with the help of WaitOne() and RealeasMutex() methods.
+6> The code, which is written in between WaitOne() and 
+ReleaseMutex() is called as Synchronized Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LINQ :
+1> LINQ is similar to sql conceptually.
+2> sql is used to fetch the data from DB tables.
+3> LINQ is used to fetch the data from .Net Objects.
+4> LINQ works on reference types only.
+5> With the help of LINQ data can be fetched easily but LINQ
+is not must.
+6> Keywords for LINQ programming from,in,select,orderby,ascending,
+descending,where,groupby etc.
+7> LINQ support aggregate functions, which are introduced as extension
+ methods. sum(),distinct(),min(),max(),average() etc......
+8> For LINQ System.LINQ namesapce is introduced.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Delegates :
+
+> Delegates are similar to C++ function pointers.
+> Delegates are used to encapsulate some info. like class names
+ and method names.
+> Delegates holds the address of one or many Functions.
+> Based on above stmt. , delegates are divided into two types.
+
+	SCD		MCD
+
+> SCD holds the address of only one function.
+> MCD holds the addresses of Many functions.
+> MCD holds a sequence of Methods.
+
+( in C#.Net only)
+> MCD supports airthmatic + and - operations.
+> + operator adds a method into the sequence.
+> - operator removes a method from the sequence.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Crystal Report :
+ It is the reporting tool which is used to generate the reports efficiency. Where a report can be considered as any formatted info. that provides an eff. look and feel and used to analize the data.
+
+
+
+
+Note : The name of the crystal Report programatically file name will be considered as a class name for which an object should be defined in order to use the crystal Report programatically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Defined Controls :
+
+> When predefined controls are not supporting user's requirement
+ then User defined control need to be developed.
+> UDC contains the app. logic along with GUI.
+> UDC are Re-usable.
+> The UDC developed in c#.net can be used in vb.net also and
+ vice-versa.
+> C#.Net or vb.net UDC does not works in ASP.Net.
+> To develop UDC, .Net introduced windows forms control library
+ template.
+> UDC are form dependents.
+> UDC will be created in DLL format.
+> UDC is a class, which must be inherited from a predefined class
+ called as usercontrol or any existing control also.
+
+	a> General UC
+	b> Inherited UC
+
+a> General UC :
+> Design & Logic
+
+b> Inherited UC :
+> Only Logic
+> INH user control is a concept of extending the functionality of an 
+existing control.
+> In inherited user controls, all the properties of the base control
+will be derived.
+> INH User control contains only logic but not design.
+
+
+
+
+
+
+
+User Defined Properties :
+
+> A collection of set and get methods is called as a property.
+> A property which contains only get is called as read only property.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Defined Events :
+
+> When part of user controls logic and part of Form's logic need to
+ be executed at one shot then user defined events are required.
+> User Defined Event is also called as call back procedures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Setup & Deployment :
+
+
+The copied .Net exe file will not be executed. In order to execute .Net applications
+ CLR software is must.
+
+
+1) Deployment is a process providing required resources to execute a .Net application
+ successfully in the Client Machine.
+
+2) Client machine must be installed with CLR software.
+
+3) CLR software can be installed with the help of DOTNETFX35Setup.exe
+
+4) CLR Software Occupies ~30 MB of Harddisk space.
+
+5) CLR software is free distributable. It means no license is required.
+
+6) To deploy the projects, .Net introduced 
+ 
+ File -> New -> Project -> Other Project Types -> Setup and Deployment -> Setup Wizard
+
+
+
+
+
+
+
+
+
+
+Advance Programming of C#.Net :
+
+Windows Services:
+
+1) Service means a Program.
+2) A program, which is u/c of Windows OS is called as Windows Service.
+3) Windows Services are used to develop automated background processes.
+4) Windows Service contains only Application logic but not GUI(No design).
+5) The controls, which are not visible at runtime can be placed in windows
+ service projects.
+ ex: Timer, FileSystemWatcher, Eventlog etc.
+6) To develop windows services, .Net intoduced file >
+New -> Project -> Visual C#.Net ->Windows -> Windows Service Template.
+7) Windows Services are not Executable Directly.
+**8) Windows Service Project template is available in professional edition 
+only.
+9) To work with window service .Net introduced System.ServiceProcess Assembly.
+10) Windows Service is a class, which must be inherited from ServiceBase class.
+
+run -> Services.msc
+
+open visual studio CMD window
+
+installutil -i "D:\fullpath with .exe"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

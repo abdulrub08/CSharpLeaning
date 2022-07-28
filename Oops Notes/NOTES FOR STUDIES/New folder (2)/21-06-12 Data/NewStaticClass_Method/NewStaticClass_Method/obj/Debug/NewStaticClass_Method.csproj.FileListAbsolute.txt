@@ -1,0 +1,17 @@
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\bin\Debug\NewStaticClass_Method.exe
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\bin\Debug\NewStaticClass_Method.pdb
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.Form1.resources
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.Properties.Resources.resources
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.csproj.GenerateResource.Cache
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.exe
+D:\Example1\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.pdb
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.exe
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.pdb
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\bin\Debug\NewStaticClass_Method.exe
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\bin\Debug\NewStaticClass_Method.pdb
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.Form1.resources
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\NewStaticClass_Method.Properties.Resources.resources
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\shaif\Desktop\New folder (2)\21-06-12 Data\NewStaticClass_Method\NewStaticClass_Method\obj\Debug\GenerateResource-ResGen.write.1.tlog

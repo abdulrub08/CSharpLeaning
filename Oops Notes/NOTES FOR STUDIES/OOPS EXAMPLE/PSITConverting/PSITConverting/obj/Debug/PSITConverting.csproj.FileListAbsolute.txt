@@ -1,0 +1,5 @@
+D:\Example1\PSITConverting\PSITConverting\bin\Debug\PSITConverting.exe
+D:\Example1\PSITConverting\PSITConverting\bin\Debug\PSITConverting.pdb
+D:\Example1\PSITConverting\PSITConverting\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITConverting\PSITConverting\obj\Debug\PSITConverting.exe
+D:\Example1\PSITConverting\PSITConverting\obj\Debug\PSITConverting.pdb

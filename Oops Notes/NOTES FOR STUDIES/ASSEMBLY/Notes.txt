@@ -1,0 +1,69 @@
+
+
+Working with Assemblies :>
+
+1> A dll files is called as an Assembly.
+2> Assembly contains Reusable code in the format of byte code(MSIL Code).
+3> Assembly contains only application logic but not GUI.
+4> Assemblies supports Language introperability.
+5> Assembly is collection of Namespaces.
+6> A namespace is a collection of classes.
+7> To Add an assembly into the project go to 
+ Project Menu 
+  -> Add Reference
+       -> Browse
+	   -> Select the Dll file.
+8> To import the classes of a namespace using keyword is required.
+9> Assemblies are divided into two types.
+	a) Private Assembly
+	b) Shared Assembly
+10> In private assemblies all the Refferred Dlls will be copied
+into local projects debug folder... but in Shared assemblies Dlls
+will not be copied.
+11> Private assemblies are faster but memory wise not efficient.
+12> When many projects need to be developed for the same client
+then Share assemblies are Recommand.
+13> Class Library template is required to develop an Assembly
+which is not Executable directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	x
+
+
+
+
+
+Working with Shared Assemblies :>
+
+1> When a Dll file is registered with GAC (Global Assembly Cache),
+then that dll is called as Shared Assembly.
+2> GAC folder (C:\Windows\Assembly) is a secured folder, where
+copy and paste is not allowed.
+3> To make a Dll as Shared assembly, it must contain a strong name.
+4> Strong name provides Unique identifier, which is also called
+as Public Key Token.
+5> Syntax to create Strong Name.
+	sn -k D:\mind.snk
+
+6> A dll with a strong name need to be registered with GAC with 
+the following syntax.
+	gacutil -i "D:\dllfilename.dll"
+here i=install
+     u=uninstall
+
+

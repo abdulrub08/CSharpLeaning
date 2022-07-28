@@ -1,0 +1,10 @@
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\bin\SampleWebAppVB.dll
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\bin\SampleWebAppVB.pdb
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\bin\SampleWebAppVB.xml
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\ResolveAssemblyReference.cache
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\SampleWebAppVB.Resources.resources
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\GenerateResource.read.1.tlog
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\GenerateResource.write.1.tlog
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\SampleWebAppVB.dll
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\SampleWebAppVB.xml
+Z:\doorodac16\DNET\Ajax\SampleWebAppVB\SampleWebAppVB\obj\Debug\SampleWebAppVB.pdb

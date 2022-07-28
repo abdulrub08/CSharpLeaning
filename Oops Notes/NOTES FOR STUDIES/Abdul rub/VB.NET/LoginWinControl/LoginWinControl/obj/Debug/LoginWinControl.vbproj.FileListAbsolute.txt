@@ -1,0 +1,14 @@
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginWinControl.dll
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginWinControl.pdb
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginWinControl.xml
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginArea.dll
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginArea.pdb
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\bin\Debug\LoginArea.xml
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\ResolveAssemblyReference.cache
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\LoginWinControl.Resources.resources
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\LoginWinControl.UserControl1.resources
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\GenerateResource.read.1.tlog
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\GenerateResource.write.1.tlog
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\LoginWinControl.dll
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\LoginWinControl.xml
+Z:\doorodac16\DNET\VB.NET\LoginWinControl\LoginWinControl\obj\Debug\LoginWinControl.pdb

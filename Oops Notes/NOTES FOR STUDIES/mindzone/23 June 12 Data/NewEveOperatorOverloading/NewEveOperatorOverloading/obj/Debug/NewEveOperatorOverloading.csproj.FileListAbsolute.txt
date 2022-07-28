@@ -1,0 +1,8 @@
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\bin\Debug\NewEveOperatorOverloading.exe
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\bin\Debug\NewEveOperatorOverloading.pdb
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\NewEveOperatorOverloading.Form1.resources
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\NewEveOperatorOverloading.Properties.Resources.resources
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\NewEveOperatorOverloading.csproj.GenerateResource.Cache
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\NewEveOperatorOverloading.exe
+D:\Example1\NewEveOperatorOverloading\NewEveOperatorOverloading\obj\Debug\NewEveOperatorOverloading.pdb

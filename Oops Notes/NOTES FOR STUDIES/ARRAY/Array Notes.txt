@@ -1,0 +1,146 @@
+
+
+
+
+
+Working with Arrays :
+
+1) Array is a group of same(homogenous) datatypes.
+2) Array are of Type reference.
+3) Array will be stored in HEAP memory and also contains some default
+ value.
+4) Array will be stored in continuous memory.
+5) Array shares same Name with a different Index number, which always
+ starts from Zero.
+6) Array are the instances (object) of a predefined class called as
+ System.Array
+7) If Array name is x then x.Length gives the size of an array.
+8) x.Sort()  arranges the values in ascending order.
+9) x.Reverse()
+10) x.Indexof()  gives the index number of a value.
+11) C#.Net supports 3 types arrays.
+
+ a) One-Dimensional Array
+ b) Multi-Dimensional Array
+ c) Jaggad Array
+
+
+
+syntax to create One-D array :>
+ datatype[] var=new datatype[size];
+
+Note :
+
+ int[] x=new int[5];
+above stmt creates 5 elements from x[0] to x[4];
+
+syntax to intialize an Array
+ int[] x=new int[]{5,6,7,8,9};
+
+while initializing an array the size is not recommended.
+ char[] x=new char[]{'a','b','c'};
+
+
+Note :>
+integral Array default value is Zero.
+floating Array default value is Zero.
+char Array default value is Nothing.
+Datetime Array default value is 1/1/0001 12:00:00 AM
+bool Array default value is False.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex :>
+A prog. to display array default values.
+
+code for button1_click()
+{
+ int[] x=new int[3];
+  for(int i=0;i<x.length;i++)
+  {
+   MessageBox.Show(x[i].Tostring());
+  }
+}
+
+
+
+
+
+Working with Multi-D Arrays :>
+
+1) Arranging a set of values in Rows and cols is called as Multi-D Array.
+2) Size of the Multi-D array will be indicated as no. of rows x no.
+ of cols.
+
+obs:
+ x.Length  gives total no. of elements
+ x.GetLength(0)  gives no. of rows
+ x.GetLength(1)  gives no. of cols
+
+
+
+syntax to declare Multi-D array
+
+1D: int[] x=new int[size];
+2D: int[,] x=new int[5,5];
+3D: int[,,] x=new int[2,2,2];
+
+
+Note:
+VB.Net supports upto 32 D where as there is no limit in 
+C#.Net(depends on memory(RAM))
+
+syntax to initialize 2D array :>
+int[,] x=new int[,]
+{
+{5,6,7,8},
+{1,4,2,3},
+{3,8,7,2}
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Jagged Arrays :>
+1) JA is a collection of Rows, where every row may contains discrete
+ no. of Col..
+2) JA saves memory.
+3) JA are faster in accessing.
+4) JA is also called as Dynamic Array.
+5) JA is also called as Array of Arrays.
+
+
+
+syntax to declare JA
+ int[][] x=new int[2][];
+// no. of cols are not allowed.
+
+ x[0]=new int[]{1,2,3,4,5};
+ x[1]=new int[]{5,6};
+

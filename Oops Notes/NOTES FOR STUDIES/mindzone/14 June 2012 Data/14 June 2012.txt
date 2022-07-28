@@ -1,0 +1,433 @@
+
+Types of Applications :
+
+1> Console Application :
+Whenever the user accepts the i/p from the console and projects the o/p on the
+console, then such type of applications are called as console Appl.
+	
+	Where console is a device which has a capability to accept the
+ information and also to display the information.
+
+> All C lang. appl. are console application. There are no "UI".
+
+
+
+
+
+
+
+ex1 > A program to print a Message.
+
+Open Notepad and type the logic as follows and save it with name Test.cs
+
+
+using System;  				
+class Test
+{
+static void Main()
+{
+Console.Write("Hello");
+}
+}
+
+
+Save it as "Test.cs"
+
+
+
+Steps for compiling the program :
+
+1) Open Visual Studio.net Command prompt 
+(start > programs > MS Visual Studio 2008 > Visual studio tools > Visual studio 2008 Command Prompt)
+
+D:\New>csc Test.cs
+
+obs : Test.exe file created
+
+D:\New>csc Test.exe
+
+obs : 
+using System;
+using is a keyword, which imports the classes of system Namespace ( Collection Of classes )
+
+
+
+
+Class Test
+> Class is a keyword
+
+Static void Main()
+> static = keyword
+> void = return type 
+> Main = function Name
+
+
+
+
+Always execution starts from Main()
+
+
+
+
+Console.Write("Hello");
+> Console = predefined class
+> . = Member Access Operator
+> Write = Method (function)
+> Hello = String
+
+
+
+
+ex 2 : Writing a program with .Net (Integrated development environment)
+
+open .Net IDE
+Start > Programs > MS Visual Studio 2008
+
+		or
+
+Start > Run > Devenv
+
+
+File Menu > New > Project
+
+
+
+
+
+
+Working with DataTypes
+
+Data Types specifies type of the Data and size of the Data.
+
+C#.Net Datatypes are divided into two types.
+
+
+
+	Value Types ( Stack Memo.)				Reference Types(Heap Memory)
+
+1)Value types hold the data directly.		1)Reference types holds the address but NOT data
+2)Value types doesn't contains default value.	2)Reference types holds the default value.
+3)Value types will stored in STACK memory 	3)Reference types will be Run time and 
+at Compile time.					stored in HEAP memory
+4)Garbage Collector cannot access STACK memory.	4)Garbage Collector can access HEAP memory.
+5)Ex. of Value types				5)Ex. of Reference Types
+Predefined data types, Structures, Enumerators.	Classes, Objects, Arrays, Delegates, Interfaces.
+
+
+
+
+Working with Pre-defined DataTypes
+
+These datatypes are divided into 4 groups.
+
+G1)Integral Data Types
+byte	-	1 byte	-	0-255
+sbyte	-	1 byte	-	-128 to +127
+short	-	2 bytes	-	-32768 to +32767
+ushort	-	2 bytes	-	0 to 65535
+
+
+int	-	4 bytes	-	~ +- 214 Crores
+uint	-	4 bytes	-	~ -+  429 Crores
+long	-	8 bytes	-	+- 2(63)
+ulong 	-	8 bytes	-	o to 2(64) -1
+
+
+
+G2)Floating Related Data Types
+
+float	-	4 bytes	-	+- 4.3*10(-31)
+
+double	-	8 bytes -	+- 4.3*10(-63)
+
+decimal -	16 bytes-	+- 4.3*10(-127)
+
+
+
+G3)Character Related Data types
+
+Char	-	2 bytes
+
+String 	-	16 bytes..........4GB
+
+
+Char > It holds unicode charactors, which are required in Globalization Applications.
+
+
+G4)Ohter Data types
+
+bool	-	1 byte	-	true/false
+
+Date/Time-	12 bytes
+1/1/0001 - 31/12/9999
+
+
+Syntax to declare a variable.
+
+<data type> variablename=value;
+
+
+Obs:
+int K=10;
+int K5=90;
+int 5K=90;	\\ 
+int _a=20;
+int *P=90;
+int @a=90;
+int if=90;	\\	
+
+
+
+
+
+
+
+
+
+
+Working with Type Casting
+
+Type Casting is a concept of converting one datatype into another datatype.
+
+C#.Net supports two types of Type Casting.
+
+	Implicit TC				Explicit TC
+1-4					4-1
+byte b=10;				int i=10;
+int i=b;				byte b=i;
+u/c of CLR				u/c of programmer
+
+Conv. Lower > Higher			Higher > Lower
+
+
+
+C#.Net supports 4 types of explicit Type casting
+
+1) C++ style of Type casting
+2) Converting
+3) Parsing
+4) Boxing and UnBoxing
+
+
+
+Working with C++ Style of Type Casting
+ex>
+	int i=90;
+	byte b=i; // wrong
+	byte b=(byte)i; //right
+
+Syntax:
+	DataType1 V1=value;
+	DataType2 V2=(DataType2)V1;
+
+
+ex>
+Open Console App. project
+Code in Main()
+{
+	int i=150;
+	byte Sal=i; // wrong 	
+	byte sal=(byte)i;
+	Console.WriteLine("Salary is" +Sal);
+	Console.ReadKey();
+}
+
+
+
+Obs:
+in C++ style of Type Casting, there is a possibility for losing the Data.
+
+
+
+Working with Converting
+
+1)Working with a Predefined class called as CONVERT is called as Converting.
+2)A class contains a collection of methods (Functions).
+
+
+
+methods of convert class >
+
+ byte b= Convert.ToByte(x)  // x is variable
+ char c= Convert.ToChar(x)
+ string c= Convert.ToString(x)
+ float c= Convert.ToFloat(x)
+ double c= Convert.ToDouble(x)
+ decimal c= Convert.ToDecimal(x)
+ short c= Convert.Toint16(x)	//for short
+ int c= Convert.Toint32(x)	//for integer
+ long c= Convert.Toint64(x)	//for long
+
+
+
+
+
+
+
+
+ex :>
+Code in Main()
+
+{
+ for (int i=0;i<=255;i++)
+ {
+  char c=Convert.Tochar(i);
+  Console.Write(c);
+  Console.Readkey();
+ }
+}
+
+press F5
+
+
+
+
+
+Working with Parsing :>
+ 
+1) C#.Net, all the datatypes are predefined structures.
+2) Structure contains a collection of methods.
+3) In c#, all the datatypes contains of methods.
+ Parse()
+ Tostring()
+ Minvalue
+ Maxvalue
+4) Working with Parse() is called as Parsing.
+5) Parse() is used to convert from Strings into any another datatype.
+
+[ String -> int ]
+[ Anyone -> String ]
+
+
+
+
+
+
+
+
+
+
+
+ex :>
+a prog. to print the limits of a datatype.
+
+Code for Main()
+
+{
+ Console.WriteLine(int.Maxvalue);
+ Console.WriteLine(int.Minvalue);
+ Console.ReadKey();
+}
+
+Press F5
+
+
+
+ex: >
+
+Code for Main()
+
+{
+ Console.Wrie("Enter your salary");
+ String sal=Console.ReadLine();
+ Console.Write("Enter Increment");
+ String inc=Console.ReadLine();
+ Console.WriteLine("Total :" + sal + inc);
+
+ int s=int.Parse(sal);
+ int i=int.Parse(inc);
+ int t=s+i;
+ Console.WriteLine("Total :" + t);
+ Console.Readkey();
+}
+
+Press F5
+
+
+Note : 
+* ReadLine return as string always.
+
+
+
+obs :
+1) '+' operator will be used to add the numbers and also to concanate the strings.
+ 10+10=20
+ "10"+"10"=1010
+ "10"+10=1010
+
+2) console applications are not user friendly.
+3) console applications contains only logic but not GUI.
+4) console applications are especially required for character based OS like DOS, hence
+ Windows forms applications are recommanded for GUI programming.
+
+
+
+
+
+
+Boxing and UnBoxing :>
+1) Converting value Types into reference types is called Boxing.
+2) Converting Reference types into value types is called unboxing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Arrays :
+
+1) Array is a group of same(homogenous) datatypes.
+2) Array are of Type reference.
+3) Array will be stored in HEAP memory and also contains some default value.
+4) Array will be stored in continuous memory.
+5) Array shares same Name with a different Index number, which always starts from Zero.
+6) Array are the instances (object) of a predefined class called as System.Array
+7) If Array name is x then x.Length() gives the size of an array.
+8) x.Sort()  arranges the values in ascending order.
+9) x.Reverse()
+10) x.Indexof()  gives the index number of a value.
+11) C#.Net supports 3 types arrays.
+
+ a) One-Dimensional Array
+ b) Multi-Dimensional Array
+ c) Jaggad Array
+
+
+
+syntax to create One-D array :>
+ datatype[] var=new datatype[size];
+
+Note :
+
+ int[] x=new int[5];
+above stmt creates 5 elements from x[0] to x[4];
+
+syntax to intialize an Array
+ int[] x=new int[]{5,6,7,8,9};
+
+while initializing an array the size is not recommended.
+ char[] x=new char[]{'a','b','c'};
+
+
+Note :>
+integral Array default value is Zero.
+floating Array default value is Zero.
+char Array default value is Nothing.
+Datetime Array default value is 1/1/0001 12:00:00 AM
+bool Array default value is False.
+
+
+
+
+
+
+

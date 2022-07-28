@@ -1,0 +1,16 @@
+D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.Service1.resources
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.ProjectInstaller.resources
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\Solitaire.ProjectInstaller.resources
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\Solitaire.Service1.resources
+F:\program files\Folder Lock\Locker\Dot Software & Notes\Dot Net Notes\C#\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache

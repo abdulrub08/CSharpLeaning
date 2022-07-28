@@ -1,0 +1,8 @@
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\bin\Debug\PSITOperatorOverloading.exe
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\bin\Debug\PSITOperatorOverloading.pdb
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\PSITOperatorOverloading.Form1.resources
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\PSITOperatorOverloading.Properties.Resources.resources
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\PSITOperatorOverloading.csproj.GenerateResource.Cache
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\PSITOperatorOverloading.exe
+D:\Example1\PSITOperatorOverloading\PSITOperatorOverloading\obj\Debug\PSITOperatorOverloading.pdb

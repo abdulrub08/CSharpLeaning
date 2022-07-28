@@ -1,0 +1,14 @@
+
+LINQ :
+1> LINQ is similar to sql conceptually.
+2> sql is used to fetch the data from DB tables.
+3> LINQ is used to fetch the data from .Net Objects.
+4> LINQ works on reference types only.
+5> With the help of LINQ data can be fetched easily but LINQ
+is not must.
+6> Keywords for LINQ programming from,in,select,orderby,ascending,
+descending,where,groupby etc.
+7> LINQ support aggregate functions, which are introduced as extension
+ methods. sum(),distinct(),min(),max(),average() etc......
+8> For LINQ System.LINQ namesapce is introduced.
+

@@ -1,0 +1,8 @@
+D:\Example1\PassByOut\PassByOut\bin\Debug\PassByOut.exe
+D:\Example1\PassByOut\PassByOut\bin\Debug\PassByOut.pdb
+D:\Example1\PassByOut\PassByOut\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.Form1.resources
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.Properties.Resources.resources
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.csproj.GenerateResource.Cache
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.exe
+D:\Example1\PassByOut\PassByOut\obj\Debug\PassByOut.pdb

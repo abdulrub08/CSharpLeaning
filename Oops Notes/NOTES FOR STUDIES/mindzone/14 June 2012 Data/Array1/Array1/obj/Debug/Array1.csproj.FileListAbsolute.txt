@@ -1,0 +1,5 @@
+D:\Example1\Array1\Array1\bin\Debug\Array1.exe
+D:\Example1\Array1\Array1\bin\Debug\Array1.pdb
+D:\Example1\Array1\Array1\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\Array1\Array1\obj\Debug\Array1.exe
+D:\Example1\Array1\Array1\obj\Debug\Array1.pdb

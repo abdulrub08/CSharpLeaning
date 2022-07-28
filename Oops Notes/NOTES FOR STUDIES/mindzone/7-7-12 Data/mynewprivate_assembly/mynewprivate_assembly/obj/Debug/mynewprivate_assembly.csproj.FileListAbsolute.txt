@@ -1,0 +1,5 @@
+D:\Example1\mynewprivate_assembly\mynewprivate_assembly\bin\Debug\mynewprivate_assembly.dll
+D:\Example1\mynewprivate_assembly\mynewprivate_assembly\bin\Debug\mynewprivate_assembly.pdb
+D:\Example1\mynewprivate_assembly\mynewprivate_assembly\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\mynewprivate_assembly\mynewprivate_assembly\obj\Debug\mynewprivate_assembly.dll
+D:\Example1\mynewprivate_assembly\mynewprivate_assembly\obj\Debug\mynewprivate_assembly.pdb

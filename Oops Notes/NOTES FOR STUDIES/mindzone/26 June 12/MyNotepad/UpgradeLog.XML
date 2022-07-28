@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MyNotepad">
+</Property><Property Name="Solution File" Value="I:\mindzone\26 June 12\MyNotepad\MyNotepad.sln">
+</Property><Property Name="User Options File" Value="I:\mindzone\26 June 12\MyNotepad\MyNotepad.suo">
+</Property><Property Name="Date" Value="Thursday, June 28, 2012">
+</Property><Property Name="Time" Value="0:23 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MyNotepad.sln" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MyNotepad.suo" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad.suo">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\MyNotepad.csproj" Description="Project file successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\MyNotepad.csproj">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Form1.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Form1.Designer.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmHelp.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmHelp.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmHelp.Designer.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmHelp.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmRun.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmRun.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmRun.Designer.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmRun.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Program.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Program.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Properties\AssemblyInfo.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Properties\Resources.Designer.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Properties\Settings.Designer.cs" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Properties\Settings.settings" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Form1.resx" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmHelp.resx" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmHelp.resx">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\frmRun.resx" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\frmRun.resx">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\Properties\Resources.resx" Description="File successfully backed up as I:\mindzone\26 June 12\MyNotepad\Backup\MyNotepad\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\MyNotepad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MyNotepad" Source="MyNotepad\MyNotepad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MyNotepad.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MyNotepad.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MyNotepad" Source="MyNotepad\MyNotepad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,8 @@
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\PSITAbstractClass_Method.Form1.resources
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\PSITAbstractClass_Method.Properties.Resources.resources
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\PSITAbstractClass_Method.csproj.GenerateResource.Cache
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\bin\Debug\PSITAbstractClass_Method.exe
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\bin\Debug\PSITAbstractClass_Method.pdb
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\PSITAbstractClass_Method.exe
+D:\Example1\PSITAbstractClass_Method\PSITAbstractClass_Method\obj\Debug\PSITAbstractClass_Method.pdb

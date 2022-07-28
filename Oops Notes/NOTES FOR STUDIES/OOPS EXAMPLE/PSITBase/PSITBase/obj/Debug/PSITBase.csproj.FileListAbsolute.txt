@@ -1,0 +1,8 @@
+D:\Example1\PSITBase\PSITBase\bin\Debug\PSITBase.exe
+D:\Example1\PSITBase\PSITBase\bin\Debug\PSITBase.pdb
+D:\Example1\PSITBase\PSITBase\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITBase\PSITBase\obj\Debug\PSITBase.Form1.resources
+D:\Example1\PSITBase\PSITBase\obj\Debug\PSITBase.Properties.Resources.resources
+D:\Example1\PSITBase\PSITBase\obj\Debug\PSITBase.csproj.GenerateResource.Cache
+D:\Example1\PSITBase\PSITBase\obj\Debug\PSITBase.exe
+D:\Example1\PSITBase\PSITBase\obj\Debug\PSITBase.pdb

@@ -1,0 +1,7 @@
+document.write('<object type=\"application/x-shockwave-flash\" data=\"http://content.yieldmanager.edgesuite.net/atoms/ca/43/fc/91/ca43fc917f8eb11089e41a13bd8653fe.swf?clickTAG=http%3A%2F%2Fad%2Escanmedios%2Ecom%2Fclk%3F3%2CeJylTdlugzAQ%2EJq8QYQNdahQHxaRpKGxlTREEX3jMEc5TIIlIF9fV6HtB3S0mh3tzO4i08FxnNgpyWI7s2OcYgeZdsoT9IQR1wzHcQhGK2KtCNHgG%2EQN0wHu1wM84B8yNsAPKgAxyxDgCGuwXOOUPyaI0ONsXqezgH8gQeN5ljsA9T%2E3bBjRq2t%2D5u5vykvudOtXNPgo9pf3km1DSYNNTU%2DoZPdq3AfrgV5Ck3l%2DzbzdxP7uv2haIWW3MGGBN6qivtNbLnU%2DRk1X82Vci7zvhFyWrXKxYTyrZliKCjHoUui9CidF1OZcL5tIcSxuKb%2EpvZzUeiGb%2DgtH5nBp%2C\" height=\"600\" width=\"160\" loop=\"false\" wmode=\"opaque\"><param name=\"wmode\" value=\"opaque\"><param name=\"movie\" value=\"http://content.yieldmanager.edgesuite.net/atoms/ca/43/fc/91/ca43fc917f8eb11089e41a13bd8653fe.swf?clickTAG=http%3A%2F%2Fad%2Escanmedios%2Ecom%2Fclk%3F3%2CeJylTdlugzAQ%2EJq8QYQNdahQHxaRpKGxlTREEX3jMEc5TIIlIF9fV6HtB3S0mh3tzO4i08FxnNgpyWI7s2OcYgeZdsoT9IQR1wzHcQhGK2KtCNHgG%2EQN0wHu1wM84B8yNsAPKgAxyxDgCGuwXOOUPyaI0ONsXqezgH8gQeN5ljsA9T%2E3bBjRq2t%2D5u5vykvudOtXNPgo9pf3km1DSYNNTU%2DoZPdq3AfrgV5Ck3l%2DzbzdxP7uv2haIWW3MGGBN6qivtNbLnU%2DRk1X82Vci7zvhFyWrXKxYTyrZliKCjHoUui9CidF1OZcL5tIcSxuKb%2EpvZzUeiGb%2DgtH5nBp%2C\" /></object>');
+var rm_data = new Object();
+rm_data.creative_id = 15771699;
+rm_data.offer_type = 10;
+rm_data.entity_id = 718994;
+
+if (window.rm_crex_data) {rm_crex_data.push(15771699);}

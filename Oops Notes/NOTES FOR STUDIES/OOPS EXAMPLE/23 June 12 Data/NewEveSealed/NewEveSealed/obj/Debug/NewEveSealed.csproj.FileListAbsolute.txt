@@ -1,0 +1,8 @@
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\NewEveSealed.Form1.resources
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\NewEveSealed.Properties.Resources.resources
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\NewEveSealed.csproj.GenerateResource.Cache
+D:\Example1\NewEveSealed\NewEveSealed\bin\Debug\NewEveSealed.exe
+D:\Example1\NewEveSealed\NewEveSealed\bin\Debug\NewEveSealed.pdb
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\NewEveSealed.exe
+D:\Example1\NewEveSealed\NewEveSealed\obj\Debug\NewEveSealed.pdb

@@ -1,0 +1,8 @@
+D:\Example1\NewCons_Des\NewCons_Des\bin\Debug\NewCons_Des.exe
+D:\Example1\NewCons_Des\NewCons_Des\bin\Debug\NewCons_Des.pdb
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\NewCons_Des.Form1.resources
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\NewCons_Des.Properties.Resources.resources
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\NewCons_Des.csproj.GenerateResource.Cache
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\NewCons_Des.exe
+D:\Example1\NewCons_Des\NewCons_Des\obj\Debug\NewCons_Des.pdb

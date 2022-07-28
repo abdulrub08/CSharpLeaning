@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ClassAndObject">
+</Property><Property Name="Solution File" Value="C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\ClassAndObject.sln">
+</Property><Property Name="User Options File" Value="C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\ClassAndObject.suo">
+</Property><Property Name="Date" Value="Thursday, June 21, 2012">
+</Property><Property Name="Time" Value="21:34 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ClassAndObject.sln" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ClassAndObject.suo" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject.suo">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\ClassAndObject.csproj" Description="Project file successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\ClassAndObject.csproj">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Form1.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Form1.Designer.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Program.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Program.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Properties\Settings.settings" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Form1.resx" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\Properties\Resources.resx" Description="File successfully backed up as C:\Users\rahul\Desktop\19 June 12 Data\ClassAndObject\Backup\ClassAndObject\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\ClassAndObject.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ClassAndObject" Source="ClassAndObject\ClassAndObject.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ClassAndObject.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ClassAndObject.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ClassAndObject" Source="ClassAndObject\ClassAndObject.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

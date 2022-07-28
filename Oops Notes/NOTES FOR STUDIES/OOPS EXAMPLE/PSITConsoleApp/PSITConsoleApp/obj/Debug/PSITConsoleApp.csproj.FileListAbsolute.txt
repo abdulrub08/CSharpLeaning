@@ -1,0 +1,5 @@
+D:\Example1\PSITConsoleApp\PSITConsoleApp\bin\Debug\PSITConsoleApp.exe
+D:\Example1\PSITConsoleApp\PSITConsoleApp\bin\Debug\PSITConsoleApp.pdb
+D:\Example1\PSITConsoleApp\PSITConsoleApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITConsoleApp\PSITConsoleApp\obj\Debug\PSITConsoleApp.exe
+D:\Example1\PSITConsoleApp\PSITConsoleApp\obj\Debug\PSITConsoleApp.pdb

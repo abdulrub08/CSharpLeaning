@@ -1,0 +1,11 @@
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\ResolveAssemblyReference.cache
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\RepWinApp.Form1.resources
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\RepWinApp.Resources.resources
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\GenerateResource.read.1.tlog
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\GenerateResource.write.1.tlog
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\bin\Debug\RepWinApp.exe
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\bin\Debug\RepWinApp.pdb
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\bin\Debug\RepWinApp.xml
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\RepWinApp.exe
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\RepWinApp.xml
+Z:\doorodac16\DNET\VB.NET\RepWinApp\RepWinApp\obj\Debug\RepWinApp.pdb

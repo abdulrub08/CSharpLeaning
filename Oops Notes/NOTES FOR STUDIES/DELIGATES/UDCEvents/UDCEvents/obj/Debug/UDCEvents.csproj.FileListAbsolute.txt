@@ -1,0 +1,7 @@
+D:\Example1\UDCEvents\UDCEvents\bin\Debug\UDCEvents.dll
+D:\Example1\UDCEvents\UDCEvents\bin\Debug\UDCEvents.pdb
+D:\Example1\UDCEvents\UDCEvents\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\UDCEvents\UDCEvents\obj\Debug\UDCEvents.MyNewButtonEvents.resources
+D:\Example1\UDCEvents\UDCEvents\obj\Debug\UDCEvents.csproj.GenerateResource.Cache
+D:\Example1\UDCEvents\UDCEvents\obj\Debug\UDCEvents.dll
+D:\Example1\UDCEvents\UDCEvents\obj\Debug\UDCEvents.pdb

@@ -1,0 +1,38 @@
+D:\Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\BookWriter3D.exe
+D:\Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\BookWriter3D.pdb
+D:\Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\3DTools.dll
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\ControlResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\ImageResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\MaterialResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\MeshGeometry3DResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\MainWindow.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\Other3DResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\Transform3DResources.baml
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\MainWindow.g.cs
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\App.g.cs
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D_MarkupCompile.cache
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.g.resources
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.Properties.Resources.resources
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.csproj.GenerateResource.Cache
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.exe
+D:\Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.pdb
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.exe
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.pdb
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\BookWriter3D.exe
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\BookWriter3D.pdb
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\bin\Debug\3DTools.dll
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\ControlResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\ImageResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\MaterialResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\MeshGeometry3DResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\MainWindow.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\Other3DResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\Resources\Transform3DResources.baml
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\MainWindow.g.cs
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\App.g.cs
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D_MarkupCompile.cache
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.g.resources
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.Properties.Resources.resources
+D:\Example\WPF Example\WPF\BookWriter3D\BookWriter3D\obj\Debug\BookWriter3D.csproj.GenerateResource.Cache

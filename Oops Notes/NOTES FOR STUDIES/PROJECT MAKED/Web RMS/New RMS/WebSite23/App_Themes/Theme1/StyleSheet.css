@@ -1,0 +1,39 @@
+﻿body
+{
+	font-size: large;
+	color: #006666;
+	background-color: #C0C0C0;
+	font-weight: bold;
+	font-style: normal;
+}
+#lblheading
+{
+	border: thin inset #333300;
+	margin: auto;
+	background-position: center center;
+	font-size: x-large;
+	font-style: normal;
+	color: #660033;
+	background-color: #808080;
+}
+#lblmsg
+{
+	font-size: medium;
+	font-style: inherit;
+	color: #FF5050;
+	background-color: #CCFFCC;
+	border-style: none;
+	border-color: #9999FF;
+}
+#btnsubmit
+{
+	font-size: large;
+	color: #008080;
+	background-color: #C0C0C0;
+	border-style: inset;
+	border-color: #800000;
+	width: 80px;
+	font-weight: bold;
+	font-style: normal;
+	height: 33px;
+}

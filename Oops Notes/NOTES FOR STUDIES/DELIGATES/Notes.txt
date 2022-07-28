@@ -1,0 +1,93 @@
+
+User Defined Controls :
+
+> When predefined controls are not supporting user's requirement
+ then User defined control need to be developed.
+> UDC contains the app. logic along with GUI.
+> UDC are Re-usable.
+> The UDC developed in c#.net can be used in vb.net also and
+ vice-versa.
+> C#.Net or vb.net UDC does not works in ASP.Net.
+> To develop UDC, .Net introduced windows forms control library
+ template.
+> UDC are form dependents.
+> UDC will be created in DLL format.
+> UDC is a class, which must be inherited from a predefined class
+ called as usercontrol or any existing control also.
+
+	a> General UC
+	b> Inherited UC
+
+a> General UC :
+> Design & Logic
+
+b> Inherited UC :
+> Only Logic
+> INH user control is a concept of extending the functionality of an 
+existing control.
+> In inherited user controls, all the properties of the base control
+will be derived.
+> INH User control contains only logic but not design.
+
+
+
+
+
+
+
+User Defined Properties :
+
+> A collection of set and get methods is called as a property.
+> A property which contains only get is called as read only property.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+User Defined Events :
+
+> When part of user controls logic and part of Form's logic need to
+ be executed at one shot then user defined events are required.
+> User Defined Event is also called as call back procedures.
+
+
+
+
+
+
+
+
+
+Delegates :
+
+> Delegates are similar to C++ function pointers.
+> Delegates are used to encapsulate some info. like class names
+ and method names.
+> Delegates holds the address of one or many Functions.
+> Based on above stmt. , delegates are divided into two types.
+
+	SCD		MCD
+
+> SCD holds the address of only one function.
+> MCD holds the addresses of Many functions.
+> MCD holds a sequence of Methods.
+
+( in C#.Net only)
+> MCD supports airthmatic + and - operations.
+> + operator adds a method into the sequence.
+> - operator removes a method from the sequence.
+
+

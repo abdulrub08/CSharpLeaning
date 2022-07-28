@@ -1,0 +1,323 @@
+
+Working with Type Casting
+
+Type Casting is a concept of converting one datatype into another datatype.
+
+C#.Net supports two types of Type Casting.
+
+	Implicit TC																																						Explicit TC
+1-4					4-1
+byte b=10;				int i=10;
+int i=b;				byte b=i;
+u/c of CLR				u/c of 																																			programmer
+
+Conv. Lower > Higher			Higher > Lower
+
+
+
+C#.Net supports 4 types of explicit Type casting
+
+1) C++ style of Type casting
+2) Converting
+3) Parsing
+4) Boxing and UnBoxing
+
+
+
+Working with C++ Style of Type Casting
+ex>
+	int i=90;
+	byte b=i; // wrong
+	byte b=(byte)i; //right
+
+Syntax:
+	DataType1 V1=value;
+	DataType2 V2=(DataType2)V1;
+
+
+ex>
+Open Console App. project
+Code in Main()
+{
+	int i=150;
+	//byte Sal=i; // wrong 	
+	byte sal=(byte)i;
+	Console.WriteLine("Salary is" +sal);
+	Console.ReadKey();
+}
+
+
+
+Obs:
+in C++ style of Type Casting, there is a possibility for losing the Data.
+
+
+
+
+
+Working with Converting
+
+1)Working with a Predefined class called as CONVERT is called as Converting.
+2)A class contains a collection of methods (Functions).
+
+
+
+methods of convert class >
+
+ byte b= Convert.ToByte(x)  // x is variable
+ char c= Convert.ToChar(x)
+ string c= Convert.ToString(x)
+ float c= Convert.ToFloat(x)
+ double c= Convert.ToDouble(x)
+ decimal c= Convert.ToDecimal(x)
+ short c= Convert.Toint16(x)	//for short
+ int c= Convert.Toint32(x)	//for integer
+ long c= Convert.Toint64(x)	//for long
+
+
+
+
+
+
+
+
+ex :>
+Code in Main()
+
+{
+ for (int i=0;i<=255;i++)
+ {
+  char c=Convert.Tochar(i);
+  Console.Write(c);
+  Console.Readkey();
+ }
+}
+
+press F5
+
+
+
+
+
+Working with Parsing :>
+ 
+1) C#.Net, all the datatypes are predefined structures.
+2) Structure contains a collection of methods.
+3) In c#, all the datatypes contains of methods.
+ Parse()
+ Tostring()
+ Minvalue
+ Maxvalue
+4) Working with Parse() is called as Parsing.
+5) Parse() is used to convert from Strings into any another datatype.
+
+[ String -> int ]
+[ Anyone -> int ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ex :>
+a prog. to print the limits of a datatype.
+
+Code for Main()
+
+{
+ Console.WriteLine(int.Maxvalue);
+ Console.WriteLine(int.Minvalue);
+ Console.ReadKey();
+}
+
+Press F5
+
+
+
+ex: >
+
+Code for Main()
+
+{
+ Console.Write("Enter your salary");
+ String sal=Console.ReadLine();
+ Console.Write("Enter Increment");
+ String inc=Console.ReadLine();
+ Console.WriteLine("Total :" + sal + inc);
+
+ int s=int.Parse(sal);
+ int i=int.Parse(inc);
+ int t=s+i;
+ Console.WriteLine("Total :" + t);
+ Console.Readkey();
+}
+
+Press F5
+
+
+Note : 
+* ReadLine return as string always.
+
+
+
+obs :
+1) '+' operator will be used to add the numbers and also to concanate the strings.
+ 10+10=20
+ "10"+"10"=1010
+ "10"+10=1010
+
+2) console applications are not user friendly.
+3) console applications contains only logic but not GUI.
+4) console applications are especially required for character based OS like DOS,
+ hence Windows forms applications are recommanded for GUI programming.
+
+
+
+
+
+
+Boxing and UnBoxing :>
+1) Converting value Types into reference types is called Boxing.
+2) Converting Reference types into value types is called unboxing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Arrays :
+
+1) Array is a group of same(homogenous) datatypes.
+2) Array are of Type reference.
+3) Array will be stored in HEAP memory and also contains some default
+ value.
+4) Array will be stored in continuous memory.
+5) Array shares same Name with a different Index number, which always
+ starts from Zero.
+6) Array are the instances (object) of a predefined class called as
+ System.Array
+7) If Array name is x then x.Length gives the size of an array.
+8) x.Sort()  arranges the values in ascending order.
+9) x.Reverse()
+10) x.Indexof()  gives the index number of a value.
+11) C#.Net supports 3 types arrays.
+
+ a) One-Dimensional Array
+ b) Multi-Dimensional Array
+ c) Jaggad Array
+
+
+
+syntax to create One-D array :>
+ datatype[] var=new datatype[size];
+
+Note :
+
+ int[] x=new int[5];
+above stmt creates 5 elements from x[0] to x[4];
+
+syntax to intialize an Array
+ int[] x=new int[]{5,6,7,8,9};
+
+while initializing an array the size is not recommended.
+ char[] x=new char[]{'a','b','c'};
+
+
+Note :>
+integral Array default value is Zero.
+floating Array default value is Zero.
+char Array default value is Nothing.
+Datetime Array default value is 1/1/0001 12:00:00 AM
+bool Array default value is False.
+
+
+
+
+
+
+
+
+
+Working with Multi-D Arrays :>
+
+1) Arranging a set of values in Rows and cols is called as Multi-D Array.
+2) Size of the Multi-D array will be indicated as no. of rows x no.
+ of cols.
+
+obs:
+ x.Length  gives total no. of elements
+ x.GetLength(0)  gives no. of rows
+ x.GetLength(1)  gives no. of cols
+
+
+
+syntax to declare Multi-D array
+
+1D: int[] x=new int[size];
+2D: int[,] x=new int[5,5];
+3D: int[,,] x=new int[2,2,2];
+
+
+Note:
+VB.Net supports upto 32 D where as there is no limit in 
+C#.Net(depends on memory(RAM))
+
+syntax to initialize 2D array :>
+int[,] x=new int[,]
+{
+{5,6,7,8},
+{1,4,2,3},
+{3,8,7,2}
+};
+
+
+
+
+Working with Jagged Arrays :>
+1) JA is a collection of Rows, where every row may contains discrete
+ no. of Col..
+2) JA saves memory.
+3) JA are faster in accessing.
+4) JA is also called as Dynamic Array.
+5) JA is also called as Array of Arrays.
+
+
+
+syntax to declare JA
+ int[][] x=new int[2][];
+// no. of cols are not allowed.
+
+ x[0]=new int[]{1,2,3,4,5};
+ x[1]=new int[]{5,6};

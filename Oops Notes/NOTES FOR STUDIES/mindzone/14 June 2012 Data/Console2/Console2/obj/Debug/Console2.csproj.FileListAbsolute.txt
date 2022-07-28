@@ -1,0 +1,10 @@
+D:\Example1\Console2\Console2\bin\Debug\Console2.exe
+D:\Example1\Console2\Console2\bin\Debug\Console2.pdb
+D:\Example1\Console2\Console2\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\Console2\Console2\obj\Debug\Console2.exe
+D:\Example1\Console2\Console2\obj\Debug\Console2.pdb
+I:\mindzone\14 June 2012 Data\Console2\Console2\obj\Debug\Console2.exe
+I:\mindzone\14 June 2012 Data\Console2\Console2\obj\Debug\Console2.pdb
+I:\mindzone\14 June 2012 Data\Console2\Console2\bin\Debug\Console2.exe
+I:\mindzone\14 June 2012 Data\Console2\Console2\bin\Debug\Console2.pdb
+I:\mindzone\14 June 2012 Data\Console2\Console2\obj\Debug\ResolveAssemblyReference.cache

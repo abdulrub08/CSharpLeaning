@@ -1,0 +1,5 @@
+D:\Example1\MCD\MCD\bin\Debug\MCD.exe
+D:\Example1\MCD\MCD\bin\Debug\MCD.pdb
+D:\Example1\MCD\MCD\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\MCD\MCD\obj\Debug\MCD.exe
+D:\Example1\MCD\MCD\obj\Debug\MCD.pdb

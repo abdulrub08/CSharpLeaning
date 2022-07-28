@@ -1,0 +1,16 @@
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\LINQ.Form1.resources
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\LINQ.Properties.Resources.resources
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\LINQ.csproj.GenerateResource.Cache
+D:\Example\CSHARP\LINQ\LINQ\bin\Debug\LINQ.exe
+D:\Example\CSHARP\LINQ\LINQ\bin\Debug\LINQ.pdb
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\LINQ.exe
+D:\Example\CSHARP\LINQ\LINQ\obj\Debug\LINQ.pdb
+D:\Example\LINQ\LINQ\obj\Debug\LINQ.exe
+D:\Example\LINQ\LINQ\obj\Debug\LINQ.pdb
+D:\Example\LINQ\LINQ\bin\Debug\LINQ.exe
+D:\Example\LINQ\LINQ\bin\Debug\LINQ.pdb
+D:\Example\LINQ\LINQ\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\LINQ\LINQ\obj\Debug\LINQ.Form1.resources
+D:\Example\LINQ\LINQ\obj\Debug\LINQ.Properties.Resources.resources
+D:\Example\LINQ\LINQ\obj\Debug\LINQ.csproj.GenerateResource.Cache

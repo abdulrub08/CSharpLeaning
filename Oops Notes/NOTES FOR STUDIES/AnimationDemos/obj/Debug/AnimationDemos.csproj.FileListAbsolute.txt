@@ -1,0 +1,12 @@
+C:\forpeersslws27aug\AnimationDemos\Bin\Debug\AnimationDemos.dll
+C:\forpeersslws27aug\AnimationDemos\Bin\Debug\AnimationDemos.pdb
+C:\forpeersslws27aug\AnimationDemos\Bin\Debug\AppManifest.xaml
+C:\forpeersslws27aug\AnimationDemos\Bin\Debug\AnimationDemos.xap
+C:\forpeersslws27aug\AnimationDemos\Bin\Debug\AnimationDemosTestPage.html
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\ResolveAssemblyReference.cache
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\App.g.cs
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\MainPage.g.cs
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\AnimationDemos.g.resources
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\AnimationDemos.dll
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\AnimationDemos.pdb
+C:\forpeersslws27aug\AnimationDemos\obj\Debug\XapCacheFile.xml

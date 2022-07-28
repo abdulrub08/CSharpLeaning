@@ -1,0 +1,339 @@
+
+
+
+
+OOPs Concepts (Object Oriented Programming Synopsis):>
+
+OOPs based on the style of programming, the languages
+ are divided into 3 types.
+
+Procedural	Structured	OOPL
+1960's ALGOL	1970's		1980's
+No loops	BASIC		OOPs
+No Arrays	COBOL		C++
+No DMA		C
+
+
+
+Problems with C lang. :>
+1) 
+ main()
+ {
+ int sal=40000;
+ printf("%d",sal);
+ }
+
+output is ~ -7700
+> There are no limits for the datatypes at runtime.
+
+
+
+2) 
+ main()
+ {
+ int i;
+ i=500*500/500;
+ printf("%d",i);
+ }
+
+output is -27
+> There is no proper internal procedure for calculations.
+
+
+
+3) 
+ long sal=5000;
+ main(){logic;}
+ void Print(){logic;}
+ void read(){logic;}
+ void mktg()
+ {
+ long sal=500000;
+ sal=sal+sal;
+ }
+
+No security for the data due to global variables.
+
+
+> To overcome all these problems, ANSI defined a set of rules called
+ as OOPs.> When a lang. supports, the following OOPs concepts, 
+then it is called as OOPL.
+
+ex> C++, C#.Net, SmalkTalk, Java, VC++
+
+
+
+
+
+OOPs concepts
+			C++	VB6.0																									Java/C#.Net
+1) Encapsulation	Y	Y	Y
+2) Abstraction		Y	Y	Y
+3) Polymorphism		Y	N	Y
+4) Inheritance		Y	N	Y
+			
+		Partially     Object	  Pure OOPL
+		OOPL	      based PL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Encapsulation :
+ It is a concept of hiding the data with the help of private variables.
+
+
+2) Abstraction :
+ Providing full information about an entity.
+
+
+3) Polymorphism :
+ It is a concept of writing more than one function with same name
+ and with different types of arguments.
+
+
+4) Inheritance :
+ It is concept of deriving the features from one class into another class.
+
+
+
+obs :
+To work with OOPs, classes and objects are required.
+
+
+Class :
+ A class is a logical representation.
+ 
+
+Object :
+ Object is a physical representation.
+	or 
+ instance of a class.
+
+
+			
+> as per .Net class is a collection of Fields, Properties, Methods and Events.
+
+
+
+Fields :
+ Private data of a class is called as Fields.
+
+Properties :
+ Defines the look and feel of an object.
+
+Methods :
+ What an object can Do.
+
+Events :
+ What user can do with an object.
+
+
+
+
+
+
+syntax to write a class >
+
+ class <cl_name>
+ {
+  private int i,j;  // Fields 
+  private string s;	//Instance var
+
+  public void print()  // Method/Function
+  {
+	stmt();
+
+  }
+ }
+
+
+syntax to create an object >
+
+ classname <obj_name>=new classname();
+				|
+			 default Constructor
+
+Note :
+ Object can access only public data but not private data.
+
+
+ex on classes and objects.
+
+
+
+
+
+
+
+Note :
+> The variables created with in a class are also called as instance variables.
+> In C#.Net, by default every class will be inherited from System.Object class.
+
+
+	System.Object 
+		-> GethashCode()
+		-> GetType()
+		-> Equals()
+		-> ToString()
+	
+	Test
+	 -> Read()
+	 -> Print()
+
+> In C#.Net every class contains minimum 4 methods.
+
+
+
+
+
+
+Working with methods and arguments >
+syntax to Method:
+
+ AccessSpecifier returnType methodName(args);
+
+ex:>
+ Public void Print(int x,int y)
+ {
+
+ }
+ Public int Print(int x,int y)
+ {
+  return int_value;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C#.Net allows to pass the parameters in 3 ways.
+
+1) pass by value
+2) pass by ref    // (ref int x) [Formal arguments]
+3) pass by out
+
+
+Note :
+
+1) When formal args are modified and if modifications are REFLECTED on
+ actual args then this concepts is called as Pass by ref.
+
+2) When formal args are modified and if modifications are not REFLECTED
+ on actual args then the concepts is called as Pass by value.
+
+3) By default all the variables will be passed as pass by value.
+
+4) ref is a keyword, which is required while passing a variable by ref.
+
+5) ref keyword must be used along with actual and formal args.
+
+6) ref variables must be initialized before passing.
+
+
+
+
+ex on Pass by value and ref 
+
+
+
+
+
+
+
+
+
+
+
+
+Pass by out >
+
+1) Out is a keyword.
+
+2) Pass by out is 99% same as pass by ref.
+
+3) In pass by out a variable can be passed without initialization also.
+
+4) out=ref-initialization
+
+
+
+
+ex on out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with this keyword :>
+
+1) This is a keyword.
+2) This works like an object for current class.
+3) When instance and Local variables names are same then CLR gives importance for local.
+4) In above case, in order to access instance variables this keyword
+ is required.
+
+
+
+ex on this keyword.
+
+

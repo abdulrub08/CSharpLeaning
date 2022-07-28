@@ -1,0 +1,64 @@
+
+Working with Multi-D Arrays :>
+
+1) Arranging a set of values in Rows and cols is called as Multi-D Array.
+2) Size of the Multi-D array will be indicated as no. of rows x no.
+ of cols.
+
+obs:
+ x.Length  gives total no. of elements
+ x.GetLength(0)  gives no. of rows
+ x.GetLength(1)  gives no. of cols
+
+
+
+syntax to declare Multi-D array
+
+1D: int[] x=new int[size];
+2D: int[,] x=new int[5,5];
+3D: int[,,] x=new int[2,2,2];
+
+
+Note:
+VB.Net supports upto 32 D where as there is no limit in 
+C#.Net(depends on memory(RAM))
+
+syntax to initialize 2D array :>
+int[,] x=new int[,]
+{
+{5,6,7,8},
+{1,4,2,3},
+{3,8,7,2}
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Jagged Arrays :>
+1) JA is a collection of Rows, where every row may contains discrete
+ no. of Col..
+2) JA saves memory.
+3) JA are faster in accessing.
+4) JA is also called as Dynamic Array.
+5) JA is also called as Array of Arrays.
+
+
+
+syntax to declare JA
+ int[][] x=new int[2][];
+// no. of cols are not allowed.
+
+ x[0]=new int[]{1,2,3,4,5};
+ x[1]=new int[]{5,6};

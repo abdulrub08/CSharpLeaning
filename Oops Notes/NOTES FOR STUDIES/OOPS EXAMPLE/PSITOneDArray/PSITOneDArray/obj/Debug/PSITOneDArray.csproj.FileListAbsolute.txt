@@ -1,0 +1,5 @@
+D:\Example1\PSITOneDArray\PSITOneDArray\bin\Debug\PSITOneDArray.exe
+D:\Example1\PSITOneDArray\PSITOneDArray\bin\Debug\PSITOneDArray.pdb
+D:\Example1\PSITOneDArray\PSITOneDArray\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITOneDArray\PSITOneDArray\obj\Debug\PSITOneDArray.exe
+D:\Example1\PSITOneDArray\PSITOneDArray\obj\Debug\PSITOneDArray.pdb

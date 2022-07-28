@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{587E6145-C907-4287-9850-DDBD01B23815}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>All</RootNamespace>
+    <AssemblyName>All</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract_Cls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abstract_Cls.Designer.cs">
+      <DependentUpon>Abstract_Cls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes_Objects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes_Objects.Designer.cs">
+      <DependentUpon>Classes_Objects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cons_Des.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cons_Des.Designer.cs">
+      <DependentUpon>Cons_Des.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Enum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enum.Designer.cs">
+      <DependentUpon>Enum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Func_Overloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Func_Overloading.Designer.cs">
+      <DependentUpon>Func_Overloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inherit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inherit.Designer.cs">
+      <DependentUpon>Inherit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inherit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inherit2.Designer.cs">
+      <DependentUpon>Inherit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interface.Designer.cs">
+      <DependentUpon>Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorOverloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperatorOverloading.Designer.cs">
+      <DependentUpon>OperatorOverloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Override.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Override.Designer.cs">
+      <DependentUpon>Override.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Overrride_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Overrride_New.Designer.cs">
+      <DependentUpon>Overrride_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassByOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassByOut.Designer.cs">
+      <DependentUpon>PassByOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassByValue_Ref.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassByValue_Ref.Designer.cs">
+      <DependentUpon>PassByValue_Ref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Abstract_Cls.resx">
+      <DependentUpon>Abstract_Cls.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes_Objects.resx">
+      <DependentUpon>Classes_Objects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cons_Des.resx">
+      <DependentUpon>Cons_Des.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enum.resx">
+      <DependentUpon>Enum.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Func_Overloading.resx">
+      <DependentUpon>Func_Overloading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inherit.resx">
+      <DependentUpon>Inherit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inherit2.resx">
+      <DependentUpon>Inherit2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interface.resx">
+      <DependentUpon>Interface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorOverloading.resx">
+      <DependentUpon>OperatorOverloading.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Override.resx">
+      <DependentUpon>Override.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Overrride_New.resx">
+      <DependentUpon>Overrride_New.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassByOut.resx">
+      <DependentUpon>PassByOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassByValue_Ref.resx">
+      <DependentUpon>PassByValue_Ref.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sealed.resx">
+      <DependentUpon>Sealed.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Static_M_Cls.resx">
+      <DependentUpon>Static_M_Cls.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Static_Var.resx">
+      <DependentUpon>Static_Var.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="This_Key.resx">
+      <DependentUpon>This_Key.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sealed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sealed.Designer.cs">
+      <DependentUpon>Sealed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Static_M_Cls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Static_M_Cls.Designer.cs">
+      <DependentUpon>Static_M_Cls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Static_Var.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Static_Var.Designer.cs">
+      <DependentUpon>Static_Var.cs</DependentUpon>
+    </Compile>
+    <Compile Include="This_Key.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="This_Key.Designer.cs">
+      <DependentUpon>This_Key.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

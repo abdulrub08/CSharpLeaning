@@ -1,0 +1,5 @@
+D:\Example1\mynewshared_assembly\mynewshared_assembly\bin\Debug\mynewshared_assembly.dll
+D:\Example1\mynewshared_assembly\mynewshared_assembly\bin\Debug\mynewshared_assembly.pdb
+D:\Example1\mynewshared_assembly\mynewshared_assembly\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\mynewshared_assembly\mynewshared_assembly\obj\Debug\mynewshared_assembly.dll
+D:\Example1\mynewshared_assembly\mynewshared_assembly\obj\Debug\mynewshared_assembly.pdb

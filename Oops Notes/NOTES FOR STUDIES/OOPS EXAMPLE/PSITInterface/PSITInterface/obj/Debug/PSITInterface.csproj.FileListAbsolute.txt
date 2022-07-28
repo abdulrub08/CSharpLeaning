@@ -1,0 +1,8 @@
+D:\Example1\PSITInterface\PSITInterface\bin\Debug\PSITInterface.exe
+D:\Example1\PSITInterface\PSITInterface\bin\Debug\PSITInterface.pdb
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\PSITInterface.Form1.resources
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\PSITInterface.Properties.Resources.resources
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\PSITInterface.csproj.GenerateResource.Cache
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\PSITInterface.exe
+D:\Example1\PSITInterface\PSITInterface\obj\Debug\PSITInterface.pdb

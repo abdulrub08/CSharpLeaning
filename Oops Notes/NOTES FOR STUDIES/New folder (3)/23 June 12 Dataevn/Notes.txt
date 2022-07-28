@@ -1,0 +1,246 @@
+
+
+Working with Operator Overloading:>
+
+Obs:>
+int i=10,j=20,k;	string S1="Abc",S2="xyz",S3;
+k=i+j;    //30		S3=S1+S2;   //AbcXyz
+
+If Test is a class and t1,t2 and t3 are objects then t3=t1+t2  //error 
+
+1) +Operator is developed to use with no. and strings only hence t3=t1+t2 gives an
+ error.
+2) OOL is a concept of providing extended functionality for an existing operator.
+3) All the operators are overdable except those contains a .(dot) i.e the following
+ are not overdable.
+4) While overloading Relational Operators these must be overloaded in PAIR.
+to overload >,< must be overloaded.
+to overload >=,<= must be overloaded.
+to overload ==,!= must be overloaded.
+5) Overloaded operator must be declared as Static.
+6) Operator is keyword.
+7) Syntax to overload an operator.
+ public static returntype operator +(args)
+ {
+  logic;
+ }
+
+
+
+
+
+
+
+
+
+
+Working with Inheritance :>
+1) Inheritance is a concept of deriving the features from one class into another class.
+2) Inheritance leads to code re-usability (write once use many times).
+3) INH also saves memory.
+4) Types in Inheritance.
+	
+	Single INH			Multilevel INH
+	
+	Base/Parent 			Base
+	    |				  |
+	Derived/Child 			Derived Base
+					  |
+					Derived
+
+	
+
+
+	Hirarchiral INH			Multiple INH  (Wrong)
+
+		A			A		B
+
+	B		C			C
+
+
+Note:
+* C#.Net does not supports multiple Inh directly, but a similar structure is possible
+ with the help of interfaces.
+
+
+Logical diagram on INH Concepts.
+
+
+Modifier :
+ These are the access specifiers for accessing.
+
+
+
+Modifier   within the Class   Derived Class   Other Class   Derived Class  Other
+							    of other	   Program
+							    program
+
+
+public		yes		yes		yes		yes	     yes
+
+private		yes		No		No		No           No
+
+protected	yes		yes		No		No           No
+
+Internal	yes		yes		yes		No           No
+
+Protected
+ Internal	yes		yes		yes		yes          No
+
+
+
+
+
+
+
+
+
+
+Working with sealed classes :>
+1) Sealed is a keyword.
+2) Sealed classes are not inheritable.
+3) When a class is providing full functionality, then recommanded to declare the
+ class as sealed.
+
+
+
+ex on Sealed Class :>
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Net framework is devided into Two Parts
+  
+1) FCL ( Framework Class Library )
+2) CLR ( Common Language Runtime )
+
+
+#include<stdio.h>        = Header file = Collection of Methods
+main()
+{
+	printf("hello");
+}
+
+
+> FCL is a collection of predefined classes, which are distributed as Assembilies.
+> A collection of classes is called as a Namespace.
+> A Collection of Namespaces is called as an Assembly.
+> A collection of Assembilies is called as FCL.
+
+FCL Contains :
+> 6000 predefined classes.
+> 65000 predefined methods.
+> 1,00,000 predefined properties.
+
+
+
+What is CLR ?
+
+CLR is a standard runtime execution engine for Managed Code.
+
+when .net is installed, then CLR related files will be stored in
+C:\Windows\System32  folder
+
+> The most important file in CLR software is MSCoreE.DLL (Microsoft
+ Core Execution Library)
+
+
+
+
+
+
+
+
+
+
+Working with DataTypes
+
+Data Types specifies type of the Data and size of the Data.
+
+C#.Net Datatypes are divided into two types.
+
+
+
+	Value Types ( Stack Memo.)				Reference Types(Heap 								```				Memory)
+
+1)Value types hold the data directly.		1)Reference types holds the address but 								NOT data
+2)Value types doesn't contains default value.	2)Reference types holds the default 									value.
+3)Value types will stored in STACK memory 	3)Reference types will be Run time and 
+  at Compile time.					stored in HEAP memory
+4)Garbage Collector cannot access STACK memory.	4)Garbage Collector can access HEAP 									memory.
+5)Ex. of Value types				5)Ex. of Reference Types
+Predefined data types, Structures, Enumerators.	Classes, Objects, Arrays, Delegates, 									Interfaces.
+
+
+
+
+Working with Pre-defined DataTypes
+
+These datatypes are divided into 4 groups.
+
+G1)Integral Data Types
+byte	-	1 byte	-	0-255
+sbyte	-	1 byte	-	-128 to +127
+short	-	2 bytes	-	-32768 to +32767
+ushort	-	2 bytes	-	0 to 65535
+
+
+int	-	4 bytes	-	~ +- 214 Crores
+uint	-	4 bytes	-	~ -+  429 Crores
+long	-	8 bytes	-	+- 2(63)
+ulong 	-	8 bytes	-	o to 2(64) -1
+
+
+
+G2)Floating Related Data Types
+
+float	-	4 bytes	-	+- 4.3*10(-31)
+
+double	-	8 bytes -	+- 4.3*10(-63)
+
+decimal -	16 bytes-	+- 4.3*10(-127)
+
+
+
+G3)Character Related Data types
+
+Char	-	2 bytes
+
+String 	-	16 bytes..........4GB
+
+
+Char > It holds unicode charactors, which are required in Globalization Applications.
+
+
+G4)Ohter Data types
+
+bool	-	1 byte	-	true/false
+
+Date/Time-	12 bytes
+1/1/0001 - 31/12/9999
+
+
+Syntax to declare a variable.
+
+<data type> variablename=value;
+
+
+Obs:
+int K=10;
+int K5=90;
+int 5K=90;	\\ 
+int _a=20;
+int *P=90;
+int @a=90;
+int if=90;	\\	
+
+

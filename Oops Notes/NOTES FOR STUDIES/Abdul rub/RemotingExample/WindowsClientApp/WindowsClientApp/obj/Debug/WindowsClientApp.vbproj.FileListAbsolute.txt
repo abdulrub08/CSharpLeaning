@@ -1,0 +1,13 @@
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\WindowsClientApp.exe
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\WindowsClientApp.pdb
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\WindowsClientApp.xml
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\RemoteClassLibrary.dll
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\RemoteClassLibrary.pdb
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\bin\Debug\RemoteClassLibrary.xml
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.Form1.resources
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.Resources.resources
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.vbproj.GenerateResource.Cache
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.exe
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.xml
+D:\Example1\RemotingExample\WindowsClientApp\WindowsClientApp\obj\Debug\WindowsClientApp.pdb

@@ -1,0 +1,7 @@
+D:\Example1\LoginControl\LoginControl\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\LoginControl\LoginControl\obj\Debug\LoginControl.LoginControl.resources
+D:\Example1\LoginControl\LoginControl\obj\Debug\LoginControl.csproj.GenerateResource.Cache
+D:\Example1\LoginControl\LoginControl\bin\Debug\LoginControl.dll
+D:\Example1\LoginControl\LoginControl\bin\Debug\LoginControl.pdb
+D:\Example1\LoginControl\LoginControl\obj\Debug\LoginControl.dll
+D:\Example1\LoginControl\LoginControl\obj\Debug\LoginControl.pdb

@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="MasterPageforsetup.master.cs" Inherits="MasterPageforsetup" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+        .style2
+    {            height: 647px;
+            width: 1125px;
+        }
+        .style3
+        {
+            width: 159px;
+            height: 520px;
+        }
+        .style4
+        {
+            height: 520px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table class="style2">
+    <tr>
+        <td class="style3">
+            <asp:Panel ID="Panel2" runat="server" Height="650px" Width="162px" 
+                style="margin-right: 0px">
+                <table class="style2" bgcolor="White" 
+                    style="color: #FFFFFF; height: 167px; width: 164px; line-height: normal;">
+                    <tr>
+                        <td style="color: #FF6666">
+                            <h3>
+                                <asp:LinkButton ID="lnkcm" runat="server" PostBackUrl="~/compose.aspx">Compose Mail</asp:LinkButton>
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>
+                                <asp:LinkButton ID="lnkinbox" runat="server" PostBackUrl="~/inbox.aspx">Inbox</asp:LinkButton>
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>
+                                <asp:LinkButton ID="lnksentmail" runat="server" PostBackUrl="~/sentmail.aspx">Sent Mail</asp:LinkButton>
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>
+                                <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/outbox.aspx" 
+                                    onclick="LinkButton1_Click">Outbox</asp:LinkButton>
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>
+                                <asp:LinkButton ID="lnkdraft" runat="server" PostBackUrl="~/draft.aspx">Draft</asp:LinkButton>
+                            </h3>
+                        </td>
+                    </tr>
+                </table>
+            </asp:Panel>
+        </td>
+        <td class="style4">
+            <asp:Panel ID="Panel3" runat="server" Height="651px" Width="948px">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </asp:Panel>
+        </td>
+    </tr>
+</table>
+</asp:Content>
+

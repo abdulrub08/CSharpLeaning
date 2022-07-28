@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="mynewprivate_assembly">
+</Property><Property Name="Solution File" Value="C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\mynewprivate_assembly.sln">
+</Property><Property Name="User Options File" Value="C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\mynewprivate_assembly.suo">
+</Property><Property Name="Date" Value="Sunday, July 08, 2012">
+</Property><Property Name="Time" Value="18:12 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="mynewprivate_assembly.sln" Description="File successfully backed up as C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\Backup\mynewprivate_assembly.sln">
+</Event><Event ErrorLevel="0" Project="" Source="mynewprivate_assembly.suo" Description="File successfully backed up as C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\Backup\mynewprivate_assembly.suo">
+</Event><Event ErrorLevel="0" Project="mynewprivate_assembly" Source="mynewprivate_assembly\mynewprivate_assembly.csproj" Description="Project file successfully backed up as C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\Backup\mynewprivate_assembly\mynewprivate_assembly.csproj">
+</Event><Event ErrorLevel="0" Project="mynewprivate_assembly" Source="mynewprivate_assembly\myprivateclass.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\Backup\mynewprivate_assembly\myprivateclass.cs">
+</Event><Event ErrorLevel="0" Project="mynewprivate_assembly" Source="mynewprivate_assembly\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\rahul\Desktop\7-7-12 Data\mynewprivate_assembly\Backup\mynewprivate_assembly\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="mynewprivate_assembly" Source="mynewprivate_assembly\mynewprivate_assembly.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mynewprivate_assembly" Source="mynewprivate_assembly\mynewprivate_assembly.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="mynewprivate_assembly.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="mynewprivate_assembly.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mynewprivate_assembly" Source="mynewprivate_assembly\mynewprivate_assembly.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

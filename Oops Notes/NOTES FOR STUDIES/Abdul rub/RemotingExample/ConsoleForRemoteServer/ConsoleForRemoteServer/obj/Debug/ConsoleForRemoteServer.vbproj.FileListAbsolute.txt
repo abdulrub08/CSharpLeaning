@@ -1,0 +1,12 @@
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\ConsoleForRemoteServer.exe
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\ConsoleForRemoteServer.pdb
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\ConsoleForRemoteServer.xml
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\RemoteClassLibrary.dll
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\RemoteClassLibrary.pdb
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\bin\Debug\RemoteClassLibrary.xml
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ConsoleForRemoteServer.Resources.resources
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ConsoleForRemoteServer.vbproj.GenerateResource.Cache
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ConsoleForRemoteServer.exe
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ConsoleForRemoteServer.xml
+D:\Example1\RemotingExample\ConsoleForRemoteServer\ConsoleForRemoteServer\obj\Debug\ConsoleForRemoteServer.pdb

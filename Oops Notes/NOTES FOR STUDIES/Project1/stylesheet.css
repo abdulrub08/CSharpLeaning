@@ -1,0 +1,127 @@
+#ribbon {
+	position:absolute;
+	top:301px;
+	left:1120px;
+	z-index:500;
+	height: 120px;
+	width: 120px;
+	
+       }
+      #product
+      {
+	position:absolute;
+	top:200px;
+	left:200px;
+	
+	height: 200px;
+	width: 200px;
+	
+       }
+       #leftside
+       {
+       	margin-top:-260px;
+        margin-right:70px;
+        margin-bottom:30px;
+       	float:right;
+       	height: 376px;
+	   width: 231px;
+       }
+       
+       
+       #upside
+       {
+       position:absolute;
+       top:140px;
+	   left:211px;
+	   height: 331px;
+	   width: 897px;
+       }
+       
+       #sidebar
+        {
+	width: 350px;
+	padding: 0;
+	float: right;
+        height: 878px;
+        }
+        #midbar
+     {
+     	margin-top:-50px;
+	
+	padding: 0;
+	margin-right:91px;
+	margin-left:91px;
+	
+      }
+      #midbar2
+     {
+    float:left;
+	margin-top:5px;
+	padding: 0;
+	height: 408px;
+	width: 582px;
+     }
+     #midbar3
+     {
+    float:right;
+	margin-top:5px;
+	padding: 0;
+	height: 440px;
+	width: 700px;
+     }
+     #bottom
+     {
+     	padding:0;
+       margin-top:340px;
+	height: 103px;
+}
+    
+    #sidebar1
+     {
+	width: 300px;
+	padding: 0;
+	margin-right:19px;
+	float: right;
+	margin-top:30px;
+        height: 254px;
+      }
+      #sidebar2
+     {
+	width: 300px;
+	padding: 0;
+	margin-right:19px;
+	float: right;
+	margin-top:30px;
+        height: 254px;
+      }
+      #contact
+      {
+       margin-left:35px;
+      }
+      
+      #mid
+      {
+       margin-top:20px;
+      }
+      
+#content {
+	float: left;
+	width: 883px;
+	height: 877px;
+}
+
+.box { 
+	margin: 0;
+	padding: 0 5px;
+	height: 878px;
+}
+ #imgesfont
+      {
+    	
+	position:absolute;
+	top:313px;
+	left:979px;
+	z-index:500;
+	bottom: 166px;
+}/* CSS Document */
+

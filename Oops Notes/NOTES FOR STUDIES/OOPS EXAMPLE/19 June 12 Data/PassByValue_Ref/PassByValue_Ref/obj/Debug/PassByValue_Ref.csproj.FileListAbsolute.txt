@@ -1,0 +1,8 @@
+D:\Example1\PassByValue_Ref\PassByValue_Ref\bin\Debug\PassByValue_Ref.exe
+D:\Example1\PassByValue_Ref\PassByValue_Ref\bin\Debug\PassByValue_Ref.pdb
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\PassByValue_Ref.Form1.resources
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\PassByValue_Ref.Properties.Resources.resources
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\PassByValue_Ref.csproj.GenerateResource.Cache
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\PassByValue_Ref.exe
+D:\Example1\PassByValue_Ref\PassByValue_Ref\obj\Debug\PassByValue_Ref.pdb

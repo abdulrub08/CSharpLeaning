@@ -1,0 +1,5 @@
+D:\Example1\PSITSharedAssembly\PSITSharedAssembly\bin\Debug\PSITSharedAssembly.dll
+D:\Example1\PSITSharedAssembly\PSITSharedAssembly\bin\Debug\PSITSharedAssembly.pdb
+D:\Example1\PSITSharedAssembly\PSITSharedAssembly\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITSharedAssembly\PSITSharedAssembly\obj\Debug\PSITSharedAssembly.dll
+D:\Example1\PSITSharedAssembly\PSITSharedAssembly\obj\Debug\PSITSharedAssembly.pdb

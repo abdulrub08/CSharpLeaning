@@ -1,0 +1,8 @@
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\bin\Debug\PSITStaticCons_Var.exe
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\bin\Debug\PSITStaticCons_Var.pdb
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\PSITStaticCons_Var.Form1.resources
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\PSITStaticCons_Var.Properties.Resources.resources
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\PSITStaticCons_Var.csproj.GenerateResource.Cache
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\PSITStaticCons_Var.exe
+D:\Example1\PSITStaticCons_Var\PSITStaticCons_Var\obj\Debug\PSITStaticCons_Var.pdb

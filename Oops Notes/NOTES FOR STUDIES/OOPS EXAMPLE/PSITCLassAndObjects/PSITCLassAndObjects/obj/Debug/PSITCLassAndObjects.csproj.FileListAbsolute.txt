@@ -1,0 +1,8 @@
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\bin\Debug\PSITCLassAndObjects.exe
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\bin\Debug\PSITCLassAndObjects.pdb
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\PSITCLassAndObjects.Form1.resources
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\PSITCLassAndObjects.Properties.Resources.resources
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\PSITCLassAndObjects.csproj.GenerateResource.Cache
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\PSITCLassAndObjects.exe
+D:\Example1\PSITCLassAndObjects\PSITCLassAndObjects\obj\Debug\PSITCLassAndObjects.pdb

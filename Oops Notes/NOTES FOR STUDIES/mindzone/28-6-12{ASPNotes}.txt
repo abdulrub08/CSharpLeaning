@@ -1,0 +1,340 @@
+Internet Technology :
+
+
+		HTTP Request
+Client			->	Web Server	+ (FF+DB+N/W)
+			<-			External Resources
+		HTTP Response
+	(Connection Oriented Stateless protocol)
+
+
+
+
+
+
+
+Obs:
+
+Whenever a client sends a request for the contents present with in 
+the Web Server. the Server can provide the response but if a request
+ is given for any external resources then the Web Server can't handle
+ the request alone.
+
+
+
+Requirement:
+
+A technology to content the external resources and to provide the 
+response to the Clients.
+
+Solution:
+
+Server Side Technology
+
+
+
+> CGI (Common Gateway Interface) Technology:
+
+
+
+
+
+
+
+
+
+
+Advantage:
+
+> Performance will be faster
+
+
+Limitation:
+
+> Resources of the Web Server will not be efficiently used and hence 
+it provides the burden to the Web Server(CGI Engine).
+
+
+
+Requirement:
+
+A technology to content the external resources and to provide the 
+response to the clients without my burden to the Web Server
+ (CGI Engine).
+
+
+
+Solution:
+
+Servlets
+
+
+
+D
+
+
+
+Advantage:
+
+Web Server resources will be used very effciently.
+
+
+Limitation:
+
+Performance will be very Slow.
+
+
+
+Requirement:
+
+A technology to contact external resources and has to provide the 
+response to the clients with out providing any burdon to the Web 
+Server and to Clients.
+
+
+
+
+
+
+Solution:
+
+Server Pages Technology
+
+Sun Microsystems	-	Java Server Pages 				(JSP)
+Oracle Corp.		-	PL/SQL Server Pages 				(PSP)
+Microsoft Corp.		-	Active Server Pages 				(ASP)
+
+
+
+
+
+ASP 3.0 Archietecture
+
+
+
+
+
+
+
+
+
+Whenever a client sends a request for the ASP page then the Script 
+engine (asp.dll) accepts the request and interacts with the external
+ resources based on the ASP page instructions and creates a Server page 
+dynamically which will be provided as the response to the client. 
+Once the response is provided the server page created at the 
+Web Server will be removed implictly.
+
+
+Note :
+The same process will take place for any no. of further clients request.
+
+
+
+
+
+
+
+
+
+
+
+ASP.Net Arch. :
+
+For 1'st time client request>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For 2nd or Nth time client request>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note :
+> Whenever the client sends a request for the ASPx Page for first 
+time then the page is identified and the page will be Compiled and 
+the result of the compiled page will be provided as the response to
+ the clients from the Server.
+
+
+
+
+
+
+> If the client sends a request for 2nd or Nth time and if source 
+code is not modified then the server reads the Compiled itself and 
+its result will be provided as the response to the clients.
+
+
+
+
+
+
+
+
+
+
+
+
+ASP 3.0 Prog. Model :
+
+
+
+To collect the Data >
+* GET : Request.QueryString("name")
+* POST : Request.Form("name")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ASP.Net prog. Model :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To collect the Data :
+	ControlName.PropertyName
+
+
+
+Auto Post Back :
+ Submitting the data to the Same page is called as AutoPostBack.
+
+
+
+
+Page.isPostBack :
+ Returns false if the page is requested for the first time and returns 
+true if the data has been Submitted to the Server.
+
+
+
+
+
+
+Drawbacks of ASP 3.0 :
+
+
+ASP=HTML (UI)
+ +
+JavaScript (client side validations with the help of Compiler)
+ +
+VBScript (Server side code with the help of Interpreter)
+ +
+COM (External Resources)
+ +
+ASP Builting Objects
+ -Request
+ -Response
+ -Server
+ -Session
+ -Application
+
+
+
+> No order to provide for writing the code.
+> Huge complex coding is needed.
+> It is not WYSWYG.
+> No In-built Security.
+> No proper State Management.
+> Caching is not efficient.
+> Performance.
+> All the drawbacks of COM is applicable.
+> Setup and Deployment.
+
+
+To overcome the drawbacks Microsoft has introduced ASP.Net
+
+
+
+
+
+
+
+
+
+
+
+ASP.Net :
+ It is a specification for developing Websites, Web Services and 
+Mobile Application.
+
+
+Note :
+Since ASP.Net is a specification it should be implemented with the 
+support of any language that targets the .Net
+
+
+ex:> VB.Net, Visual C#.Net
+

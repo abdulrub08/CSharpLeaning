@@ -1,0 +1,255 @@
+
+
+A Collection of Inter-Related Data is called as Database.
+
+Databases are divided into 3 types.
+
+DBMS		RDBMS		ORDBMS
+
+DBASE		ORACLE		ORACLE 8i....
+FOXBASE		SQLSERVER	SQLSERVER2005
+FOXPRO		MS-ACCESS	
+EXCEL		DB/2
+
+
+
+ADO.NET
+
+1) ADO.NET is an object library for communicating with Databases.
+
+2) ADO.NET introduced an assembly called as System.Data.Dll
+
+3) ADO.Net supports two types of connections.
+
+
+D
+
+
+a- Managed Connection
+b- Unmanaged Connection
+
+
+4) UnManaged connection works with the help of OLEDB (Object linking and Embedding
+ Data Bases) Providers.
+
+5) OLEDB Providers are predeveloped Dll files, these Dlls are platform Dependents.
+
+6) Hence Conn. over OLEDB are called as UnManaged connections.
+
+7) Managed Conn. works over TDS(Tabllar Data Stream) protocol.
+
+8) Managed Conn. are faster.
+
+9) ADO.Net used to develop client-Server Archietectures.
+
+10) ADO.net Namespaces are divided into 5 groups.
+
+g1) Common Namespaces
+1- system.data
+2- system.data.common
+3- system.data.SqlTypes
+
+g2) UnManaged Namespaces
+4- system.data.OleDb (All Databases)
+
+g3) Managed Namespaces
+5- system.data.SqlClient (SqlServer only)
+6- system.data.OracleClient (Oracle)
+
+g4) ODBC Namespaces
+7- system.data.ODBC (All Databases)
+
+g5) LINQ related Namespaces
+8- system.data.LINQ
+
+
+
+
+Note :
+* If Sql Connection class is used to connect SqlServer or Oracle Connection class is
+ used to connect Oracle DB then provider = provider name should not be mention with
+ in the connection string.
+
+
+
+
+
+
+
+Data Adapter :
+ Data Adapter is used to carry the Data between object and DataBase.
+
+syntax:
+xxxDataAdapter da=new xxxDataAdapterr(Query,ConnectionString|Conn. Object);
+
+
+Note:
+
+If the dataAdapter is define based on above syntax then it generates select
+ command only and other command objects of Data Adapter will not be generated.
+
+
+
+
+
+
+
+Data Set:
+
+1) Data set is a class which is the part of System.Data NameSpace.
+2) Data set supports connection-less Architecture. Active connection is not required.
+3) Data set cannot communicates directly with DB or viceversa.
+4) Data adapter is a class, which is used to provide the communication in between Dataset and Database.
+5) DataAdapter is used to carry the data only but not to hold the data.
+6) Data set holds a collection of tables, where CLR gives an index number automatically optionally.
+7) Data set supports to create relations.
+8) Data set works with the help of XML Technology.
+
+
+
+D
+
+
+syntax:
+DataSet ds=new DataSet();
+
+
+
+
+DataSet Class hirarchy :
+ A collection of classes which are related to DataSet is called as DataSet
+ class hirarchy.
+
+
+	
+		DataSet
+
+
+
+	Relations		Tables
+
+
+
+	Data Relation		Data Table
+					- Rows -Data Row
+					- Columns -Data Col.
+					- Primary Key -Data Col.
+					- Data View
+
+
+
+
+
+
+
+
+
+
+
+Steps to work with Connection Oriented Model :
+
+- Define a connection Object
+	- Connection
+
+- Define a command Object
+	- Command Conn. =
+	- Command Type = <Text|Table Direct|Stored Procedure>
+	- Command Text = "______"
+	- [Parameter Def.]
+
+- Open the Connection
+
+
+Statement :
+
+	Select			Any Valid stmt. other then Select
+	
+	ExecuteScalar()		ExecuteNonQuery()
+	ExecuteReader()
+
+
+- Close the Connection
+
+
+
+
+1) ExecuteNonQuery() :
+ Required while executing DDL,DML and SP. It returns "Integer value ".
+
+
+
+2) ExecuteReader() :
+
+ Required to execute Select stmt. need to be called when multiple
+ records are expected from a Select stmt. It returns "DataReader ".
+
+
+3) ExecuteScalar() :
+ Required to execute Select stmt. ExecuteScalar() looks for first
+ match only, If match is found then only first column value of that
+ Row will be returned as an Object DataType.
+
+
+
+
+
+
+
+
+Steps to work with Disconnected Model:
+
+- Steps to Retrieve Data :
+	* Define a connection object
+	* Define a DataAdapter object
+	* Define a DataSet object
+	* Fill the DataSet
+	* Assign the DataSet and bind the Data or return the 
+DataSet object
+
+
+
+- Steps to insert the record :
+	* Define a DataRow variable
+	syntax:
+		
+	* Assign the NewRow of the Data Member of DataSet to the DataRow Variable.
+	syntax:
+	
+	* Assign the values for the DataCols. of the Data member of DataSet
+	syntax:
+	
+	* Add the DataRow variable to the DataRows collection of the data member of 
+	data set.
+	
+		
+	* Update the DataAdapter with the Data present at the Data member of 			DataSet
+	syntax:
+	
+
+
+
+
+
+- Steps to update the Data:
+	* Define a Data Row variable
+	* Assign the dataRow which has to be modified to the dataRow variable
+	
+		
+	* Start the Edit Mode
+
+		
+	* Assign the values to the Data Cols. of the DataRow variable
+
+	* End the Edit Mode
+	
+		
+	* Update the DataAdapter with the data present at the data member of DataSet
+
+
+
+
+- Steps to delete the Data:
+	* Delete the DataRow from the DataRows Collection of the data members of DataSet
+
+	* Update the DataAdapter with the Data present in data member of dataSet
+

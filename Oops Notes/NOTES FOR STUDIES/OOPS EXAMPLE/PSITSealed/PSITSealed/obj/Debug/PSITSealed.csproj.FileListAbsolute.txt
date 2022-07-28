@@ -1,0 +1,4 @@
+D:\Example1\PSITSealed\PSITSealed\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITSealed\PSITSealed\obj\Debug\PSITSealed.Form1.resources
+D:\Example1\PSITSealed\PSITSealed\obj\Debug\PSITSealed.Properties.Resources.resources
+D:\Example1\PSITSealed\PSITSealed\obj\Debug\PSITSealed.csproj.GenerateResource.Cache

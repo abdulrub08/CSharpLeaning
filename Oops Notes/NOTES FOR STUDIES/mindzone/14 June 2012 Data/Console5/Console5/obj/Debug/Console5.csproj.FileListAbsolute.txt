@@ -1,0 +1,5 @@
+D:\Example1\Console5\Console5\bin\Debug\Console5.exe
+D:\Example1\Console5\Console5\bin\Debug\Console5.pdb
+D:\Example1\Console5\Console5\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\Console5\Console5\obj\Debug\Console5.exe
+D:\Example1\Console5\Console5\obj\Debug\Console5.pdb

@@ -1,0 +1,378 @@
+1. What is object-oriented programming (OOP)?
+
+OOP is a technique to develop logical modules, such as classes that contain properties, methods, fields, and events. An object is created in the program to represent a class.
+Therefore, an object encapsulates all the features, such as data and behavior that are associated to a class.
+OOP allows developers to develop modular programs and assemble them as software.
+Objects are used to access data and behaviors of different software modules, such as classes, namespaces, and sharable assemblies.
+.NET Framework supports only OOP languages, such as Visual Basic .NET, Visual C#, and Visual C++.
+
+
+2. What is a class?
+
+A class describes all the attributes of objects, as well as the methods that implement the behavior of member objects. 
+It is a comprehensive data type, which represents a blue print of objects. It is a template of object. 
+
+A class can be defined as the primary building block of OOP. It also serves as a template that describes the properties, state, and behaviors common to a particular 
+group of objects.
+
+A class contains data and behavior of an entity. For example, the aircraft class can contain data, such as model number, category, and color and behavior, 
+such as duration of flight, speed, and number of passengers. A class inherits the data members and behaviors of other classes by extending from them.
+
+
+3. What is an object?
+
+They are instance of classes. It is a basic unit of a system.
+ An object is an entity that has attributes, behavior, and identity. 
+Attributes and behavior of an object are defined by the class definition.
+
+
+4. What is the relationship between a class and an object?
+
+A class acts as a blue-print that defines the properties, states, and behaviors that are common to a number of objects. 
+An object is an instance of the cass. For example, you have a class called Vehicle and Car is the object of that class. 
+You can create any number of objects for the class named Vehicle, such as Van, Truck, and Auto.
+
+The new operator is used to create an object of a class. 
+When an object of a class is instantiated, the system allocates memory for every data member that is present in the class.
+
+
+5. Explain the basic features of OOPs.
+
+The following are the four basic features of OOP:
+Abstraction - Refers to the process of exposing only the relevant and essential data to the users without showing unnecessary information.
+Polymorphism - Allows you to use an entity in multiple forms.
+Encapsulation - Prevents the data from unwanted access by binding of code and data in a single unit called object.
+Inheritance - Promotes the reusability of code and eliminates the use of redundant code.
+ It is the property through which a child class obtains all the features defined in its parent class.
+ When a class inherits the common properties of another class,
+ the class inheriting the properties is called a derived class and the class that allows inheritance of its common properties is called a base class.
+
+
+6. What is the difference between arrays and collection?
+
+Array:
+You need to specify the size of an array at the time of its declaration. It cannot be resized dynamically.
+The members of an array should be of the same data type.
+
+Collection:
+The size of a collection can be adjusted dynamically, as per the user's requirement. It does not have fixed size.
+Collection can have elements of different types.
+
+
+
+
+
+
+What is Polymorphisms?
+
+Posted by: Raja
+Polymorphism means one interface and many forms. Polymorphism is a characteristics of being able to assign a different meaning or usage to
+ something in different contexts specifically to allow an entity such as a variable, a function or an object to have more than one form. 
+
+There are two types of Polymorphism. 
+Compile time: function or operator overloading 
+Runtime: Inheritence & virtual functions
+
+
+
+What is Abstract method?
+
+Posted by: Raja
+Abstract method doesn't provide the implementation & forces the derived class to override the method.
+
+
+
+What is Virtual method?
+
+Posted by: Raja
+Virtual Method has implementation & provide the derived class with the option to override it.
+
+
+
+Can Struct be inherited?
+
+Posted by: Raja
+No, Struct can't be inherited as this is implicitly sealed.
+
+
+
+What is Object?
+
+Posted by: Poster
+Object is anything that is identifiable as a single material item.
+
+
+
+What is Class?
+
+Posted by: Poster
+A Class is the generic definition of what an object is a template. 
+
+The keyword class in C# indicates that we are going to define a new class (type of object)
+
+
+
+What is Static field?
+
+Posted by: Poster
+To indicate that a field should only be stored once no matter how many instance of the class we create.
+
+
+
+
+What is Static Method?
+
+Posted by: Poster
+It is possible to declare a method as Static provided that they don't attempt to access any instance data or other instance methods.
+
+
+
+What is Inheritance?
+
+Posted by: Poster
+It provides a convenient way to reuse existing fully tested code in different context thereby saving lot of coding. 
+
+Inheritance of classes in C# is always implementation Inheritance.
+
+
+
+
+What is Virtual keyword?
+
+Posted by: Poster
+This keyword indicates that a member can be overridden in a child class. It can be applied to methods, properties, indexes and events.
+
+
+
+What is New modifiers?
+
+Posted by: Poster
+The new modifiers hides a member of the base class. C# supports only hide by signature.
+
+
+
+What is Abstract Class?
+
+Posted by: Poster
+Abstract class is a class that can not be instantiated, it exists extensively for inheritance and it must be inherited. There are scenarios in which it is useful to define classes that is not intended to instantiate; because such classes normally are used as base-classes in inheritance hierarchies, we call such classes abstract classes. 
+
+Abstract classes cannot be used to instantiate objects; because abstract classes are incomplete, it may contain only definition of the properties or methods and derived classes that inherit this implements it's properties or methods. 
+
+Static, Value Types & interface doesn't support abstract modifiers. Static members cannot be abstract. Classes with abstract member must also be abstract. 
+
+For detailed example, read this article http://www.dotnetfunda.com/articles/article467-abstract-class--explained.aspx
+
+
+
+
+What is Sealed modifiers?
+
+Posted by: Poster
+Sealed types cannot be inherited & are concrete. 
+Sealed modifiers can also be applied to instance methods, properties, events & indexes. It can't be applied to static members. 
+
+Sealed members are allowed in sealed and non-sealed classes.
+
+
+
+What is an Interface?
+
+Posted by: Poster
+An interface is a contract & defines the requisite behavior of generalization of types. 
+
+An interface mandates a set of behavior, but not the implementation. Interface must be inherited. We can't create an instance of an interface. 
+
+An interface is an array of related function that must be implemented in derived type. Members of an interface are implicitly public & abstract. 
+
+An interface can inherit from another interface.
+
+When to use Interface over abstract class?
+
+Posted by: Charugoel
+Abstract Classes: Classes which cannot be instantiated. 
+This means one cannot make a object of this class or in other way cannot create object by saying ClassAbs abs = new ClassAbs(); where ClassAbs is abstract class. 
+Abstract classes contains have one or more abstarct methods, ie method body only no implementation. 
+Interfaces: These are same as abstract classes only difference is we can only define method definition and no implementation. 
+When to use wot depends on various reasons. One being design choice. 
+One reason for using abstarct classes is we can code common 
+functionality and force our developer to use it. I can have a complete 
+class but I can still mark the class as abstract. 
+Developing by interface helps in object based communication.
+
+
+
+7. What are collections and generics?
+
+A collection can be defined as a group of related items that can be referred to as a single unit. 
+The System.Collections namespace provides you with many classes and interfaces. 
+Some of them are - ArrayList, List, Stack, ICollection, IEnumerable, and IDictionary. 
+Generics provide the type-safety to your class at the compile time. While creating a data structure, you never need to specify the data type at the time of declaration. 
+The System.Collections.Generic namespace contains all the generic collections.
+
+8. How can you prevent your class to be inherited further?
+
+You can prevent a class from being inherited further by defining it with the sealed keyword.
+
+
+
+9. What is the index value of the first element in an array?
+
+In an array, the index value of the first element is 0 (zero).
+
+
+
+10. Can you specify the accessibility modifier for methods inside the interface?
+
+All the methods inside an interface are always public, by default. You cannot specify any other access modifier for them.
+
+
+
+
+11. Is it possible for a class to inherit the constructor of its base class?
+
+No, a class cannot inherit the constructor of its base class.
+
+
+
+
+12. How is method overriding different from method overloading?
+
+Overriding involves the creation of two or more methods with the same name and same signature in different classes (one of them should be parent class and other should be child). 
+
+Overloading is a concept of using a method at different places with same name and different signatures within the same class.
+
+
+
+
+
+	
+
+Find questions, FAQ's and their answers related to .NET, C#, Vb.Net, Sql Server and many more.
+
+Post New Question	 Subscribe to Interview Questions
+ 
+Quick Links For Interview Questions Categories:
+ASP.Net	Windows Application  	.NET Framework  	C#  	VB.Net  	ADO.Net  
+Sql Server  	SharePoint  	Silverlight  	OOPs  	JQuery  	JavaScript/VBScript
+Biztalk	Patten/Practices	IIS	WCF	WPF	WWF
+Networking	Aptitude	Others  	All  	 	 
+ 
+
+
+Sql Server Interview Questions and Answers
+
+
+how to get Indian time in U.S Server?
+Author: King          Posted Date: January 17, 2012    Category: Sql Server     Points: 40
+
+You can use the below Query to get the Indian Time
+
+SELECT DATEADD(Minute, 30, DATEADD(Hour, 5, GETUTCDATE())) AS [Indian Time]
+what are the Types of constraints?
+Author: Narayanan          Posted Date: January 13, 2012    Category: Sql Server     Points: 40
+
+
+
+The following are the Types of constraints
+NOT NULL, CHECK, UNIQUE, PRIMARY KEY, FOREIGN KEY
+How do you display only few # of rows from any table?
+Author: Narayanan          Posted Date: October 31, 2011    Category: Sql Server     Points: 40
+
+Top Clause 
+
+
+what is stored procedure?
+Author: sriram          Posted Date: October 28, 2011    Category: Sql Server     Points: 40
+
+1)Stored Procedure is Predefined collection of SQL Statements.
+2)Stored Procedure is Precompiled .
+3)SP will reduce the client server network traffic.
+4)SP will reduce the bandwidth.
+5)more number of sql statements can execute the one place.
+6)easy to ERROR Handling.
+7)Sp Have input and output parameters.
+
+
+
+how to Reset the identity column in sql server?
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+SET IDENTITY_INSERT <TABLENAME> <ON> <OFF>
+
+
+
+
+Difference Between Where Clause and Having Clause?
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+Where clause is used for check condition or fetch specfic values 
+
+select * from employee where empid=1001
+
+Having clause is used for Grouping Group by Clause.
+
+avg,max,count,min....
+
+
+
+
+
+What is Trigger ,types of Trigger?
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+Trigger is a self contained block of statements that is fired when insert update delete statement(automaticaly)
+
+two types of trigger available in sql server
+
+1)instead of trigger 
+2)After Trigger
+
+sql server 2005 trigger supporting for DML-statements(Insert ,update,delete)
+sql server 2008 DML and DDL Also
+
+
+
+
+What is Self Join?
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+To join within that table is called self join.
+
+
+
+Example to check Duplicate Records:
+
+select empid from employee where empid not in(select empid from employee group by empid having count(*)>1)
+
+select empid a ,empname b from emp a, emp b
+where a.empid=b.empid
+
+Regards
+
+sriram.R
+
+
+
+How many Primary key in single table in sqlserver?
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+Primary key Restrict Duplicate Values and Null values .Each Table can have only one primary ..
+
+Create table emp(empid int constraint pk_empid primary key(empid),empname varchar(90))
+
+Regards
+Sriram.R
+www.databaseresource.blogspot.com
+
+
+
+Define Constraints in SQL SERVER
+Author: sriram          Posted Date: October 27, 2011    Category: Sql Server     Points: 40
+
+Constraints Provide the Mechanism provide integrity in the data base to create a table to check some conditions.
+
+There are Three type of constraints in sql server
+
+1) Domain Integtity Constraint(not null,check)
+2) Entity Integrity Constrinnt( Primary key ,Unique Key)
+3) Referential Integrity Constraint(Parent table,Child Table Relationship)..

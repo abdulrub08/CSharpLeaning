@@ -1,0 +1,8 @@
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\bin\Debug\NewEveBaseKeyword.exe
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\bin\Debug\NewEveBaseKeyword.pdb
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\NewEveBaseKeyword.Form1.resources
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\NewEveBaseKeyword.Properties.Resources.resources
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\NewEveBaseKeyword.csproj.GenerateResource.Cache
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\NewEveBaseKeyword.exe
+D:\Example1\NewEveBaseKeyword\NewEveBaseKeyword\obj\Debug\NewEveBaseKeyword.pdb

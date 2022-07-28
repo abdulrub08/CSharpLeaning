@@ -1,0 +1,10 @@
+C:\wcf\WCF_WF_CardSpace_Samples\WCF\Basic\Ajax\SimpleAjaxService\CS\service\bin\service.dll
+C:\wcf\WCF_WF_CardSpace_Samples\WCF\Basic\Ajax\SimpleAjaxService\CS\service\bin\service.pdb
+C:\wcf\WCF_WF_CardSpace_Samples\WCF\Basic\Ajax\SimpleAjaxService\CS\service\obj\Debug\ResolveAssemblyReference.cache
+C:\wcf\WCF_WF_CardSpace_Samples\WCF\Basic\Ajax\SimpleAjaxService\CS\service\obj\Debug\service.dll
+C:\wcf\WCF_WF_CardSpace_Samples\WCF\Basic\Ajax\SimpleAjaxService\CS\service\obj\Debug\service.pdb
+C:\ajaxws\using wcf and ajax\service\bin\service.dll
+C:\ajaxws\using wcf and ajax\service\bin\service.pdb
+C:\ajaxws\using wcf and ajax\service\obj\Debug\ResolveAssemblyReference.cache
+C:\ajaxws\using wcf and ajax\service\obj\Debug\service.dll
+C:\ajaxws\using wcf and ajax\service\obj\Debug\service.pdb

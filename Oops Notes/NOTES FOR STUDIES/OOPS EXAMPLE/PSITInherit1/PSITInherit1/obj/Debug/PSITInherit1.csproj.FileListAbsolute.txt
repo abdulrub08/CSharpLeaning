@@ -1,0 +1,8 @@
+D:\Example1\PSITInherit1\PSITInherit1\bin\Debug\PSITInherit1.exe
+D:\Example1\PSITInherit1\PSITInherit1\bin\Debug\PSITInherit1.pdb
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\PSITInherit1.Form1.resources
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\PSITInherit1.Properties.Resources.resources
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\PSITInherit1.csproj.GenerateResource.Cache
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\PSITInherit1.exe
+D:\Example1\PSITInherit1\PSITInherit1\obj\Debug\PSITInherit1.pdb

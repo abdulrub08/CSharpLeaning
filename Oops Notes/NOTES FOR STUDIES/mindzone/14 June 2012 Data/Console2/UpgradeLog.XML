@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Console2">
+</Property><Property Name="Solution File" Value="I:\mindzone\14 June 2012 Data\Console2\Console2.sln">
+</Property><Property Name="User Options File" Value="I:\mindzone\14 June 2012 Data\Console2\Console2.suo">
+</Property><Property Name="Date" Value="Thursday, June 28, 2012">
+</Property><Property Name="Time" Value="14:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Console2.sln" Description="File successfully backed up as I:\mindzone\14 June 2012 Data\Console2\Backup\Console2.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Console2.suo" Description="File successfully backed up as I:\mindzone\14 June 2012 Data\Console2\Backup\Console2.suo">
+</Event><Event ErrorLevel="0" Project="Console2" Source="Console2\Console2.csproj" Description="Project file successfully backed up as I:\mindzone\14 June 2012 Data\Console2\Backup\Console2\Console2.csproj">
+</Event><Event ErrorLevel="0" Project="Console2" Source="Console2\Program.cs" Description="File successfully backed up as I:\mindzone\14 June 2012 Data\Console2\Backup\Console2\Program.cs">
+</Event><Event ErrorLevel="0" Project="Console2" Source="Console2\Properties\AssemblyInfo.cs" Description="File successfully backed up as I:\mindzone\14 June 2012 Data\Console2\Backup\Console2\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Console2" Source="Console2\Console2.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Console2" Source="Console2\Console2.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Console2.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Console2.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Console2" Source="Console2\Console2.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

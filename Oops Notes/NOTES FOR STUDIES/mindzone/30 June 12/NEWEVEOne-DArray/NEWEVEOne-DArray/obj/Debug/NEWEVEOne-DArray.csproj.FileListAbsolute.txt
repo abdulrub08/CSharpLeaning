@@ -1,0 +1,5 @@
+D:\Example1\NEWEVEOne-DArray\NEWEVEOne-DArray\bin\Debug\NEWEVEOne-DArray.exe
+D:\Example1\NEWEVEOne-DArray\NEWEVEOne-DArray\bin\Debug\NEWEVEOne-DArray.pdb
+D:\Example1\NEWEVEOne-DArray\NEWEVEOne-DArray\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\NEWEVEOne-DArray\NEWEVEOne-DArray\obj\Debug\NEWEVEOne-DArray.exe
+D:\Example1\NEWEVEOne-DArray\NEWEVEOne-DArray\obj\Debug\NEWEVEOne-DArray.pdb

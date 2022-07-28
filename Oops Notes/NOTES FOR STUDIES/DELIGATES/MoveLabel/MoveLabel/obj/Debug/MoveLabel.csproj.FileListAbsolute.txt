@@ -1,0 +1,7 @@
+D:\Example1\MoveLabel\MoveLabel\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\MoveLabel\MoveLabel\obj\Debug\MoveLabel.MoveLabel.resources
+D:\Example1\MoveLabel\MoveLabel\obj\Debug\MoveLabel.csproj.GenerateResource.Cache
+D:\Example1\MoveLabel\MoveLabel\bin\Debug\MoveLabel.dll
+D:\Example1\MoveLabel\MoveLabel\bin\Debug\MoveLabel.pdb
+D:\Example1\MoveLabel\MoveLabel\obj\Debug\MoveLabel.dll
+D:\Example1\MoveLabel\MoveLabel\obj\Debug\MoveLabel.pdb

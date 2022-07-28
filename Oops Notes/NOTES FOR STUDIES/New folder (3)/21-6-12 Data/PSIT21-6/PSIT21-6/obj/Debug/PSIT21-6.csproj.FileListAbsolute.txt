@@ -1,0 +1,10 @@
+D:\Example1\PSIT21-6\PSIT21-6\bin\Debug\PSIT21-6.exe
+D:\Example1\PSIT21-6\PSIT21-6\bin\Debug\PSIT21-6.pdb
+D:\Example1\PSIT21-6\PSIT21-6\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSIT21-6\PSIT21-6\obj\Debug\PSIT21-6.exe
+D:\Example1\PSIT21-6\PSIT21-6\obj\Debug\PSIT21-6.pdb
+C:\Users\shaif\Desktop\New folder (3)\21-6-12 Data\PSIT21-6\PSIT21-6\obj\Debug\PSIT21-6.exe
+C:\Users\shaif\Desktop\New folder (3)\21-6-12 Data\PSIT21-6\PSIT21-6\obj\Debug\PSIT21-6.pdb
+C:\Users\shaif\Desktop\New folder (3)\21-6-12 Data\PSIT21-6\PSIT21-6\bin\Debug\PSIT21-6.exe
+C:\Users\shaif\Desktop\New folder (3)\21-6-12 Data\PSIT21-6\PSIT21-6\bin\Debug\PSIT21-6.pdb
+C:\Users\shaif\Desktop\New folder (3)\21-6-12 Data\PSIT21-6\PSIT21-6\obj\Debug\ResolveAssemblyReference.cache

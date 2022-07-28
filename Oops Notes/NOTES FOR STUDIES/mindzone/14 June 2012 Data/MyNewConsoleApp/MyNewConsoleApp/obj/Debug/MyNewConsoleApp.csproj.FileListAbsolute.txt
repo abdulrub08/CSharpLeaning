@@ -1,0 +1,5 @@
+D:\Example1\MyNewConsoleApp\MyNewConsoleApp\bin\Debug\MyNewConsoleApp.exe
+D:\Example1\MyNewConsoleApp\MyNewConsoleApp\bin\Debug\MyNewConsoleApp.pdb
+D:\Example1\MyNewConsoleApp\MyNewConsoleApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\MyNewConsoleApp\MyNewConsoleApp\obj\Debug\MyNewConsoleApp.exe
+D:\Example1\MyNewConsoleApp\MyNewConsoleApp\obj\Debug\MyNewConsoleApp.pdb

@@ -1,0 +1,63 @@
+Windows Presentation Foundation :(WPF)
+
+> WPF is a new concept introduced in 3.5
+> WPF is used to develop RICH interactive Desktop Applications.
+> WPF Supports to develop :
+	a> Rich Graphics
+	b> Animations
+	c> Tranformations
+	d> Brushes etc....
+> To work with WPF, .Net introduced WPF Application Template.
+> To work with WPF, .Net introduced xaml (Zammel Extensible Application Markup Language)
+ Concepts.
+ 
+
+
+Comparisons in between HTML, XML and XAML
+
+HTML				XML			XAML
+1> No case sensitive	Case Sensitive			Case Sensitive
+2> Designing		Describing			Designing
+3> Error Free		Structured Lang.		Structured Lang.
+4> No rules 		First Tag <xml>			First tag 																													<window>
+5> Collection of	User defined tags		Predefined tags
+predefined tags	
+
+
+
+
+Brushes :
+
+> Solid color Brush
+> Gradiant Brush
+	a> Linear gradiant Brush
+	b> Radial gradiant Brush
+> Image Brush
+
+
+
+
+
+
+WPF Transformations :
+
+> Transformation is a concept of changing an object position 
+in a particular direction.
+
+WPF supports 3 types of transformations.
+	a> Rotate Transformation
+	b> Skew	Transformation (Strecth)
+	c> Scale Transformation (Size)
+
+
+
+
+
+
+
+
+
+
+
+
+

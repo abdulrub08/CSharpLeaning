@@ -1,0 +1,14 @@
+D:\Example\WpfApplication5\WpfApplication5\bin\Debug\WpfApplication5.exe
+D:\Example\WpfApplication5\WpfApplication5\bin\Debug\WpfApplication5.pdb
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\Window1.baml
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\Window1.g.cs
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\App.g.cs
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5_MarkupCompile.cache
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.g.resources
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.Properties.Resources.resources
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.csproj.GenerateResource.Cache
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.exe
+D:\Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.pdb
+D:\Example\WPF Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.exe
+D:\Example\WPF Example\WpfApplication5\WpfApplication5\obj\Debug\WpfApplication5.pdb

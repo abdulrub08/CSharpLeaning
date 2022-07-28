@@ -1,0 +1,13 @@
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\favicon.ico
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\SilverlightApplication1.dll
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\SilverlightApplication1.pdb
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\AppManifest.xaml
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\SilverlightApplication1.xap
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\Bin\Debug\TestPage.html
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\App.g.cs
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\MainPage.g.cs
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\SilverlightApplication1.g.resources
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\SilverlightApplication1.dll
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\SilverlightApplication1.pdb
+C:\forpeersslws27aug\SilverlightApplication3\SilverlightApplication1\obj\Debug\XapCacheFile.xml

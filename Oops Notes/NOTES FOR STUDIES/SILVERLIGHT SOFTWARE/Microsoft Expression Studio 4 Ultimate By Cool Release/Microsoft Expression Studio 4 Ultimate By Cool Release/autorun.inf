@@ -1,0 +1,4 @@
+[autorun]
+label=Microsoft Expression Studio 4
+icon=Setup.exe,0
+open=Setup.exe

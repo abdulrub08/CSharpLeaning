@@ -1,0 +1,14 @@
+D:\Example1\UDCApp\UDCApp\bin\Debug\UDCApp.exe
+D:\Example1\UDCApp\UDCApp\bin\Debug\UDCApp.pdb
+D:\Example1\UDCApp\UDCApp\bin\Debug\LoginControl.dll
+D:\Example1\UDCApp\UDCApp\bin\Debug\LoginControl.pdb
+D:\Example1\UDCApp\UDCApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\UDCApp\UDCApp\obj\Debug\UDCApp.Form1.resources
+D:\Example1\UDCApp\UDCApp\obj\Debug\UDCApp.Properties.Resources.resources
+D:\Example1\UDCApp\UDCApp\obj\Debug\UDCApp.csproj.GenerateResource.Cache
+D:\Example1\UDCApp\UDCApp\obj\Debug\UDCApp.exe
+D:\Example1\UDCApp\UDCApp\obj\Debug\UDCApp.pdb
+D:\Example1\UDCApp\UDCApp\bin\Debug\MoveLabel.dll
+D:\Example1\UDCApp\UDCApp\bin\Debug\UDCEvents.dll
+D:\Example1\UDCApp\UDCApp\bin\Debug\UDCEvents.pdb
+D:\Example1\UDCApp\UDCApp\bin\Debug\MoveLabel.pdb

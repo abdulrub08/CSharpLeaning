@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PSITConsoleApp">
+</Property><Property Name="Solution File" Value="C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\PSITConsoleApp.sln">
+</Property><Property Name="User Options File" Value="C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\PSITConsoleApp.suo">
+</Property><Property Name="Date" Value="Tuesday, June 26, 2012">
+</Property><Property Name="Time" Value="10:03 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PSITConsoleApp.sln" Description="File successfully backed up as C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\Backup\PSITConsoleApp.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PSITConsoleApp.suo" Description="File successfully backed up as C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\Backup\PSITConsoleApp.suo">
+</Event><Event ErrorLevel="0" Project="PSITConsoleApp" Source="PSITConsoleApp\PSITConsoleApp.csproj" Description="Project file successfully backed up as C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\Backup\PSITConsoleApp\PSITConsoleApp.csproj">
+</Event><Event ErrorLevel="0" Project="PSITConsoleApp" Source="PSITConsoleApp\Program.cs" Description="File successfully backed up as C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\Backup\PSITConsoleApp\Program.cs">
+</Event><Event ErrorLevel="0" Project="PSITConsoleApp" Source="PSITConsoleApp\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\shaif\Desktop\New folder (3)\20-6-12 Data\PSITConsoleApp\Backup\PSITConsoleApp\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PSITConsoleApp" Source="PSITConsoleApp\PSITConsoleApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PSITConsoleApp" Source="PSITConsoleApp\PSITConsoleApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PSITConsoleApp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PSITConsoleApp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PSITConsoleApp" Source="PSITConsoleApp\PSITConsoleApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

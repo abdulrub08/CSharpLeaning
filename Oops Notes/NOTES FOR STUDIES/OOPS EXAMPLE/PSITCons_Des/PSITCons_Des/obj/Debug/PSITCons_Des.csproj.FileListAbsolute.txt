@@ -1,0 +1,8 @@
+D:\Example1\PSITCons_Des\PSITCons_Des\bin\Debug\PSITCons_Des.exe
+D:\Example1\PSITCons_Des\PSITCons_Des\bin\Debug\PSITCons_Des.pdb
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\PSITCons_Des.Form1.resources
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\PSITCons_Des.Properties.Resources.resources
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\PSITCons_Des.csproj.GenerateResource.Cache
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\PSITCons_Des.exe
+D:\Example1\PSITCons_Des\PSITCons_Des\obj\Debug\PSITCons_Des.pdb

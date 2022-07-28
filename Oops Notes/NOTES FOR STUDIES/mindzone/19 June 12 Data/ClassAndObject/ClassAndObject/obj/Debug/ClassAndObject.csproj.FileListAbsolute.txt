@@ -1,0 +1,8 @@
+D:\Example1\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.exe
+D:\Example1\ClassAndObject\ClassAndObject\bin\Debug\ClassAndObject.pdb
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.Form1.resources
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.Properties.Resources.resources
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.csproj.GenerateResource.Cache
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.exe
+D:\Example1\ClassAndObject\ClassAndObject\obj\Debug\ClassAndObject.pdb

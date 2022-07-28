@@ -1,0 +1,29 @@
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.exe
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.pdb
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.Properties.Resources.resources
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.csproj.GenerateResource.Cache
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.exe
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.pdb
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmLoginForm.resources
+D:\Example1\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmWelcome.resources
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.exe
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.pdb
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.exe
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.pdb
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\ResolveAssemblyReference.cache
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmLoginForm.resources
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmWelcome.resources
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.Properties.Resources.resources
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+J:\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\GenerateResource-ResGen.write.1.tlog
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.exe
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.pdb
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.exe
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\bin\Debug\MyFirstWindowsApp.pdb
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\ResolveAssemblyReference.cache
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmLoginForm.resources
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.frmWelcome.resources
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\MyFirstWindowsApp.Properties.Resources.resources
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\GenerateResource-ResGen.read.1.tlog
+I:\mindzone\16-06-12 Data\MyFirstWindowsApp\MyFirstWindowsApp\obj\Debug\GenerateResource-ResGen.write.1.tlog

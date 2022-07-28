@@ -1,0 +1,15 @@
+﻿Installing assembly 'D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+   i = 
+   logfile = D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.InstallLog
+Installing service StopSolitaire...
+Service StopSolitaire has been successfully installed.
+Creating EventLog source StopSolitaire in log Application...
+Committing assembly 'D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+   i = 
+   logfile = D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.InstallLog

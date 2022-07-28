@@ -1,0 +1,8 @@
+D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+D:\Example\NewCSharp\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.Service1.resources
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+D:\Example\NewCSharp\Solitaire\Solitaire\obj\Debug\Solitaire.ProjectInstaller.resources

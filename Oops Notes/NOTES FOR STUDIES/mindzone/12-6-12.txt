@@ -1,0 +1,373 @@
+
+
+
+1) Platform Independent :
+
+case 1
+
+obs 1 : as .class file is executable in any OS with the help of JVM( Java Virtual
+ Machine ), hence Java is called as platform independent.
+
+JVM Software is platform dependent.
+a seperate version of JVM software is introduced for every OS.
+
+case 2
+
+obs 2 : as .exe (executable) or .DLL (Dynamic Link Library) are executable in any OS
+ with the help of a CLR (Common Language Runtime).
+
+hence .Net is platform independent.
+for every OS a seperate version of CLR is available, hence CLR is Platform
+ dependent.
+
+********* is .Net is Pure Platform Independent or not ?
+
+.Net is partially Platform Independent Languages.
+as of now CLR softwares are not yet developed for DOS and Win 95
+
+
+
+
+
+2) Language Independent :
+
+
+
+
+
+
+D
+
+
+as .Net application logic can be developed in any .net framework compatiable
+ languages,hence .Net is called as Language Independent.
+
+as of now .net framework is supporting.
+
+
+
+11 languages + 1 specification ( ASP.Net )
+
+1) Visual C#.Net
+2) Visual Basic.Net
+3) Visual J#.Net
+4) Visual C++.Net
+5) COBOL.Net
+6) PERL.Net
+7) VBScript.Net
+8) JScript.Net
+9) PHP.Net
+10) Small Talk.Net
+11) Python.Net
+12) Visual F#.Net
+
+VB.Net is not case sensitive
+C#.Net is case sensitive
+ASP.Net is depend on Language
+
+
+ASP.Net is a specification, which provides a set of rules and these rules
+ need to be followed by Integrated Language.
+
+
+
+
+
+
+
+
+
+
+What is DLL?
+as per VB6.0 or VC++6.0
+
+DLL = Reusable = COM = OS dependent = Platform dependent
+
+
+1) as per VB6.0 or VC++6.0, DLLs are called as COM Components.
+2) COM is used to developed Reusable Components.
+3) COM Components must be registered for a class id.
+4) Class ID is part of Registry.
+5) as Registry is u/c of Windows OS, hence COM is Platform dependent.
+
+
+What is DLL as per .Net?
+
+1) as per .Net, A DLL contains platform independent code in the format of
+ Byte Code.
+2) A DLL is also called as Assembly.
+3) A DLL is also called as Managed Code.
+4) A DLL is also called as MSIL.
+
+
+
+What is managed code?
+
+> The Code, which targets CLR is called as Managed Code.
+> The Code, which takes OS help while execution is called as UNManaged Code.
+> Managed Code is faster in Execution.
+
+
+.Net framework is intoduced as a development platform.
+
+as Memory Management is u/c of .Net framework with the help of Garbage Collector
+ ( GC ).hence .Net framework is called as development.
+
+
+
+
+
+
+
+
+.Net framework is devided into Two Parts
+  
+1) FCL ( Framework Class Library )
+2) CLR ( Common Language Runtime )
+
+
+#include<stdio.h>        = Header file = Collection of Methods
+main()
+{
+	printf("hello");
+}
+
+
+> FCL is a collection of predefined classes, which are distributed as Assembilies.
+> A collection of classes is called as a Namespace.
+> A Collection of Namespaces is called as an Assembly.
+> A collection of Assembilies is called as FCL.
+
+FCL Contains :
+> 6000 predefined classes.
+> 65000 predefined methods.
+> 1,00,000 predefined properties.
+
+
+
+What is CLR ?
+
+CLR is a standard runtime execution engine for Managed Code.
+
+when .net is installed, then CLR related files will be stored in
+C:\Windows\System32  folder
+
+> The most important file in CLR software is MSCoreE.DLL (Microsoft
+ Core Execution Library)
+
+
+
+
+
+
+
+
+
+3) Language Integration :
+
+Language Integration is a concept of developing an application with the help
+ of more than one .Net compatiable languages.
+
+Assembly is a collection of classes developed in different languages and
+ packed as a DLL to achieve  a task.
+
+After a project is executed, then CLS (Common Language Specification)
+ format will be created.
+
+CLS contains the Common Syntaxes for all the Languages.
+
+CLS contains the Common datatypes for all the Languages, which are
+ called as CTS (Common Type System)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+obs: 
+
+C#.Net			VB.Net				C++
+
+short =2                short =2			int =2
+int =4			int =4				long=4
+long=8			long=8
+
+
+
+			CTS Datatypes
+
+			system.int16
+			system.int32
+			system.int64
+
+
+
+
+
+
+
+
+
+
+Assembly :
+
+The compiled source code of any .Net application is called as an Assembly.
+
+
+Note :
+
+> Assembly with as entry point, main method then they are called as
+ Applications (.exe)
+> Assembly without as entry point is called as Class Library (.dll)
+
+
+
+
+.exe or .dll
+	
+		Metadata
+	
+		MSIL
+	
+		Resource
+
+		Manifest
+
+
+> It is called as "PE WRAPPER".
+> (Portable Executable WRAPPER)
+> It is an .exe file, then "PE WRAPPER" is present to call CLR.
+
+
+
+Metadata :
+
+It maintains the info. about the header files that are used with in the 
+application. We can identify where the header files are located.
+
+
+MSIL code :
+
+The code present within the Assembly will be in the format of MSIL
+ instructions (byte Code), where the MSIL format is a machine independent
+ and platform independent.
+
+Resource :
+
+It maintains the information about the external resources used within the application
+ such as audio-video clips, icons, cursors, images etc.
+
+Manifest :
+
+It maintains the details about the attributes of an Assembly such as the
+ product name, description, version etc.
+
+
+
+
+******
+> Assembly just specifies about itself but it will not provide any info.
+ needed for execution. so, we depend on CLR.
+> Hence OS cannot execute the assembly on its own.
+
+
+
+
+
+
+
+
+
+
+
+Working with DataTypes
+
+Data Types specifies type of the Data and size of the Data.
+
+C#.Net Datatypes are divided into two types.
+
+
+
+	Value Types ( Stack Memo.)				Reference Types(Heap Memory)
+
+1)Value types hold the data directly.		1)Reference types holds the address but NOT data
+2)Value types doesn't contains default value.	2)Reference types holds the default value.
+3)Value types will stored in STACK memory 	3)Reference types will be Run time and 
+at Compile time.					stored in HEAP memory
+4)Garbage Collector cannot access STACK memory.	4)Garbage Collector can access HEAP memory.
+5)Ex. of Value types				5)Ex. of Reference Types
+Predefined data types, Structures, Enumerators.	Classes, Objects, Arrays, Delegates, Interfaces.
+
+
+
+
+Working with Pre-defined DataTypes
+
+These datatypes are divided into 4 groups.
+
+G1)Integral Data Types
+byte	-	1 byte	-	0-255
+sbyte	-	1 byte	-	-128 to +127
+short	-	2 bytes	-	-32768 to +32767
+ushort	-	2 bytes	-	0 to 65535
+
+
+int	-	4 bytes	-	~ +- 214 Crores
+uint	-	4 bytes	-	~ -+  429 Crores
+long	-	8 bytes	-	+- 2(63)
+ulong 	-	8 bytes	-	o to 2(64) -1
+
+
+
+G2)Floating Related Data Types
+
+float	-	4 bytes	-	+- 4.3*10(-31)
+
+double	-	8 bytes -	+- 4.3*10(-63)
+
+decimal -	16 bytes-	+- 4.3*10(-127)
+
+
+
+G3)Character Related Data types
+
+Char	-	2 bytes
+
+String 	-	16 bytes..........4GB
+
+
+Char > It holds unicode charactors, which are required in Globalization Applications.
+
+
+G4)Ohter Data types
+
+bool	-	1 byte	-	true/false
+
+Date/Time-	12 bytes
+1/1/0001 - 31/12/9999
+
+
+Syntax to declare a variable.
+
+<data type> variablename=value;
+
+
+Obs:
+int K=10;
+int K5=90;
+int 5K=90;	\\ 
+int _a=20;
+int *P=90;
+int @a=90;
+int if=90;	\\	
+
+

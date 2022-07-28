@@ -1,0 +1,181 @@
+> Platform Independent :
+
+obs 1 : as .class file is executable in any OS with the help of 
+JVM( Java Virtual Machine ), hence Java is called as platform
+independent.
+
+JVM Software is platform dependent.
+a seperate version of JVM software is introduced for every OS.
+
+
+
+obs 2 : as .exe (executable) or .DLL (Dynamic Link Library) are 
+executable in any OS with the help of a CLR (Common Language Runtime).
+
+hence .Net is platform independent.
+for every OS a seperate version of CLR is available, hence CLR is
+Platform dependent.
+
+********* is .Net is Pure Platform Independent or not ?
+
+.Net is partially Platform Independent Languages.
+as of now CLR softwares are not yet developed for DOS and Win 95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> Language Independent :
+
+as .Net application logic can be developed in any .net framework
+ compatiable languages,hence .Net is called as Language Independent.
+
+as of now .net framework is supporting.
+
+
+12 languages + 1 specification ( ASP.Net )
+
+1) Visual C#.Net
+2) Visual Basic.Net
+3) Visual J#.Net
+4) Visual C++.Net
+5) COBOL.Net
+6) PERL.Net
+7) VBScript.Net
+8) JScript.Net
+9) PHP.Net
+10) Small Talk.Net
+11) Python.Net
+12) Visual F#.Net
+
+
+VB.Net is not case sensitive
+C#.Net is case sensitive
+ASP.Net is depend on Language
+
+
+ASP.Net is a specification, which provides a set of rules and
+ these rules need to be followed by Integrated Language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is DLL?
+as per VB6.0 or VC++6.0
+
+DLL = Reusable = COM = OS dependent = Platform dependent
+
+
+1) as per VB6.0 or VC++6.0, DLLs are called as COM Components.
+2) COM is used to developed Reusable Components.
+3) COM Components must be registered for a class id.
+4) Class ID is part of Registry.
+5) as Registry is u/c of Windows OS, hence COM is Platform dependent.
+
+What is DLL as per .Net?
+
+1) as per .Net, A DLL contains platform independent code in the format
+ of Byte Code.
+2) A DLL is also called as Assembly.
+3) A DLL is also called as Managed Code.
+4) A DLL is also called as MSIL(Microsoft intermediate Language).
+
+
+
+
+
+
+
+
+
+
+
+What is managed code?
+
+> The Code, which targets CLR is called as Managed Code.
+> The Code, which takes OS help while execution is called as 
+UNManaged Code.
+> Managed Code is faster in Execution.
+
+
+.Net framework is intoduced as a development platform.
+
+as Memory Management is u/c of .Net framework with the help of Garbage Collector ( GC ).hence .Net framework is called as development.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Net framework is devided into Two Parts
+  
+1) FCL ( Framework Class Library )
+
+#include<stdio.h> = Header file = Collection of Methods
+main()
+{
+	printf("hello");
+}
+
+
+> FCL is a collection of predefined classes, which are distributed
+ as Assembilies.
+> A collection of classes is called as a Namespace.
+> A Collection of Namespaces is called as an Assembly.
+> A collection of Assembilies is called as FCL.
+
+FCL Contains :
+> ~6000 predefined classes.
+> ~65000 predefined methods.
+> ~1,00,000 predefined properties.
+
+
+
+
+
+
+
+
+
+
+
+
+2) What is CLR ?
+
+CLR is a standard runtime execution engine for Managed Code.
+
+when .net is installed, then CLR related files will be stored in
+C:\Windows\System32  folder
+
+> The most important file in CLR software is MSCoreE.DLL (Microsoft
+ Core Execution Library)
