@@ -1,0 +1,15 @@
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\bin\Debug\net6.0\EveningBatchOnline.exe
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\bin\Debug\net6.0\EveningBatchOnline.deps.json
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\bin\Debug\net6.0\EveningBatchOnline.runtimeconfig.json
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\bin\Debug\net6.0\EveningBatchOnline.dll
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\bin\Debug\net6.0\EveningBatchOnline.pdb
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.AssemblyInfoInputs.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.AssemblyInfo.cs
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.dll
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\refint\EveningBatchOnline.dll
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.pdb
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\EveningBatchOnline.genruntimeconfig.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\EveningBatchOnline\EveningBatchOnline\obj\Debug\net6.0\ref\EveningBatchOnline.dll
