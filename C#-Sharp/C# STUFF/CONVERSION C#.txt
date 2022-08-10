@@ -1,0 +1,20 @@
+//   int x = 100;
+           // float y = x; // implicit conversion of data type
+
+            string a = "100";
+            string b = "200";
+
+            //int num1 = int.Parse(a);
+            //int num2 = int.Parse(b);
+
+            int num1 = Convert.ToInt32(a);
+            //int num2 = Convert.ToInt32(b);
+            //int c = num1 + num2;
+
+            Console.WriteLine(a);
+
+            //float a = 34.657f;
+            //int b = (int)a; // explicit conversion of data type
+            //int b = Convert.ToInt32(a);
+            //Console.WriteLine(b);
+            Console.ReadLine();

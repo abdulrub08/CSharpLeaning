@@ -12,3 +12,14 @@ C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\CSharpOops.pdb
 C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\BAL.dll
 C:\RavishBatch\CSharpOops\CSharpOops\bin\Debug\BAL.pdb
 C:\RavishBatch\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csprojResolveAssemblyReference.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe.config
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\bin\Debug\CSharpOops.exe
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\bin\Debug\CSharpOops.pdb
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\bin\Debug\BAL.dll
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\bin\Debug\BAL.pdb
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csproj.AssemblyReference.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csproj.CoreCompileInputs.cache
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.csproj.CopyComplete
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.exe
+C:\Users\Abdul\Documents\RavishBatch\CSharpLeaning\CSharpOops\CSharpOops\obj\Debug\CSharpOops.pdb

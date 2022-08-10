@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication28
+{
+    class person
+    {
+        public static string name;
+        public static int age;
+
+        static person()
+        {
+            name = "Ali";
+            age = 20;
+            Console.WriteLine("Static constructor invoked !!");
+        }
+
+       
+        public person()
+        {
+            Console.WriteLine(" instance constructor invoked !!");
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            person p = new person();
+            person p1 = new person();
+            
+
+        }
+    }
+}

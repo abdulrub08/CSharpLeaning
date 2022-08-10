@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constructor_In_Inheritance
+{
+
+    class BaseClass
+    {
+        public BaseClass(string message)
+        {
+            Console.WriteLine(message);
+        }
+        public BaseClass(int i)
+        {
+            Console.WriteLine(i);
+        }
+    
+    }
+
+    class DerivedClass : BaseClass
+    {
+        public DerivedClass() : base(25)
+        {
+            Console.WriteLine("this is a constructor of Derived class !!");
+        
+        }
+    
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DerivedClass dc = new DerivedClass();
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Classes_And_Objects
+{
+    class Student
+    {
+        int rollno;
+        string name;
+        int age;
+        int standard;
+
+        public void setStudent(int rollno, string name, int age, int standard)
+        {
+            this.rollno = rollno;
+            this.name = name;
+            this.age = age;
+            this.standard = standard;
+        }
+        public void getStudent()
+        {
+            Console.WriteLine("Your Roll No is: {0}",this.rollno);
+            Console.WriteLine("Your Name is: {0}", this.name);
+            Console.WriteLine("Your Age is: {0}", this.age);
+            Console.WriteLine("Your Class is: {0}", this.standard);
+        }
+
+
+        static void Main(string[] args)
+        {
+            //Console.WriteLine("Enter Roll No:");
+            //int roll = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Name:");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Enter Age:");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Class:");
+            //int standard = int.Parse(Console.ReadLine());
+
+            // object is an instance of a class
+
+            Student Ali = new Student();
+            Ali.setStudent(11,"Ali khan",22,12);
+            Ali.getStudent();
+            Console.WriteLine("-----------------");
+            Student Asad = new Student();
+            Asad.setStudent(24, "Asad Ali", 23,12);
+            Asad.getStudent();
+            
+
+            Console.ReadLine();
+
+
+        }
+    }
+}

@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Static_And_Instance_Members
+{
+
+    class Student
+    {
+        public int rollNo;
+        public string firstName;
+        public string lastName;
+        public int standard;
+        public static string schoolName = "ABC School";
+        public static int fees = 4000;
+
+        public void printFullName()
+        {
+            string fullname = this.firstName + " " + this.lastName;
+            Console.WriteLine("Your full name is {0}", fullname);
+            Console.WriteLine(schoolName);
+        }
+
+        public static int getFees()
+        {
+            
+            return fees;
+        }
+        public static int getFeesAnnualIncrement(int fee)
+        {
+            return fee / 10;
+        }
+    
+    }
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Student Ali = new Student();
+            Ali.rollNo = 23;
+            Ali.firstName = "Ali";
+            Ali.lastName = "Khan";
+            Ali.standard = 12;
+            
+
+
+            Student Zain = new Student();
+            Zain.rollNo = 25;
+            Zain.firstName = "Zain";
+            Zain.lastName = "Ansari";
+            Zain.standard = 11;
+            
+            Console.WriteLine(Ali.rollNo);
+            Console.WriteLine(Ali.firstName);
+            Console.WriteLine(Ali.lastName);
+            Console.WriteLine(Ali.standard);
+            Ali.printFullName();
+            Console.WriteLine(Student.schoolName);
+            Console.WriteLine("-------------");
+            Console.WriteLine(Zain.rollNo);
+            Console.WriteLine(Zain.firstName);
+            Console.WriteLine(Zain.lastName);
+            Console.WriteLine(Zain.standard);
+            Zain.printFullName();
+            Console.WriteLine(Student.schoolName);
+            Console.WriteLine(Student.getFees());
+            Console.WriteLine(Student.getFeesAnnualIncrement(3000));
+            Console.ReadLine();
+        }
+    }
+}

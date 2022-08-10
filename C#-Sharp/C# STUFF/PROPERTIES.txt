@@ -1,0 +1,128 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PROPERTIES_DEMO
+{ 
+    class student
+    {
+        public string _firstName { get; private set; }
+        public string _lastName { get; private set; }
+
+        public student(string fname, string lname)
+        {
+            _firstName = fname;
+            _lastName = lname;
+        }
+
+        //private int _StdId;
+        //private string _Name;
+        //private string _Fname;
+        //private int _SubjectTotalMarks = 100;
+
+        //public int StdId
+        //{
+        //    set
+        //    {
+        //        this._StdId = value;
+        //    }
+        //}
+ 
+        //public int SubjectTotalMarks
+        //{
+        //    get
+        //    {
+        //        return this._SubjectTotalMarks;
+        //    }
+        //}
+
+        //public int StdId
+        //{
+        //    set
+        //    {
+        //        if (value <= 0)
+        //        {
+        //            Console.WriteLine("You cannot insert zero or negative values !!");
+        //        }
+        //        else 
+        //        {
+        //            this._StdId = value;
+        //        }
+                
+        //    }
+        //    get
+        //    {
+        //        return this._StdId;
+        //    }
+        //}
+
+        //public string Name
+        //{
+        //    set
+        //    {
+        //        if(string.IsNullOrEmpty(value))
+        //        {
+        //            Console.WriteLine("Please enter your name !!");
+        //        }
+        //        else
+        //        {
+        //            this._Name = value;
+        //        }
+        //    }
+        //    get
+        //    {
+        //        return this._Name;
+        //    }
+        //}
+
+        //public string Fname
+        //{
+        //    set
+        //    {
+        //        if (string.IsNullOrEmpty(value))
+        //        {
+        //            Console.WriteLine("Please enter your father name !!");
+        //        }
+        //        else
+        //        {
+        //            this._Fname = value;
+        //        }
+        //    }
+        //    get
+        //    {
+        //        return this._Fname;
+        //    }
+        //}
+
+
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            student ali = new student("Ali","Khan");
+            //ali._firstName = "Irfan";
+            //ali._lastName = "Bughio";
+            Console.WriteLine(ali._firstName + " " + ali._lastName);
+
+            //ali._firstName = "Ali";
+            //ali._lastName = "Khan";
+            //Console.WriteLine(ali._firstName + " " + ali._lastName);
+            //ali.SubjectTotalMarks = 150;
+            //Console.WriteLine(ali.SubjectTotalMarks);
+            //ali.StdId = 12;
+            //Console.WriteLine(ali.StdId);
+
+            //ali.StdId = 6;
+            //ali.Name = "Ali";
+            //ali.Fname = "Fazal";
+            //Console.WriteLine(ali.StdId);
+            //Console.WriteLine(ali.Name);
+            //Console.WriteLine(ali.Fname);
+            Console.ReadLine();
+        }
+    }
+}

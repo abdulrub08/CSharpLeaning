@@ -1,0 +1,127 @@
+static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter your Roll no");
+            string roll = Console.ReadLine();
+            Console.WriteLine("Enter your Class");
+            string standard = Console.ReadLine();
+            Console.WriteLine("Enter Urdu Marks");
+            int u = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Math Marks");
+            int m = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Physics Marks");
+            int p = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Chemistry Marks");
+            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter English Marks");
+            int e = int.Parse(Console.ReadLine());
+
+            int obt = u + m + p + c + e;
+            int per = obt * 100 / 500;
+
+
+            Console.WriteLine("-----------MARKSHEET---------");
+            Console.WriteLine("Your name is: {0}", name);
+            Console.WriteLine("Your Roll no is: {0}", roll);
+            Console.WriteLine("Your Class is: {0}", standard);
+            Console.WriteLine("YOur obtained marks are: {0}", obt);
+            Console.WriteLine("YOur Percentage is {0}", per);
+
+            // if else if for grade
+
+            if(per >= 80)
+            {
+                Console.WriteLine("Grade: A-1");
+            }
+            else if (per >= 70)
+            {
+                Console.WriteLine("Grade: A");
+            }
+            else if (per >= 60)
+            {
+                Console.WriteLine("Grade: B");
+            }
+            else if (per >= 50)
+            {
+                Console.WriteLine("Grade: C");
+            }
+            else if (per >= 40)
+            {
+                Console.WriteLine("Grade: D");
+            }
+            else if (per >= 33)
+            {
+                Console.WriteLine("Grade: E");
+            }
+            else
+            {
+                Console.WriteLine("Grade: F (Fail)");
+            }
+
+            // if else if for remarks
+
+            if (per >= 80)
+            {
+                Console.WriteLine("Remarks: Excellent !!");
+            }
+            else if (per >= 70)
+            {
+                Console.WriteLine("Remarks: Very Good !!");
+            }
+            else if (per >= 60)
+            {
+                Console.WriteLine("Remarks: Good !!");
+            }
+            else if (per >= 50)
+            {
+                Console.WriteLine("Remarks: Fair !!");
+            }
+            else if (per >= 40)
+            {
+                Console.WriteLine("Remarks: Poor !!");
+            }
+            else if (per >= 33)
+            {
+                Console.WriteLine("Remarks: Needs lot of improvement !!");
+            }
+            else
+            {
+                Console.WriteLine("Remarks: Bring your parents tomorrow !!");
+            }
+
+
+            //int obt = u + m + p + c + e;
+            int supply = 0;
+
+            if(u < 33)
+            {
+                //supply++;
+                Console.WriteLine("You have supply in Urdu subject !!");
+            }
+            if (m < 33)
+            {
+                //supply++;
+                Console.WriteLine("You have supply in Math subject !!");
+            }
+            if (p < 33)
+            {
+                //supply++;
+                Console.WriteLine("You have supply in Physics subject !!");
+            }
+            if (c < 33)
+            {
+                //supply++;
+                Console.WriteLine("You have supply in Chemistry subject !!");
+            }
+            if (e < 33)
+            {
+                //supply++;
+                Console.WriteLine("You have supply in English subject !!");
+            }
+
+            //Console.WriteLine("You are failed in {0} subjects",supply);
+
+            Console.ReadLine();
+        }

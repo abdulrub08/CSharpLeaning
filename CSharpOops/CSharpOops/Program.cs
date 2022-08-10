@@ -11,6 +11,8 @@ using BAL;
 using CSharpOops.Constructor;
 using CSharpOopsMethodDetails;
 using CSharpOops.Property;
+using CSharpOops.Inheritance;
+using CSharpOops.PolyMorphish;
 
 namespace CSharpOops
 {
@@ -24,6 +26,31 @@ namespace CSharpOops
 
         static void Main(string[] args)
         {
+            int b;
+            int c = 9;
+            PolyClass2 p1 = new PolyClass2();
+            p1.change(ref c);
+            /* Use of unassigned local variable 'b'
+             * it is not required to initialize the parameter passed as ref
+             * Before passing a variable as ref, it is required to be initialized otherwise compiler will throw error
+             * ref keyword is used to pass data in bi-directional way.
+             * ref keyword is used when a called method has to update the passed parameter.*/
+
+            p1.update(out b);
+            /* it is required to initialize the parameter passed as out.
+             * No need to initialize variable if out keyword is used.
+             * out keyword is used to get data in uni-directional way.
+             * out keyword is used when a called method has to update multiple parameter passed.*/
+            Console.WriteLine("Updated value is: {0}", b);
+            Console.WriteLine("Changed value is: {0}", c);
+
+            Console.ReadLine();
+            ClassC obj = new ClassC();
+            obj.TestA();
+            obj.TestB();
+            obj.TestC();
+
+            Console.ReadLine();
             ArrayExample objemp = new ArrayExample();
             objemp.addEmployee();
             objemp.Employeedisplay();

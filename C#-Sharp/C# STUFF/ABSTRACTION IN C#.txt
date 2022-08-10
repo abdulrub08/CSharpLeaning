@@ -1,0 +1,32 @@
+ABSTRACTION IN C#
+
+
+Definition
+
+Abstraction is one of the principle of object oriented programming. It is used to display only necessary and essential features of an object to outside the world.Means displaying what is necessary and encapsulate the unnecessary things to outside the world.Hiding can be achieved by using "private" access modifiers.
+
+Note - Outside the world means when we use reference of object then it will show only necessary methods and properties and hide methods which are not necessary.
+
+
+Implementation of Abstraction
+
+To implement abstraction let's take an example of a car. We knows a car, Car is made of name of car, color of car, steering, gear, rear view mirror, brakes, silencer, exhaust system, diesal engine, car battery, car engine and other internal machine details etc.
+
+Now lets think in terms of Car rider or a person who is riding a car. So to drive a car what a car rider should know from above category before he starts a car driving.
+
+Necessary things means compulsary to know before starting a car
+
+1. Name of Car
+2. Color of Car
+3. Steering
+4. Rear View Mirror
+5. Brakes
+6. Gear
+
+Unnecessary things means  not that compulsary to know for a Car rider
+
+1. Internal Details of a Car
+2. Car Engine
+3. Diesal Engine
+4. Exhaust System
+5. Silencer
