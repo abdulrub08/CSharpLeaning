@@ -56,8 +56,7 @@ namespace CSharpOops.PolyMorphish
         public void change(ref int d)
         {
             d = 11;
-        }
-        
+        }        
         #endregion
     }
 }
