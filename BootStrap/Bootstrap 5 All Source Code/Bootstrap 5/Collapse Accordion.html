@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Collapsibles And Accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <div class="container">
+    
+        
+        <div id="accordion">
+            
+            <div class="card">
+            
+                <div class="card-header">
+                    <a href="#collapse1" data-bs-toggle="collapse" class="btn">
+                        Accordion Item No: 1
+                    </a>
+                </div>
+                <div id="collapse1" class="collapse show" data-bs-parent="#accordion">
+                
+                    <div class="card-body">
+                        Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="card">
+            
+                <div class="card-header">
+                    <a href="#collapse2" data-bs-toggle="collapse" class="collapsed btn">
+                        Accordion Item No: 2
+                    </a>
+                </div>
+                <div id="collapse2" class="collapse" data-bs-parent="#accordion">
+                
+                    <div class="card-body">
+                        Content Of Accordion Item No: 2 Content Of Accordion Item No: 2 Content Of Accordion Item No: 2 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+        <div class="card">
+            
+                <div class="card-header">
+                    <a href="#collapse3" data-bs-toggle="collapse" class="collapsed btn">
+                        Accordion Item No: 3
+                    </a>
+                </div>
+                <div id="collapse3" class="collapse" data-bs-parent="#accordion">
+                
+                    <div class="card-body">
+                        Content Of Accordion Item No: 3 Content Of Accordion Item No: 3 Content Of Accordion Item No: 3 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1Content Of Accordion Item No: 1 Content Of Accordion Item No: 1 Content Of Accordion Item No: 1
+                    </div>
+                    
+                </div>
+                
+            </div>
+        
+        </div>
+        
+        
+<!--
+        <a type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#demo">
+        Click Me
+        </a>
+        
+        <div class="collapse" id="demo">
+            Learning Never Ends Learning Never Ends Learning Never Ends Learning Never EndsLearning Never EndsLearning Never Ends Learning Never Ends Learning Never Ends 
+        </div>
+-->
+        
+<!--
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">
+        Click Me
+        </button>
+        
+        <div class="collapse show" id="demo">
+            Learning Never Ends Learning Never Ends Learning Never Ends Learning Never EndsLearning Never EndsLearning Never Ends Learning Never Ends Learning Never Ends 
+        </div>
+    
+-->
+    </div>
+    
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

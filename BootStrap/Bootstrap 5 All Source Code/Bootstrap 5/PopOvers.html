@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PopOver In BS 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+            
+    <div class="container">
+    
+    <span class="d-inline-block" data-bs-toggle="popover"  data-bs-content="Some Text Inside The PopOver" data-bs-trigger="hover focus">
+        
+            <button type="button" class="btn btn-primary"   disabled>
+    Toggle PopOver    
+    </button>
+        
+        </span>
+<!--
+         <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="PopOver Title" data-bs-content="Some Text Inside The PopOver" data-bs-trigger="hover">
+    Toggle PopOver    
+    </button>
+-->
+<!--        <h1 style="width:500px;" data-bs-toggle="popover" title="PopOver Title" data-bs-content="Some Text Inside The PopOver">Welcome To My Channel</h1>-->
+        
+<!--
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="PopOver Title" data-bs-content="Some Text Inside The PopOver" data-bs-trigger="focus">
+    Toggle PopOver    
+    </button>
+-->
+        
+<!--
+    <button type="button" style="margin-top:400px;" class="btn btn-primary float-end" data-bs-toggle="popover" title="PopOver Title" data-bs-content="Some Text Inside The PopOver" data-bs-placement="top">
+    Toggle PopOver    
+    </button>
+-->
+        
+<!--
+    <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="PopOver Title" data-bs-content="Some Text Inside The PopOver">
+    Toggle PopOver    
+    </button>
+-->
+        
+    </div>
+        
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+    
+    </script>
+</body>
+</html>
