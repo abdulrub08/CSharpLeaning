@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+    
+    
+<!--
+    <p>This is my new paragraph 1</p>
+    <p>This is my new paragraph 2</p>
+    <p>This is my new paragraph 3</p>
+-->
+    
+<!--
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    
+    <ul class="c1">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Grapes</li>
+    </ul>
+-->    
+<!--
+    <ul class="c2">
+        <li>Razaq</li>
+        <li>Nabeel</li>
+        <li>Ammar</li>
+        <li>Saad</li>
+    </ul>
+    
+-->
+
+    <input type="text" placeholder="Enter Your Name" id="txt1">
+    
+    
+    <input type="button" value="Click" id="btn">
+    
+    <br>
+    
+    <h1 id="result"></h1>
+    
+    <script src="jquery.js"></script>
+    
+    <script>
+    
+        $(document).ready(function(){
+            
+            $("#btn").click(function(){
+                
+                var name = $("#txt1").val();
+                if(name == "")
+                   {
+                    alert('Name is Required');
+                   
+                   }
+                else
+                    {
+//                        alert("Your name is: " + name);
+                        $("#result").text("Your name is: " + name);
+                    }
+                
+//                $("*").css("color","red");
+//                $("ul li").css("color","red");
+//                $(".c1, .c2").css("color","red");
+//                $("h1, h2, ul").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("p:first").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("p:last").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("li:even").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("li:odd").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("li:first-child").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+                
+//                $("ul li:eq(0)").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("ul li:lt(2)").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+//                $("ul li:gt(1)").css({
+//                    "color":"red",
+//                    "font-size":"30px"
+//                });
+                
+            });
+            
+        });
+    
+    </script>
+    
+</body>
+</html>

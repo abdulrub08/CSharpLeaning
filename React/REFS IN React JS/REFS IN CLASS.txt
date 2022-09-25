@@ -1,0 +1,108 @@
+RefComponent.js
+
+import React, { Component } from 'react'
+import { createRef } from 'react'
+
+export default class RefComponent extends Component {
+    constructor(props) {
+      super(props)
+      this.myRef = createRef();
+      this.myRef2 = createRef();
+    }
+    
+    componentDidMount(){
+        console.log(this.myRef);
+        console.log(this.myRef2);
+        console.log(this.myRef.current.innerHTML);
+    }
+
+    handleHeading = () => {
+        this.myRef.current.align = "right";
+        // this.myRef.current.hidden = true;
+        this.myRef.current.style.color = "red";
+        this.myRef.current.style.backgroundColor = "yellow";
+    }
+
+  render() {
+    return (
+      <div>
+        <h1 ref={this.myRef}>Welcome To Learning Never Ends</h1>
+        <h1 ref={this.myRef2}>Mohammad Adil</h1>
+        <button onClick={this.handleHeading}>Click</button>
+      </div>
+    )
+  }
+}
+
+App.js 
+
+import logo from './logo.svg';
+import './App.css';
+import Component1 from './Component1';
+import Component2 from './Component2';
+import CSSstylesheet from './CSSstylesheet';
+import Stylesheet1 from './Stylesheet1';
+import Stylesheet2 from './Stylesheet2';
+import BsComponent from './BsComponent';
+import USComponent from './USComponent';
+import USWithObject from './USWithObject';
+import USWithArray from './USWithArray';
+import ClassState from './ClassState';
+import FunctionState from './FunctionState';
+import ClassEffects from './ClassEffects';
+import FunctionEffect from './FunctionEffect';
+import CompA from './CompA';
+import { createContext } from 'react';
+import { useState } from 'react';
+import ControlledForm from './ControlledForm';
+import ControlledFunction from './ControlledFunction';
+import MultipleInputs from './MultipleInputs';
+import FunctionInputs from './FunctionInputs';
+import OtherInputs from './OtherInputs';
+import MultipleChecks from './MultipleChecks';
+import RefComponent from './RefComponent';
+import UnControlled from './UnControlled';
+import CallbackRefComp from './CallbackRefComp';
+import HookuseRef from './HookuseRef';
+import HookUseRef2 from './HookUseRef2';
+
+
+function App() {
+    return (
+        <div>
+         <RefComponent/>
+        </div>
+    )
+}
+
+export default App
+
+Index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import BindingEvent from './BindingEvent';
+import ClickFunction from './ClickFunction';
+import Mounting1 from './Mounting1';
+import Updating1 from './Updating1';
+import Person from './Person';
+import reportWebVitals from './reportWebVitals';
+import ParentClass from './ParentClass';
+import ParentComponent from './ParentComponent';
+import NewComponent from './NewComponent';
+import Students from './Students';
+import StyleComponent from './StyleComponent';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <div className='App'>
+        <App />
+    </div>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

@@ -1,0 +1,129 @@
+Complete Source Code Of useState Hook React
+
+USComponent.js File Code
+
+import React from 'react'
+import { useState } from 'react'
+
+function USComponent() {
+    const [name, setName] = useState("Ali")
+    let changeState = () => {
+        setName("Zain")
+    }
+  return (
+    <div>
+      <h1>{name}</h1>
+      <button onClick={changeState}>Update</button>
+    </div>
+  )
+}
+
+export default USComponent
+
+
+// import React from 'react'
+// import { useState } from 'react'
+
+// function USComponent() {
+//     const myArray = useState("Adil")
+//     let changeState = () => {
+//         myArray[1]("Prem")
+//     }
+//   return (
+//     <div>
+//       <h1>{myArray[0]}</h1>
+//       <button onClick={changeState}>Update</button>
+//     </div>
+//   )
+// }
+
+// export default USComponent
+
+
+
+
+
+
+// import React from 'react'
+// import { useState } from 'react'
+
+// function USComponent() {
+//     const myArray = useState("Adil")
+//   return (
+//     <div>
+//       <h1>{myArray[0]}</h1>
+//       <button onClick={() => myArray[1]("Kumar") }>Update</button>
+//     </div>
+//   )
+// }
+
+// export default USComponent
+
+
+App.js File Code
+
+import logo from './logo.svg';
+import './App.css';
+import Component1 from './Component1';
+import Component2 from './Component2';
+import CSSstylesheet from './CSSstylesheet';
+import Stylesheet1 from './Stylesheet1';
+import Stylesheet2 from './Stylesheet2';
+import BsComponent from './BsComponent';
+import USComponent from './USComponent';
+import USWithObject from './USWithObject';
+import USWithArray from './USWithArray';
+import ClassState from './ClassState';
+import FunctionState from './FunctionState';
+import ClassEffects from './ClassEffects';
+import FunctionEffect from './FunctionEffect';
+import CompA from './CompA';
+import { createContext } from 'react';
+import { useState } from 'react';
+import ControlledForm from './ControlledForm';
+import ControlledFunction from './ControlledFunction';
+import MultipleInputs from './MultipleInputs';
+import FunctionInputs from './FunctionInputs';
+import OtherInputs from './OtherInputs';
+
+
+function App() {
+    return (
+        <div>
+          <USComponent/>
+        </div>
+    )
+}
+
+export default App
+
+
+Index.js File Code
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import BindingEvent from './BindingEvent';
+import ClickFunction from './ClickFunction';
+import Mounting1 from './Mounting1';
+import Updating1 from './Updating1';
+import Person from './Person';
+import reportWebVitals from './reportWebVitals';
+import ParentClass from './ParentClass';
+import ParentComponent from './ParentComponent';
+import NewComponent from './NewComponent';
+import Students from './Students';
+import StyleComponent from './StyleComponent';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <div className='App'>
+        <App />
+    </div>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
