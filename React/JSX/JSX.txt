@@ -1,0 +1,85 @@
+import logo from './logo.svg';
+import './App.css';
+
+let name = "Mohammad Adil Mehmood Ansari";
+const car_obj = {name:"Corolla XLI", colour:"white", make:"2008"};
+function App() {
+  return (
+    <div className="App">
+     <h1>{car_obj.name}</h1>
+     <h1>{car_obj.colour}</h1>
+     <h1> {name} </h1>
+     <h1> {5 + 5} </h1>
+     <h1>Learning Never Ends</h1>
+    </div>
+  );
+}
+
+
+export default App;
+
+
+
+
+
+
+import logo from './logo.svg';
+import './App.css';
+
+let name = "Mohammad Adil Mehmood Ansari";
+const car_obj = {name:"Corolla XLI", colour:"white", make:"2008"};
+function App() {
+  return (
+    <>
+    <h2>Ali</h2>
+    <div className="App">
+     <h1>Learning Never Ends</h1>
+    </div>
+    </>
+  );
+}
+
+
+export default App;
+
+
+
+
+import logo from './logo.svg';
+import './App.css';
+
+let a = 10;
+let msg = "";
+if(a > 50)
+{
+  msg = "Hello";
+}
+else
+{
+  msg = "Bye";
+}
+
+function App() {
+  return (
+    <div className="App">
+      <h1> {msg} </h1>
+      <h1> { (a > 50) ? "Hello Kumar" : "Bye Kumar" } </h1>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React With Learning Never Ends
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
