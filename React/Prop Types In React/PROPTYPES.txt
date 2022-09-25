@@ -1,0 +1,53 @@
+APP.JS
+
+import logo from './logo.svg';
+import './App.css';
+import PropTypes from 'prop-types';
+
+function App(props) {
+  return (
+    <>
+   <h1>Hey {props.name}</h1>
+   <h1>Hey {props.age}</h1>
+   <h1>Hey {props.isMarried.toString()}</h1>
+   <h1>Hey {String(props.isMarried)}</h1>
+   <h1>{props.arr}</h1>
+   <h1>{props.arr[1]}</h1>
+   </>
+  );
+}
+
+App.propTypes = {
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number,
+  isMarried: PropTypes.bool,
+  arr: PropTypes.array
+}
+App.defaultProps = {
+  name: 'Anonymous',
+  age: 18
+}
+
+export default App;
+
+
+INDEX.JS
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+const friends = ["Amit","Zain","Kumar","Ali"];
+root.render(
+  <React.StrictMode>
+    <App isMarried={false} arr={friends}/>
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

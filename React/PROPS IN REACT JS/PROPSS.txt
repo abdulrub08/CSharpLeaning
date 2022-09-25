@@ -1,0 +1,79 @@
+HelloMessage.js
+
+import React from 'react';
+
+function HelloMessage(props) {
+    return (
+        console.log(props),
+        <>
+            <h1>Hello {props.name}</h1>
+            <h1>Age= {props.age}</h1>
+            {props.children}
+        </>
+    );
+}
+
+export default HelloMessage;
+
+Index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import HelloMessage from './HelloMessage';
+import House from './House';
+
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+let a = "Amir";
+root.render(
+  <React.StrictMode>
+    <House/>
+   {/* <HelloMessage name={a} age="29">
+    <p>Children Element 1</p>
+   </HelloMessage>
+   <HelloMessage name="Kumar" age="25">
+    <button type="button" value="Click">Click</button>
+   </HelloMessage>
+   <HelloMessage name="Amit" age="22">
+    <h3>Children Element 3</h3>
+   </HelloMessage> */}
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+
+House.js
+
+import logo from './logo.svg';
+import './App.css';
+import Person from './Person';
+
+
+function House() {
+  return (
+   <Person name="Mohit"/>
+  );
+}
+
+export default House;
+
+Person.js
+
+import logo from './logo.svg';
+import './App.css';
+
+
+function Person(props) {
+  return (
+   <h1>{props.name} lives here..</h1>
+  );
+}
+
+export default Person;
