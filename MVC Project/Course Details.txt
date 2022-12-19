@@ -9,3 +9,39 @@ Step12- Program.cs File
 Step3:- Startup
 		1:- Add Routing
 		2:- Set The default route
+
+
+
+
+
+_______________________________________________________________________________
+
+string _order_id = HttpContext.Request.Cookies["OrderId"];
+            OrderSummaryDetails orderSummary = orderSummary = _studentService.GetOrderSummaries(_order_id);
+            StringBuilder sb = new StringBuilder("<table class='table table-bordered table-striped'><thead><tr><th style='border:1px solid #000'>StudentID</th><th style='border:1px solid #000'>Course</th><th style='border:1px solid #000'>Dcoument</th><th style='border:1px solid #000'>Document Format</th><th style='border:1px solid #000'>No Of Copy</th><th style='border:1px solid #000'>Charges</th></tr></thead><tbody>");
+            foreach (OrderDetail item in orderSummary.OrderDetails)
+            {
+                string _row = string.Format("<tr><td style='border:1px solid #000'>{0}</td><td style='border:1px solid #000'>{1}</td><td style='border:1px solid #000'>{2}</td><td style='border:1px solid #000'>{3}</td><td style='border:1px solid #000'>{4}</td><td style='border:1px solid #000'>{5}</td></tr>",
+                    orderSummary.Orders[0].StudentID, item.CourseDescription, item.RequestedDocument, item.DocFormat,item.NumberOfCopies,item.Price);
+                sb.Append(_row);
+            }
+            sb.Append("</tbody></table>");
+            string[] param = { orderSummary.Orders[0].FirstName, sb.ToString()};
+
+            smtpService.SendEmailAsync(orderSummary.Orders[0].PersonalEmail, smtpService.GetStudentTypeKey(orderSummary), param);         
+            CookieOptions options = new CookieOptions();
+            options.Expires = DateTime.Now.AddMilliseconds(2);
+            Response.Cookies.Delete("OrderId", options);
+	    
+	    _______________________________________
+
+<style type="text/css">
+        .table tr th{border:1px solid #000}
+        .table tr td {
+            border: 1px solid #808080
+        }
+    </style>
+
+	    <div class="table-responsive-lg table-responsive-sm">
+            {1}
+        </div>
